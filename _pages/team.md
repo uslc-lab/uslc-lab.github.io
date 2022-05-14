@@ -20,49 +20,18 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="row">
 
+<h3>{{ member.name }}</h3>
+<h3>{{ member.info }} <!--<br>email: <{{ member.email }}><h3> -->
+
 <div class="container">
-  <h3>{{ member.name }}</h3>
-  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
   <ul style="overflow: hidden">
-  <div style="font-size:.8em"> {{ member.short_bio }} </div>
-
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
+    <div style="font-size:.8em"> {{ member.short_bio }} </div>
   </ul>
 </div>
 
 <p style="clear:both;"></p>
-<button class="button black" onclick="window.location.href={{ member.website }}" type="button">
+<button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
   {{ member.name }}'s Personal Website</button>
 
 
