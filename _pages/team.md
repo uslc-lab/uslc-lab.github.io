@@ -43,13 +43,11 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 ## Staff
 {% for member in site.data.team_members %}
 
-
-
+<div class="row">
 <h3>{{ member.name }}</h3>
 <h4 style="color:grey">{{ member.info }}</h4>
-
 <div class="container">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" >
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" >
   <div style='margin-left:25%;'>
     <div style="font-size:1em"> {{ member.short_bio }} </div>
   </div>
@@ -58,8 +56,7 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 <p style="clear:both;"></p>
 <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
   {{ member.name }}'s Personal Website</button>
-
-
+</div>
 
 {% endfor %}
 
