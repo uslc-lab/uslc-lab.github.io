@@ -24,14 +24,10 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 <h4 style="color:grey">{{ member.info }}</h4>
 
 <div class="container">
-  <div>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
-  </div>
-  <ul style="overflow: hidden">
-    <div style='margin-left:25%;'>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" >
+  <div style='margin-left:25%;'>
     <div style="font-size:1em"> {{ member.short_bio }} </div>
-    </div>
-  </ul>
+  </div>
 </div>
 
 <p style="clear:both;"></p>
