@@ -43,7 +43,7 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 ## Staff
 {% for member in site.data.team_members %}
 
-<div class="row">
+
 
 <h3>{{ member.name }}</h3>
 <h4 style="color:grey">{{ member.info }}</h4>
@@ -60,7 +60,6 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
   {{ member.name }}'s Personal Website</button>
 
 
-</div>
 
 {% endfor %}
 
