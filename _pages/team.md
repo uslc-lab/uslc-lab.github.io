@@ -49,7 +49,9 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 <h4 style="color:grey">{{ member.info }}</h4>
 <div class="container">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
-    <div style="font-size:0.9em"> {{ member.short_bio }} </div>
+  <div style="margin-left:25%;">
+    <div style="font-size:1.0em"> {{ member.short_bio }} </div>
+  </div>
 </div>
 
 <p style="clear:both;"></p>
