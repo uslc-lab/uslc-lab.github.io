@@ -46,13 +46,10 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="row">
   <div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <h4 style="color:grey">{{ member.info }}</h4>
-  <div class="container"> 
+    <h4>{{ member.name }}</h4>
+    <h4 style="color:grey">{{ member.info }}</h4>
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
-   {{ member.short_bio }}
-  </div>
-
+    {{ member.short_bio }}
   <p style="clear:both;"></p>
   <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
   {{ member.name }}'s Personal Website
