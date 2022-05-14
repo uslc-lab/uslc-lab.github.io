@@ -47,7 +47,7 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="row">
   <h3>{{ member.name }}</h3>
   <h4 style="color:grey">{{ member.info }}</h4>
-  <div class="container">
+  <div class="container-fluid"> 
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
     <div style='font-size:1.0em'> {{ member.short_bio }} </div>
   </div>
