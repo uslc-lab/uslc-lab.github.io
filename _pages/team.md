@@ -45,6 +45,7 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 {% for member in site.data.team_members %}
 
 <div class="row">
+  <div class="col-sm-6 clearfix">
   <h4>{{ member.name }}</h4>
   <h4 style="color:grey">{{ member.info }}</h4>
   <div class="container"> 
@@ -56,6 +57,7 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
   <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
   {{ member.name }}'s Personal Website
   </button>
+  </div>
 </div>
 
 {% endfor %}
