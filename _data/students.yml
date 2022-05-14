@@ -1,0 +1,39 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Benjamin Bucknall,
+  photo: rock.jpg
+  info: Master student, Spring 2022 - "Topic"
+  # email: m.ortego.larrazabal@umail.leidenuniv.nl
+  number_educ: 0
+  education1:
+
+- name: Karl Walletin,
+  photo: rock.jpg
+  info: Master student, Spring 2022 - "Topic"
+  # email: m.ortego.larrazabal@umail.leidenuniv.nl
+  number_educ: 0
+  education1:
+
+  - name: Teja Kedar Vaddehulgesh,
+  photo: rock.jpg
+  info: Master student, Spring 2022 - "Topic"
+  # email: m.ortego.larrazabal@umail.leidenuniv.nl
+  number_educ: 0
+  education1:
+
+  - name: Oscar Larsson,
+  photo: rock.jpg
+  info: Master student, Spring 2022 - "Topic"
+  # email: m.ortego.larrazabal@umail.leidenuniv.nl
+  number_educ: 0
+  education1:
+
+
