@@ -45,11 +45,11 @@ Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-stu
 {% for member in site.data.team_members %}
 
 <div class="row">
-  <h3>{{ member.name }}</h3>
+  <h4>{{ member.name }}</h4>
   <h4 style="color:grey">{{ member.info }}</h4>
-  <div class="container-fluid"> 
+  <div class="container"> 
     <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
-    <div style='font-size:1.0em'> {{ member.short_bio }} </div>
+   {{ member.short_bio }}
   </div>
 
   <p style="clear:both;"></p>
