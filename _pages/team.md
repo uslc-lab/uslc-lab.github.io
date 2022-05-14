@@ -6,6 +6,31 @@ sitemap: false
 permalink: /team/
 ---
 
+<style>
+.button {
+    clear: left;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.black {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+</style>
+
 # Group Members
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
