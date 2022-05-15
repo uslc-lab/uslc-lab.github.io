@@ -39,25 +39,36 @@ permalink: /team/
 
 Jump to [staff](#Staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
 
-[//]: # (Need to modify the code below to appear as - name, title, photo + short bio)
 
 ## Staff
 {% for member in site.data.team_members %}
 
 <div class="row">
-  <div class="col-sm-6 clearfix">
-    <h4>{{ member.name }}</h4>
-    <h4 style="color:grey">{{ member.info }}</h4>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="15%" style="float: left" />
+<div class="col-sm-6 clearfix">
+    <h3>{{ member.name }}</h3>
+    <h4>{{ member.info }}</h4>
+  <div class='container'> 
+  <div>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive">
+  </div>
+  <div style='margin-left:25%;'>
+  <div style="font-size:.8em"> 
     {{ member.short_bio }}
+  </div>
+  </div>
+  </div>
   <p style="clear:both;"></p>
   <button class="button black" onclick="window.location.href='{{ member.website }}'" type="button">
   {{ member.name }}'s Personal Website
   </button>
-  </div>
+</div>
 </div>
 
 {% endfor %}
+
+
+
+
 
 
 
