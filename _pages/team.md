@@ -1,7 +1,7 @@
 ---
 title: "Secure Learning and Control Lab - Team"
 layout: gridlay
-excerpt: "Secure Learning and Control Lab: Team members"
+excerpt: "Team members"
 sitemap: false
 permalink: /team/
 ---

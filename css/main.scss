@@ -91,3 +91,14 @@ firstp {
     margin-right: 30px;
 }
 
+
+.carousel .item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+}
