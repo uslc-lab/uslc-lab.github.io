@@ -11,7 +11,7 @@ email: andre.teixeira@it.uu.se
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Uppsala Secure Learning and Control Lab.
 baseurl: ""
-url: ""
+url: "https://uslc-lab.github.io"
 
 include:
   - .htaccess
@@ -19,6 +19,9 @@ include:
 
 sass:
   sass_dir: _sass
+
+plugins:
+  - jekyll/scholar
 
 # Conversion
 markdown: kramdown
@@ -40,3 +43,33 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+
+  style: _bibliography/ieee-with-url-mod.csl
+  locale: en
+
+  source: /_bibliography/
+  bibliography: uscl_publications.bib
+  bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+

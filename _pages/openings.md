@@ -30,7 +30,7 @@ You will take an acive role in determining the important and interesting researc
 ### Past open positions
 
 You find some of the past job openings here:
-* [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/downloads/PhD_essence_2022.pdf).
+* [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/assets/vacancies/PhD_essence_2022.pdf).
 
 ### Applications for PhD and Postdoc positions
 Applications for fully-funded PhD or Postdoc positions can only be done for a specific advertisement and through the [official application portal](https://uu.varbi.com/). All positions at Uppsala University are advertised at the [university website](https://www.uu.se/en/about-uu/join-us/jobs/).
