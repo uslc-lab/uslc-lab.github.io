@@ -15,7 +15,7 @@ permalink: /publications/
 
 
 ## List of Publications
- 
+
 
 <div class="publications">
 
