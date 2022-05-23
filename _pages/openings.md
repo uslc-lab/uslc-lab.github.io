@@ -12,9 +12,9 @@ permalink: /openings
 We are always looking for new group members with passion, talent, and grit!
 
 At the moment, we have the following positions open:
-* Deadline May 27: [PhD in Scientific Computing with focus on Secure Federated Machine Learning](https://uu.se/en/about-uu/join-us/details/?positionId=507539),
-* Deadline June 20: [PhD in Automatic Control - Project 1: Secure Learning and Control Systems](http://uu.varbi.com/what:job/jobID:507667/),
-* Deadline July 29: [Postdoc in Automatic Control with focus on Secure Learning and Control for Large-Scale Systems](http://uu.varbi.com/what:job/jobID:509082).
+* Deadline May 27: [1 PhD position in Scientific Computing with focus on Secure Federated Machine Learning](https://uu.se/en/about-uu/join-us/details/?positionId=507539),
+* Deadline June 20: [1 PhD position in Automatic Control - Project 1: Secure Learning and Control Systems](http://uu.varbi.com/what:job/jobID:507667/),
+* Deadline July 29: [2 Postdoc positions in Secure Learning and Control, one of which focused on Large-Scale Systems](http://uu.varbi.com/what:job/jobID:509082).
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
