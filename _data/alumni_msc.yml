@@ -5,3 +5,11 @@
 # - name: Teja Kedar Vaddehulgesh, Spring 2022 - "Topic".
 
 # - name: Oscar Larsson, Spring 2022 - "Topic".
+
+- name: Benjamin Bucknall,
+  info: Master student, Spring 2022 - ["Promoting Exploration in Reinforcement Learning through Surprise-Based Intrinsic Motivation"](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-479034)
+  number_educ: 0
+  education1:
+
+- name: Oscar Larsson,
+  info: Master student, Spring 2022 - ["Generation and Detection of Adversarial Attacks in the Power Grid"](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-479474)

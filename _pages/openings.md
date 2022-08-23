@@ -7,17 +7,16 @@ permalink: /openings
 ---
 
 # Open positions
+*At the moment, we do not have any open positions.*
 
 
-We are always looking for new group members with passion, talent, and grit!
-
-At the moment, we have the following positions open:
-* Deadline May 27: [1 PhD position in Scientific Computing with focus on Secure Federated Machine Learning](https://uu.se/en/about-uu/join-us/details/?positionId=507539),
-* Deadline June 20: [1 PhD position in Automatic Control - Project 1: Secure Learning and Control Systems](http://uu.varbi.com/what:job/jobID:507667/),
-* Deadline July 29: [2 Postdoc positions in Secure Learning and Control, one of which focused on Large-Scale Systems](http://uu.varbi.com/what:job/jobID:509082).
+[//]: # (At the moment, we have the following positions open:)
+[//]: # (Deadline May 27: [1 PhD position in Scientific Computing with focus on Secure Federated Machine Learning](https://uu.se/en/about-uu/join-us/details/?positionId=507539).)
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
+
+We are always looking for new group members with passion, talent, and grit!
 
 You will have the chance to work on basic and applied research at the intersection of cybersecurity, control theory, and machine learning. 
 
@@ -30,6 +29,8 @@ You will take an acive role in determining the important and interesting researc
 ### Past open positions
 
 You find some of the past job openings here:
+* [PhD position in Automatic Control - Project 1: Secure Learning and Control Systems]({{ site.baseurl }}/assets/vacancies/PhD_SSF_2022.pdf),
+* [Postdoc positions in Secure Learning and Control]({{ site.baseurl }}/assets/vacancies/PD_SSF_VR_2022.pdf),
 * [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/assets/vacancies/PhD_essence_2022.pdf).
 
 ### Applications for PhD and Postdoc positions
