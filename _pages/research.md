@@ -12,6 +12,8 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
 
 To do so, we look into these sytems from a security perspective, under various adversary models, develop techniques to assess the risk (i.e., impact and likelihood) of such adversaries and failures, and propose methodologies to design and systematically deploy defense measures to prevent, detect, and mitigate malicious attacks and natural disruptive events. In our research, we combine relevant methodologies from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems.
 
+[//]: # (For a high-level summary of a selection of our results, see [Research Results](research_results).)
+
 Here are some themes that we currently work on:
 
 **Security metrics for control systems:** the aim within this theme is to to create novel methodologies addressing

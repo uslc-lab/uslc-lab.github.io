@@ -7,11 +7,10 @@ permalink: /openings
 ---
 
 # Open positions
-[//]: # (*At the moment, we do not have any open positions.*)
+**At the moment, we do not have any open positions.**
 
-
-At the moment, we have the following positions open:
-* Deadline Sep 27: [1 PhD position in Scientific Computing focusing on Secure Federated Machine Learning](https://uu.varbi.com/what:job/jobID:535881/).
+[//]: # (*At the moment, we have the following positions open:*)
+[//]: # (*Deadline Sep 27: [1 PhD position in Scientific Computing focusing on Secure Federated Machine Learning](https://uu.varbi.com/what:job/jobID:535881/).*)
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
@@ -41,6 +40,8 @@ Other types of PhD and Postdoc positions may also be possible, for instance thro
 
 ### Master and Bachelor projects for Uppsala University students
 If you are a Master or Bachelor student at Uppsala University looking for a degree project, contact me (or any group member) per email or drop by my office.
+
+At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2022**. See [the list and details](https://tinyurl.com/MSc2023-SysCon) for how to apply!
 
 ### Master students from elsewhere
 If you are interested in pursuing a Master degree at Uppsala University, see [the University's website](https://www.uu.se/en/admissions/master/). We may take external master students for a degree project or a short stay on their own funding, if we get exceptional applicants (this usually means very good grades and a personal recommendation).
