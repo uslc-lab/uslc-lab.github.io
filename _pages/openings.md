@@ -7,10 +7,12 @@ permalink: /openings
 ---
 
 # Open positions
-**At the moment, we do not have any open positions.**
+[//]: # (**At the moment, we do not have any open positions.**)
 
-[//]: # (*At the moment, we have the following positions open:*)
-[//]: # (*Deadline Sep 27: [1 PhD position in Scientific Computing focusing on Secure Federated Machine Learning](https://uu.varbi.com/what:job/jobID:535881/).*)
+**At the moment, we have the following positions open:**
+* **Deadline Feb 28:** [1 PhD position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/what:job/jobID:589746/).
+* **Deadline Feb 28:** [1 Postdoc position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/what:job/jobID:591192/).
+
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
