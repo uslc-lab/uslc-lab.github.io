@@ -1,6 +1,11 @@
 ---
 ---
+
+
 <!-- _layouts/bib.html -->
+
+{% assign bib_show = true %}
+
       <div class="row">
 <!--        <div class="col-sm-2 abbr">
         {%- if entry.abbr -%}
@@ -15,8 +20,9 @@
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-7" display="block">
         {{ reference | newline_to_br  }}
-        
-          <!-- Links/Buttons 
+          
+
+         <!-- Links/Buttons 
           <div class="links">
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
@@ -24,9 +30,9 @@
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
-          {%- if entry.bibtex_show %}
+          
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-          {%- endif %}
+          
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
           {%- endif %}
@@ -34,7 +40,7 @@
             {% if entry.pdf contains '://' -%}
             <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/papers/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
@@ -68,40 +74,45 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
--->
+         
+        -->
+
+    
+          <br/>
+          {% if entry.pdf %}<a href="{{ site.url }}{{ site.baseurl }}/assets/papers/{{ entry.pdf }}.pdf" target="_blank"><button class="btn-pdf">PDF</button></a>{% endif %}
+
+
+          {% if entry.abstract %} 
+            <a data-toggle="collapse" href="#{{key}}-abstract" class="btn-abstract" role="button">ABS</a>
+          {% endif %}
+
+          {% if entry.doi %}<a href="http://dx.doi.org/{{ entry.doi }}" target="_blank"><button class="btn-doi">DOI</button></a> {% endif %}
+
+          {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
+
+          {% if bib_show %} 
+            <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button">BIB</a>
+          {% endif %}
+
+
           
 
+          {% if entry.abstract %}
+          <div class="collapse" id="{{key}}-abstract">
+            <div class="well-abstract">
+            {{entry.abstract}}
+            </div>
+          </div>
+          {% endif %}
 
-<div id="{{key}}-materials">
-  <ul class="nav nav-pills">
-    {% if entry.abstract %}
-    <li><a data-toggle="collapse" href="#{{key}}-abstract">Abstract</a></li>
-    {% endif %}
-
-    <!--  bibtex block, not working 
-    <li><a data-toggle="collapse" href="javascript:toggleDiv('{{key}}-bibtex')">BibTeX</a></li>
-    <div id="{{key}}-bibtex" style="display:none;">
-    <pre class="collapse">{{ entry.bibtex }}</pre>
-    </div>
-    -->
-
-    {% if link %}
-    <li><a href="{{link}}">Download</a></li>
-    {% endif %}
-
-
-    {% if entry.doi %}
-    <li><a href="http://dx.doi.org/{{entry.doi}}"> DOI: {{ entry.doi }}</a></li>
-    {% endif %}
-  </ul>
-
-  {% if entry.abstract %}
-  <p id="{{key}}-abstract" class="collapse">{{entry.abstract}}</p>
-  {% endif %}
-
-
-</div>
-
+          {% if bib_show %} 
+          <div class="collapse" id="{{key}}-bib">
+            <div class="well-bib">
+            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+          </div>
+          </div>
+          {% endif %}
 
         </div>
+
       </div>
