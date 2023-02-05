@@ -326,14 +326,6 @@
             </group>
           </else>
         </choose>
-      <group suffix=". ">
-        <choose>
-          <if variable="URL">
-            <text value=" [Online]"/>
-          </if>
-        </choose>
-      </group>
-      <text macro="access"/>
     </layout>
   </bibliography>
 </style>
