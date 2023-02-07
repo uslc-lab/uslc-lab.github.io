@@ -26,7 +26,17 @@
 - name: Torbjörn Wigren
   photo: Torbjorn.jpg
   info: Visiting Researcher
-  short_bio: I am employed at Ericsson AB, where I work with signal processing and control technology in various radio functions for 5G and 6G mobile telephony. I do research on nonlinear dynamical systems, with a focus on recursive system identification and optimal control with constraints. Another area of interest concerns the integration of control engineering principles and structures such as observers and forward coupling in algorithms for machine learning.
+  short_bio: Torbjörn Wigren is Guest Researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received theM.Sc. degree in engineering physics (electrical engineering) in 1985, and the
+Dr. of Technology degree in automatic control in 1990, both from Uppsala University, Uppsala Sweden.
+His main employer from 2001 is Ericsson AB, where he is a Principal Developer, responsible for R&D on
+radio neer feedback control and signal processing algorithms for 5G and 6G cellular systems. Before
+joining Ericsson, he held positions with Bofors Aerotronics (1985-1991), Ericsson Radio Systems (1991-1995) and
+Celsius Tech Systems (1995-2001) where he was involved in development of fire control systems,
+audio signal processing, and passive air-vehicle target tracking. During 2000 - 2018 he was
+Adjunct Professor of Automatic Control at Uppsala University. He received the Ericsson Inventor of the Year award
+in 2007 and the Ericsson Impact Award in 2018. His research is focused on nonlinear dynamic systems, including
+recusrive identification, optimal control and estimation, as well as on the use of feedback principles
+in machine learning.
   topics:
   email: Torbjorn.Wigren@it.uu.se
   website: http://www.it.uu.se/katalog/tw
