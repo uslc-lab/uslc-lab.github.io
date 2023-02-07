@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a dynamic research group at the [Department of Information Technology, Uppsala University](http://www.it.uu.se).
+### Vision
 Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
@@ -40,14 +40,17 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
 </div>
 
 
+### Research
+Our research incorporates elements from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems. You can find an onverview of some of our research themes at [Research](research).
 
-To this end, our research incorporates elements from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems (see [Research](research)).
 
-We are located at the Department of Information Technology, Uppsala University, Sweden. We exchange ideas and work with our colleagues from the several of the Department's research areas, namely [Cybersecurity](https://www.it.uu.se/research/cybersecurity), [AI](https://www.it.uu.se/research/artificial-intelligence), [Data Science](https://www.it.uu.se/research/data-science), and [Control Systems](https://www.it.uu.se/research/control-and-dynamical-systems), as well as with our neighboring Department of Electrical Engineering. We are also driving local research initiatives related to cybersecurity, through the [Graduate School in Cybersecurity](http://www.it.uu.se/research/research-arenas/security/graduate_school) and the [Cybersecurity Arena](http://www.it.uu.se/research/research-arenas/security).
+### Scientific environment
+We are a dynamic research group at the [Department of Information Technology, Uppsala University](http://www.it.uu.se), Sweden. We exchange ideas and work with our colleagues from the several of the Department's research areas, namely [Cybersecurity](https://www.it.uu.se/research/cybersecurity), [AI](https://www.it.uu.se/research/artificial-intelligence), [Data Science](https://www.it.uu.se/research/data-science), and [Control Systems](https://www.it.uu.se/research/control-and-dynamical-systems). We also have ongoing collaborations with our neighboring Department of Electrical Engineering. We are driving local research initiatives related to cybersecurity, through the [Graduate School in Cybersecurity](http://www.it.uu.se/research/research-arenas/security/graduate_school) and the [Cybersecurity Arena](http://www.it.uu.se/research/research-arenas/security).
 
  **We are looking for driven new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
 
 
+### Our support
 We are grateful for funding from [Uppsala University](www.it.uu.se), [VR](www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html) and [Project in Societal Security](https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-project-grant-for-research-into-societal-security.html)), and from an [SSF Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/).
 
 <div class="row">
