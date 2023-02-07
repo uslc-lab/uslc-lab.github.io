@@ -9,19 +9,6 @@
   education2:
   education3:
   education4:
-
-- name: Torbjörn Wigren
-  photo: Torbjorn.png
-  info: Visiting Researcher
-  short_bio: I am employed at Ericsson AB, where I work with signal processing and control technology in various radio functions for 5G and 6G mobile telephony. I do research on nonlinear dynamical systems, with a focus on recursive system identification and optimal control with constraints. Another area of interest concerns the integration of control engineering principles and structures such as observers and forward coupling in algorithms for machine learning.
-  topics:
-  email: Torbjorn.Wigren@it.uu.se
-  website: http://www.it.uu.se/katalog/tw
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:
   
 - name: Salman Toor
   photo: Toor.png
@@ -30,6 +17,19 @@
   topics:
   email: salman.toor@it.uu.se
   website: https://katalog.uu.se/profile/?id=N7-398
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:  
+  
+- name: Torbjörn Wigren
+  photo: Torbjorn.jpg
+  info: Visiting Researcher
+  short_bio: I am employed at Ericsson AB, where I work with signal processing and control technology in various radio functions for 5G and 6G mobile telephony. I do research on nonlinear dynamical systems, with a focus on recursive system identification and optimal control with constraints. Another area of interest concerns the integration of control engineering principles and structures such as observers and forward coupling in algorithms for machine learning.
+  topics:
+  email: Torbjorn.Wigren@it.uu.se
+  website: http://www.it.uu.se/katalog/tw
   number_educ: 0
   education1: 
   education2:
