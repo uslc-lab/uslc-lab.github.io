@@ -29,6 +29,7 @@ For step 1, see the minimal example below:
 	booktitle = {Conference},
 	title = {The Fantastic Example},
 	year = {9999},
+	tag={},
 	abstract = {This paper proposes...},
 	doi = {10.1109/CDC51059.2022.9992468},
 	arxiv = {2210.04091},
@@ -36,3 +37,5 @@ For step 1, see the minimal example below:
 }
 
 The final four fields are used to construct buttons that link to the respective items. The website's engine automatically ads prefix to the the DOI and Arxiv, and the '.pdf' suffix to the filename.
+
+The field tag is used to select the publication to be included in a given research theme (for now a many-to-one mapping, extending this is work in progress).
