@@ -24,7 +24,7 @@
   education4:  
   
 - name: Torbjörn Wigren
-  photo: Torbjorn.png
+  photo: Torbjorn.jpg
   info: Visiting Researcher
   short_bio: I am employed at Ericsson AB, where I work with signal processing and control technology in various radio functions for 5G and 6G mobile telephony. I do research on nonlinear dynamical systems, with a focus on recursive system identification and optimal control with constraints. Another area of interest concerns the integration of control engineering principles and structures such as observers and forward coupling in algorithms for machine learning.
   topics:
