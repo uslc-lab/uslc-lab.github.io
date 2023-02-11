@@ -4,6 +4,21 @@ Each entry has several fields that must be completed. Two of them are especial:
 1. 'highlight:'. This field is a flag that indicates whether (1) or not (0) the entry should be processed and included;
 2. 'image:'. This field id the filename (with extension) of the image that will appear to the left. The image should be saved under the forlder 'images/pubpic/'
 
+### Here is the example of an entry on "\_data/publist.yml"
+- title: "Safety, Security and Privacy for Cyber-Physical Systems"
+  image: Springer_book_2021.png
+  description: This book presents an in-depth overview of recent work related to the safety, security, and privacy of cyber-physical systems (CPSs). It brings together contributions from leading researchers in networked control systems and closely related fields to discuss overarching aspects of safety, security, and privacy; characterization of attacks; and solutions to detecting and mitigating such attacks.<br/>The book begins by providing an insightful taxonomy of problems, challenges and techniques related to safety, security, and privacy for CPSs. It then moves through a thorough discussion of various control-based solutions to these challenges, including cooperative fault-tolerant and resilient control and estimation, detection of attacks and security metrics, watermarking and encrypted control, privacy and a novel defense approach based on deception. The book concludes by discussing risk management and cyber-insurance challenges in CPSs, and by presenting the future outlook for this area of research as a whole.<br/>Its wide-ranging collection of varied works in the emerging fields of security and privacy in networked control systems makes this book a benefit to both academic researchers and advanced practitioners interested in implementing diverse applications in the fields of IoT, cooperative autonomous vehicles and the smart cities of the future.
+  authors: Riccardo M. G. Ferrari and André M. H. Teixeira (Eds)
+  year: 2021
+  link:
+    url: https://doi.org/10.1007/978-3-030-65048-3
+    display: Lecture Notes in Control and Information Sciences (LNCIS, volume 486), Springer International Publishing, (2021)
+  highlight: 1
+  news2: 
+  long: 1
+
+
+
 
 ## How to update the the list of team members
 The list of team members can be updated by modifing the data files "\_data/team_members.yml" and "\_data/students.yml"
