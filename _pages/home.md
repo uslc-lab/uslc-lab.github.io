@@ -41,7 +41,7 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
 
 
 ### Research
-Our research incorporates elements from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems. You can find an onverview of some of our research themes at [Research](research).
+Our research incorporates elements from cybersecurity, control theory, optimization and machine learning, reinforcement learning, game-theory and networked / distributed systems. You can find an overview of some of our research themes at our [Research page](research).
 
 
 ### Scientific environment
