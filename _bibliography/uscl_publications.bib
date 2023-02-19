@@ -139,6 +139,10 @@ for data deception attack detection in networked control systems},
 	year = {2022},
 	url = {https://arxiv.org/abs/2207.04860},
 	tag = {10001},
+  pdf = {anandandteixeira_CCTA2022},
+  abstract ={This paper firstly addresses the problem of risk assessment under false data injection attacks on uncertain control systems. We consider an adversary with complete system knowledge, injecting stealthy false data into an uncertain control system. We then use the Value-at-Risk to characterize the risk associated with the attack impact caused by the adversary. The worst-case attack impact is characterized by the recently proposed output-to-output gain. We observe that the risk assessment problem corresponds to an infinite non-convex robust optimization problem. To this end, we use dissipative system theory and the scenario approach to approximate the risk-assessment problem into a convex problem and also provide probabilistic certificates on approximation. Secondly, we con-sider the problem of security measure allocation. We consider an operator with a constraint on the security budget. Under this constraint, we propose an algorithm to optimally allocate the security measures using the calculated risk such that the resulting Value-at-risk is minimized. Finally, we illustrate the results through a numerical example. The numerical example also illustrates that the security allocation using the Value-at-risk, and the impact on the nominal system may have different outcomes: thereby depicting the benefit of using risk metrics.},
+  doi = {10.1109/CCTA49430.2022.9966025},
+  arxiv = {2207.04860},
 }
 
 
@@ -148,7 +152,11 @@ for data deception attack detection in networked control systems},
 	booktitle = {IFAC Conference on Networked Systems (NecSys)},
 	title = {A Single-Adversary-Single-Detector Zero-Sum Game in Networked Control Systems},
 	year = {2022},
-	url = {https://arxiv.org/abs/2205.14001}
+	url = {https://arxiv.org/abs/2205.14001},
+  pdf = {nguyenandteixeira_NecSys2022},
+  abstract = {This paper proposes a game-theoretic approach to address the problem of optimal sensor placement for detecting cyber-attacks in networked control systems. The problem is formulated as a zero-sum game with two players, namely a malicious adversary and a detector. Given a protected target vertex, the detector places a sensor at a single vertex to monitor the system and detect the presence of the adversary. On the other hand, the adversary selects a single vertex through which to conduct a cyber-attack that maximally disrupts the target vertex while remaining undetected by the detector. As our first contribution, for a given pair of attack and monitor vertices and a known target vertex, the game payoff function is defined as the output-to-output gain of the respective system. Then, the paper characterizes the set of feasible actions by the detector that ensures bounded values of the game payoff. Finally, an algebraic sufficient condition is proposed to examine whether a given vertex belongs to the set of feasible monitor vertices. The optimal sensor placement is then determined by computing the mixed-strategy Nash equilibrium of the zero-sum game through linear programming. The approach is illustrated via a numerical example of a 10-vertex networked control system with a given target vertex.},
+  doi = {10.1016/j.ifacol.2022.07.234},
+  arxiv = {2205.14001}
 }
 
 
@@ -159,8 +167,10 @@ for data deception attack detection in networked control systems},
 	booktitle = {American Control Conference},
 	title = {Detection of Bias Injection Attacks on the Glucose Sensor in the Artificial Pancreas Under Meal Disturbances},
 	year = {2022},
-    doi = {10.23919/ACC53348.2022.9867556},
-    tag = {10002}
+  doi = {10.23919/ACC53348.2022.9867556},
+  tag = {10002},
+  pdf = {tosunandteixeira_ACC2022},
+  abstract = {The artificial pancreas is an emerging concept of closed-loop insulin delivery that aims to tightly regulate the blood glucose levels in patients with type 1 diabetes. This paper considers bias injection attacks on the glucose sensor deployed in an artificial pancreas. Modern glucose sensors transmit measurements through wireless communication that are vulnerable to cyber-attacks, which must be timely detected and mitigated. To this end, we propose a model-based anomaly detection scheme using a Kalman filter and a χ 2 test. One key challenge is to distinguish cyber-attacks from large unknown disturbances arising from meal intake. This challenge is addressed by an online meal estimator, and a novel time-varying detection threshold. More precisely, we show that the ordinary least squares is the optimal unbiased estimator of the meal size under certain modelling assumptions. Moreover, we derive a novel time-varying threshold for the χ 2 detector to avoid false alarms during meal ingestion. The results are validated by means of numerical simulations.},
 }
 
 @inproceedings{Naha_ACC2022,
