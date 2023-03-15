@@ -10,7 +10,6 @@ permalink: /openings
 [//]: # (**At the moment, we do not have any open positions.**)
 
 **At the moment, we have the following positions open:**
-* **Deadline Feb 28:** [1 PhD position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/en/what:job/jobID:589746/).
 * **Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/en/what:job/jobID:591192/).
 * **Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Resilience in Large-Scale Critical Infrastructures](http://uu.varbi.com/en/what:job/jobID:592325/).
 
@@ -31,6 +30,7 @@ You will take an acive role in determining the important and interesting researc
 ### Past open positions
 
 You find some of the past job openings here:
+* [PhD position in Automatic Control focusing on Secure Learning and Control] (http://uu.varbi.com/en/what:job/jobID:589746/),
 * [PhD position in Automatic Control - Project 1: Secure Learning and Control Systems]({{ site.baseurl }}/assets/vacancies/PhD_SSF_2022.pdf),
 * [Postdoc positions in Secure Learning and Control]({{ site.baseurl }}/assets/vacancies/PD_SSF_VR_2022.pdf),
 * [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/assets/vacancies/PhD_essence_2022.pdf).
