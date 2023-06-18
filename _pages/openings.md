@@ -12,8 +12,10 @@ permalink: /openings
 **At the moment, we have the following positions open:**
 
 **Deadline August 21:** [1 PhD position in Automatic Control focusing on Secure Learning and Control](https://www.jobb.uu.se/details/?positionId=637356).
-[//]: # (* **Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/en/what:job/jobID:591192/).)
-[//]: # (* **Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Resilience in Large-Scale Critical Infrastructures](http://uu.varbi.com/en/what:job/jobID:592325/).)
+
+[//]: # (**Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/en/what:job/jobID:591192/).**)
+
+[//]: # (**Deadline Mar 15:** [1 Postdoc position in Automatic Control focusing on Resilience in Large-Scale Critical Infrastructures](http://uu.varbi.com/en/what:job/jobID:592325/).**)
 
 
 
