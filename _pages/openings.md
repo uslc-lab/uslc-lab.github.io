@@ -11,7 +11,7 @@ permalink: /openings
 
 **At the moment, we have the following positions open:**
 
-**Deadline August 21:** [1 PhD position in Automatic Control focusing on Secure Learning and Control](https://www.jobb.uu.se/details/?positionId=637356).
+**Deadline August 21:** [1 PhD position in Automatic Control focusing on Secure Control](https://www.jobb.uu.se/details/?positionId=637356).
 
 
 
