@@ -6,8 +6,14 @@
 
 # - name: Oscar Larsson, Spring 2022 - "Topic".
 
+- name: Duc Huy Le,
+  info: Master student, Spring 2023 - ["Exploration-Exploitation Trade-off Approaches in Multi-Armed Bandit"]
+
 - name: Ankit Khandeparkar,
   info: Master student, Spring 2023 - ["Embedded Control of a Rotary Inverted Pendulum"](https://www.diva-portal.org/smash/get/diva2:1763450/FULLTEXT01.pdf)
+
+- name: Rana Faheem Iftikhar,
+  info: Master student, Spring 2023 - ["Stabilization of Multi-Hop Control Networks Subject to Malicious Attacks"]
 
 - name: Benjamin Bucknall,
   info: Master student, Spring 2022 - ["Promoting Exploration in Reinforcement Learning through Surprise-Based Intrinsic Motivation"](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-479034)
