@@ -6,6 +6,9 @@
 
 # - name: Oscar Larsson, Spring 2022 - "Topic".
 
+- name: Ankit Khandeparkar,
+  info: Master student, Spring 2023 - ["Embedded Control of a Rotary Inverted Pendulum"](https://www.diva-portal.org/smash/get/diva2:1763450/FULLTEXT01.pdf)
+
 - name: Benjamin Bucknall,
   info: Master student, Spring 2022 - ["Promoting Exploration in Reinforcement Learning through Surprise-Based Intrinsic Motivation"](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-479034)
   number_educ: 0
@@ -13,3 +16,5 @@
 
 - name: Oscar Larsson,
   info: Master student, Spring 2022 - ["Generation and Detection of Adversarial Attacks in the Power Grid"](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-479474)
+
+
