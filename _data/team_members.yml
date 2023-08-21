@@ -62,6 +62,19 @@
 #   education3:
 #   education4:
 
+- name: Ruslan Seifullaev
+  photo: ruslan.jpg
+  info: Postdoc, started September 2023
+  short_bio: Ruslan Seifullaev is a Postdoctoral Researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the Diploma (M.Sc.) degree in theoretical cybernetics and the Candidate of Science (Ph.D.) degree in discrete mathematics and mathematical cybernetics from St. Petersburg University in 2012 and 2016, respectively. From 2014 to 2018, he was employed as a Research Engineer at the Institute of Problems in Mechanical Engineering of Russian Academy of Sciences. In 2023, he received the Ph.D. degree in signal processing from the Division of Signals and Systems, Uppsala University. His research interests include nonlinear control theory, time-delay systems, and networked control systems.
+  topics: 
+  email: ruslan.seifullaev@angstrom.uu.se
+  website: http://www.it.uu.se/katalog/russe207
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:
+
 - name: Sribalaji C. Anand
   photo: Anand1.jpg
   info: Ph.D. student, started August 2019
