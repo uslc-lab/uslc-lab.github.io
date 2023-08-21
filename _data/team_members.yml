@@ -75,6 +75,19 @@
   education3:
   education4:
 
+- name: Daniel Arnström
+  photo: daniel.jpeg
+  info: Postdoc, started September 2023
+  short_bio: Daniel Arnström is a Postdoc at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the Ph.D in automatic control from Linköping University, Sweden, in 2023. Previously, he had received M.Sc and Licentiate degrees from Linköping University in 2018 and 2021, respectively. At the 22nd World Congress of the International Federation of Automatic Control (IFAC) he was awarded the Young Author Prize (YAP) for his work on embedded optimization solvers. His research interests include reliable embedded optimization and reliable real-time Model Predictive Control (MPC); for reliability, his research interests include computational, safety, and security aspects.
+  topic: 
+  email: daniel.arnstrom@it.uu.se
+  website: https://darnstrom.github.io/
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:
+
 - name: Sribalaji C. Anand
   photo: Anand1.jpg
   info: Ph.D. student, started August 2019
