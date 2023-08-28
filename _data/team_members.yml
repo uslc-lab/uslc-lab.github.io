@@ -8,7 +8,20 @@
   education1: 
   education2:
   education3:
-  education4:
+  education:
+
+- name: Sergio Pequito
+  photo: Sergio.png
+  info: Associate Professor
+  short_bio: Sérgio Pequito is an associate professor in automatic control in the Department of Information Technology,  at Uppsala University. Pequito's research consists of understanding the global qualitative behavior of large-scale systems from their structural or parametric descriptions and provides a rigorous framework for the design, analysis, optimization, and control of large-scale systems. His interests span neuroscience and biomedicine, where dynamical systems and control theoretic tools can be leveraged to develop new analysis tools for brain dynamics toward effective personalized medicine and improve bidirectional interfaces. Pequito was awarded the best student paper finalist in the 48th IEEE Conference on Decision and Control (2009) and the 2016 O. Hugo Schuck Award in the Theory Category by the American Automatic Control Council.
+  topics:
+  email: sergio.pequito@it.uu.se
+  website: https://www.spequito.com/
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:  
   
 - name: Salman Toor
   photo: Toor.png
