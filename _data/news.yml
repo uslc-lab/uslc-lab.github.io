@@ -1,6 +1,12 @@
+- date: 29 August 2023
+  headline: "[The Royal Society of Sciences at Uppsala](https://www.vetenskapssocietetenuppsala.se) has awarded the Lilly and Sven Thuréus prize, technology-economics class, to André Teixeira for his work in _'designing intelligent autonomous decision-making systems that are secure and resilient to external attacks (cyber threats)'_."
+
 - date: 16 August 2023
   headline: "Welcome Lovisa Eriksson as a new PhD student, Ruslan Seifullaev and Daniel Arnström as new PostDocs to our [group](team)! "
   
+- date: 14 August 2023
+  headline: "Our article [''Risk-based Security Measure Allocation Against Actuator Attacks''](https://doi.org/10.1109/OJCSYS.2023.3305831) was accepted to the IEEE Open Journal of Control Systems, 2023. This article considers the problem of risk-optimal allocation of security measures when the actuators of an uncertain control system are under attack."
+
 - date: 12 July 2023
   headline: "Our four recent papers have been accepted to the [IEEE Conf. Decision and Control 2023, Singapore ](https://cdc2023.ieeecss.org). They investigate problems in security and privacy of distributed consensus, secure state estimation, robust change detection, and detection of delay attacks. See their details at [Publications](publications)."
 
