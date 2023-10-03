@@ -17,6 +17,23 @@
 
 %%%%%%%%%%% Up: under review
 
+@phdthesis{Nguyen_Lic2023,
+  author       = {Anh Tung Nguyen}, 
+  title        = {Security Allocation in Networked Control Systems},
+  school       = {Uppsala University},
+  year         = {2023},
+  address      = {Uppsala, Sweden},
+  month        = oct,
+  type = {Licentiate thesis},
+  url={http://www.it.uu.se/research/publications/lic/2023-003/2023-003.pdf},
+  abstract={Sustained use of critical infrastructure, such as electrical power and water distribution networks, requires efficient management and control. Facilitated by the advancements in computational devices and non-proprietary communication technology, such as the Internet, the efficient operation of critical infrastructure relies on network decomposition into interconnected subsystems, thus forming networked control systems. However, the use of public and pervasive communication channels leaves these systems vulnerable to cyber attacks. Consequently, the critical infrastructure is put at risk of suffering operation disruption and even physical damage that would inflict financial costs as well as pose a hazard to human health. Therefore, security is crucial to the sustained efficient operation of critical infrastructure.
+
+  This thesis develops a framework for evaluating and improving the security of networked control systems in the face of cyber attacks. The considered security problem involves two strategic agents, namely a malicious adversary and a defender, pursuing their specific and conflicting goals. The defender aims to efficiently allocate defense resources with the purpose of detecting malicious activities. Meanwhile, the malicious adversary simultaneously conducts cyber attacks and remains stealthy to the defender. We tackle the security problem by proposing a game-theoretic framework and characterizing its main components: the payoff function, the action space, and the available information for each agent. Especially, the payoff function is characterized based on the output-to-output gain security metric that fully explores the worst-case attack impact. Then, we investigate the properties of the game and how to efficiently compute its equilibrium. Given the combinatorial nature of the defender's actions, one important challenge is to alleviate the computational burden. To overcome this challenge, the thesis contributes several system- and graph-theoretic conditions that enable the defender to shrink the action space, efficiently allocating the defense resources. The effectiveness of the proposed framework is validated through numerical examples.}
+}
+
+
+
+
 @article{Anand_TAC2021,
 	author = {S. C. Anand and A. M. H. Teixeira and A. Ahl\'{e}n},
 	journal = {IEEE Trans. Automatic Control 2023 (Accepted)},
@@ -28,13 +45,14 @@
 	arxiv={2106.07071},
 	abstract={In this article, we address the problem of risk assessment of stealthy attacks on uncertain control systems. Considering data injection attacks that aim at maximizing impact while remaining undetected, we use the recently proposed output-to-output gain to characterize the risk associated with the impact of attacks under a limited system knowledge attacker. The risk is formulated using a well-established risk metric, namely the maximum expected loss. Under this setups, the risk assessment problem corresponds to an untractable infinite non-convex optimization problem. To address this limitation, we adopt the framework of scenario-based optimization to approximate the infinite non-convex optimization problem by a sampled non-convex optimization problem. Then, based on the framework of dissipative system theory and S-procedure, the sampled non-convex risk assessment problem is formulated as an equivalent convex semi-definite program. Additionally, we derive the necessary and sufficient conditions for the risk to be bounded. Finally, we illustrate the results through numerical simulation of a hydro-turbine power system.},
 	doi={10.1109/TAC.2023.3318194},
-	published={1}
+	published={1},
+	tag = {10001}
 }
 
 
 @article{Anand_IEEEOJCSys2023,
 	author = {S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Open Journal of Control Systems (Accepted)},
+	journal = {IEEE Open Journal of Control Systems},
 	number = {},
 	pages = {297--309},
 	title = {Risk-based Security Measure Allocation Against Actuator Attacks},
@@ -43,7 +61,8 @@
 	arxiv={2304.02055},
 	doi={10.1109/OJCSYS.2023.3305831},
 	abstract={This article considers the problem of risk-optimal allocation of security measures when the actuators of an uncertain control system are under attack. We consider an adversary injecting false data into the actuator channels. The attack impact is characterized by the maximum performance loss caused by a stealthy adversary with bounded energy. Since the impact is a random variable, due to system uncertainty, we use Conditional Value-at-Risk (CVaR) to characterize the risk associated with the attack. We then consider the problem of allocating the security measures which minimize the risk. We assume that there are only a limited number of security measures available. Under this constraint, we observe that the allocation problem is a mixed-integer optimization problem. Thus we use relaxation techniques to approximate the security allocation problem into a Semi-Definite Program (SDP). We also compare our allocation method (i) across different risk measures: the worst-case measure, the average (nominal) measure, and (ii) across different search algorithms: the exhaustive and the greedy search algorithms. We depict the efficacy of our approach through numerical examples.},
-	published={1}
+	published={1},
+	tag = {10001}
 }
 
 @inproceedings{Ramos_CDC2023,
@@ -98,10 +117,9 @@
 
 @article{Chockalingam_JISA2023,
 	author = {S. Chockalingam and W. Pieters and A. M. H. Teixeira and P. van Gelder},
-	journal = {Journal of Information Security and Applications (Accepted)},
+	journal = {Journal of Information Security and Applications},
 	number = {},
 	title = {Probability Elicitation for Bayesian Networks to Distinguish between Intentional Attacks and Accidental Technical Failures},
-	volume = {},
 	year = {2023},
 	doi={10.1016/j.jisa.2023.103497},
 	volume = {75},
@@ -193,7 +211,7 @@ the smaller detection delay of the proposed sequential detector.},
 	abstract = {This paper proposes a game-theoretic approach to address the problem of optimal sensor placement against an adversary in uncertain networked control systems. The problem is formulated as a zero-sum game with two players, namely a malicious adversary and a detector. Given a protected performance vertex, we consider a detector, with uncertain system knowledge, that selects another vertex on which to place a sensor and monitors its output with the aim of detecting the presence of the adversary. On the other hand, the adversary, also with uncertain system knowledge, chooses a single vertex and conducts a cyber-attack on its input. The purpose of the adversary is to drive the attack vertex as to maximally disrupt the protected performance vertex while remaining undetected by the detector. As our first contribution, the game payoff of the above-defined zero-sum game is formulated in terms of the Value-at-Risk of the adversary's impact. However, this game payoff corresponds to an intractable optimization problem. To tackle the problem, we adopt the scenario approach to approximately compute the game payoff. Then, the optimal monitor selection is determined by analyzing the equilibrium of the zero-sum game. The proposed approach is illustrated via a numerical example of a 10-vertex networked control system.},
 	doi = {10.1109/CDC51059.2022.9992468},
 	arxiv = {2210.04091},
-  tag = {10001},
+  	tag = {10001},
 	pdf = {nguyenanandteixeira_CDC2022},
 	tag = {10001}
 }
