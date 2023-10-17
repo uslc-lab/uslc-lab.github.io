@@ -3,7 +3,7 @@ title: "Secure Learning and Control Lab - Research"
 layout: gridlay2
 excerpt: "Secure Learning and Control Lab -- Research"
 sitemap: false
-tags: [10001, 10002,10003]
+tags: [10001, 10002,10003, 10004]
 permalink: /research/
 ---
 
@@ -64,7 +64,7 @@ Have a look at a popular science video about our research on developing secure c
 <div class="col-sm-6 clearfix">
  <div class="well">
  {% if theme-item.hasimage == 1 %}
-  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: center"/>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/themepic/{{ theme-item.image }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
   {% endif %}
   <h3><pubtit>{{ theme-item.title }}</pubtit></h3>
   {{ theme-item.description }}
