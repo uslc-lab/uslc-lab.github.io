@@ -7,11 +7,11 @@ permalink: /openings
 ---
 
 # Open positions
-[//]: # (**At the moment, we do not have any open positions.**)
+**At the moment, we do not have any open positions.**
 
-**At the moment, we have the following positions open:**
+[//]: # (**At the moment, we have the following positions open:**)
 
-**Deadline August 21:** [1 PhD position in Automatic Control focusing on Secure Control](https://www.jobb.uu.se/details/?positionId=637356).
+[//]: # (**Deadline August 21:** [1 PhD position in Automatic Control focusing on Secure Control](https://www.jobb.uu.se/details/?positionId=637356).)
 
 
 
@@ -32,8 +32,7 @@ You will take an acive role in determining the important and interesting researc
 ### Past open positions
 
 You find some of the past job openings here:
-* [PhD position in Automatic Control focusing on Secure Learning and Control](http://uu.varbi.com/en/what:job/jobID:589746/),
-* [PhD position in Automatic Control - Project 1: Secure Learning and Control Systems]({{ site.baseurl }}/assets/vacancies/PhD_SSF_2022.pdf),
+* [PhD position in Automatic Control focusing on Secure Control Systems]({{ site.baseurl }}/assets/vacancies/PhD_SSF_2023.pdf),
 * [Postdoc positions in Secure Learning and Control]({{ site.baseurl }}/assets/vacancies/PD_SSF_VR_2022.pdf),
 * [PhD in Scientific Computing with focus on Cybersecurity and Machine Learning for Critical Infrastructures]({{ site.baseurl }}/assets/vacancies/PhD_essence_2022.pdf).
 
@@ -46,7 +45,7 @@ Other types of PhD and Postdoc positions may also be possible, for instance thro
 ### Master and Bachelor projects for Uppsala University students
 If you are a Master or Bachelor student at Uppsala University looking for a degree project, contact me (or any group member) per email or drop by my office.
 
-At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2022**. See [the list and details](https://tinyurl.com/MSc2023-SysCon) for how to apply!
+At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2023**. See [the list and details](https://tinyurl.com/MSc2024-SysCon) for how to apply!
 
 ### Master students from elsewhere
 If you are interested in pursuing a Master degree at Uppsala University, see [the University's website](https://www.uu.se/en/admissions/master/). We may take external master students for a degree project or a short stay on their own funding, if we get exceptional applicants (this usually means very good grades and a personal recommendation).

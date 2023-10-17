@@ -16,9 +16,16 @@ To do so, we look into these sytems from a security perspective, under various a
 
 [//]: # (For a high-level summary of a selection of our results, see [Research Results](research_results).)
 
-Have a look at some of our recent themes below.
+Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
-## Selected themes
+## Popular science video
+{% include youtubePlayer.html id="k01OGxClLXE?si=Awnl9VCWb7bxCm_F" %}
+
+
+
+
+
+## Selected research themes
 {% assign paper_show = true %}
 
 
