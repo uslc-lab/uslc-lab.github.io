@@ -15,8 +15,8 @@
 - title: "Secure Federated Machine Learning"
   key: "secfedml"
   hasimage: 1
-  width: 50%
-  image: fedML.png
+  width: 70%
+  image: fedML2.png
   description:  "Federated machine learning (FedML) has proven to be a suitable approach for privacy-preserving machine learning across a large number of heterogeneous devices. Our group addresses concerns related to security and privacy in federated machine learning against model poisoning and information leakage attacks. The approach is centered around developing new theories and methodologies to achieve two main aims: secure aggregation of local models under poisoning attacks; private distributed aggregation of local models."
   authors:  Usama Zafar, Salman Toor, André M. H. Teixeira
   year: 2023
