@@ -32,6 +32,11 @@
 
           {% if entry.arxiv %}<a href="https://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><button class="btn-arxiv">ARXIV</button></a> {% endif %}
 
+          
+          {% if entry.video %} 
+            <a href="{{ entry.video}}" class="btn-abstract" role="button">VID</a>
+          {% endif %}
+
 
           {% if bib_show %} 
             <a data-toggle="collapse" href="#{{key}}-bib" class="btn-bib" role="button">BIB</a>
