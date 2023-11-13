@@ -56,3 +56,17 @@ Our group investigates novel control-theoretic approaches for understanding, det
   news1:
   news2: 
   long: 0
+
+- title: "Security and resilience of networked dynamical systems"
+  key: "MAS"
+  hasimage: 1
+  width: 60%
+  image: Time_Delay.png
+  description:  "Networked dynamic systems are comprised of multiple interconnected subsystems and represent critical infrastructure."
+  authors:  Anh Tung Nguyen, Alain Govaert, André M. H. Teixeira
+  year: 2021
+  tag: 10005
+  highlight: 1
+  news1:
+  news2: 
+  long: 0  
