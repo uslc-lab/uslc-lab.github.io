@@ -62,7 +62,7 @@ Our group investigates novel control-theoretic approaches for understanding, det
   hasimage: 1
   width: 60%
   image: Secure_MAS.jpg
-  description:  "Networked dynamic systems are comprised of multiple interconnected subsystems and represent critical infrastructure."
+  description:  "Sustained use of critical infrastructure, such as electrical power and water distribution networks, requires efficient management and control. Facilitated by the advancements in computational devices and non-proprietary communication technology, such as the Internet, the efficient operation of critical infrastructure relies on network decomposition into interconnected subsystems, thus forming networked control systems. However, the use of public and pervasive communication channels leaves these systems vulnerable to cyber attacks. This theme aims to create novel methodologies to enhance the security and resilience of networked dynamical systems under cyber attacks."
   authors:  Anh Tung Nguyen, Alain Govaert, André M. H. Teixeira
   year: 2021
   tag: 10005
