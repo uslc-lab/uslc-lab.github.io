@@ -41,7 +41,6 @@ permalink: /publications/
   <p> {{ publi.news2 }}</p>
  </div>
 </div>
-</div>
 {% else %}
 <div class="col-sm-12 clearfix">
  <div class="well">

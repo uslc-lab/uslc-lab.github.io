@@ -100,7 +100,4 @@ Have a look at a popular science video about our research on developing secure c
 
 [//]: # (**Watermarking schemes for attack detection:**)
 
-[//]: # (**Security in large-scale dynamical systems:**)
-
-
 ### ... and more.
