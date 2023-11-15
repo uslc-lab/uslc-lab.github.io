@@ -10,6 +10,17 @@
   news2: 
   long: 1
 
+- title: "Security Allocation in Networked Control Systems"
+  image: Tung_Lic_2023.jpg
+  description: This thesis develops a framework for evaluating and improving the security of networked control systems in the face of cyber attacks. The considered security problem involves two strategic agents, namely a malicious adversary and a defender, pursuing their specific and conflicting goals. The defender aims to efficiently allocate defense resources with the purpose of detecting malicious activities. Meanwhile, the malicious adversary simultaneously conducts cyber attacks and remains stealthy to the defender. We tackle the security problem by proposing a game-theoretic framework and characterizing its main components the payoff function, the action space, and the available information for each agent. Especially, the payoff function is characterized based on the output-to-output gain security metric that fully explores the worst-case attack impact. Then, we investigate the properties of the game and how to efficiently compute its equilibrium. Given the combinatorial nature of the defender actions, one important challenge is to alleviate the computational burden. To overcome this challenge, the thesis contributes several system- and graph-theoretic conditions that enable the defender to shrink the action space, efficiently allocating the defense resources. The effectiveness of the proposed framework is validated through numerical examples.
+  authors: Anh Tung Nguyen
+  year: 2023
+  link:
+    url: https://www.it.uu.se/research/publications/lic/2023-003/2023-003.pdf
+    display: Licentiate Thesis, Uppsala University, (2023)
+  highlight: 1
+  news2: 
+
 - title: "Imaging moiré deformation and dynamics in twisted bilayer graphene"
   image: dummy.png
   description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
