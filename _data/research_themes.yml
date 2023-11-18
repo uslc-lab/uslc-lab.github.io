@@ -69,4 +69,17 @@ Our group investigates novel control-theoretic approaches for understanding, det
   highlight: 1
   news1:
   news2: 
-  long: 1  
+  long: 0
+
+- title: "Privacy of networked dynamical systems"
+  key: "Privacy"
+  hasimage: 1
+  width: 50%
+  image:
+  description: ""
+  authors: André M. H. Teixeira, Sérgio Pequito
+  year: 2023
+  highlight: 1
+  news1:
+  news2: 
+  long: 0
