@@ -79,6 +79,7 @@ Our group investigates novel control-theoretic approaches for understanding, det
   description: "Guaranteeing privacy in dynamical networks is particularly important in the pressing concern of privacy in distributed optimization scenarios common in machine learning and artificial intelligence. The intrinsic design of these networks traditionally depends on implicit trust among agents, raising significant privacy issues. We propose a novel approach that integrates control theory and optimization techniques to address these privacy concerns. Our approach aims to refine network architectures and communication protocols, ensuring that the privacy of individual agents is preserved while maintaining the efficacy of collective decision-making processes. This advancement in network design is poised to substantially improve the handling of privacy in dynamical networks, facilitating their reliable and private application in various settings."
   authors: André M. H. Teixeira, Sérgio Pequito
   year: 2023
+  tag: 10006
   highlight: 1
   news1:
   news2: 
