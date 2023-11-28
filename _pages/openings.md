@@ -7,7 +7,7 @@ permalink: /openings
 ---
 
 # Open positions
-**At the moment, we do not have any open positions.**
+**At the moment, we do not have any open positions. We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects.**
 
 [//]: # (**At the moment, we have the following positions open:**)
 
