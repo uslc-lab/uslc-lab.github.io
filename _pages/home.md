@@ -51,21 +51,26 @@ We are a dynamic research group at the [Department of Information Technology, Up
 
 
 ### Our support
-We are grateful for funding from [Uppsala University](www.it.uu.se), [VR](www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html) and [Project in Societal Security](https://www.vr.se/english/applying-for-funding/decisions/2021-08-25-project-grant-for-research-into-societal-security.html)), and from an [SSF Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/).
+We are grateful for funding from [Uppsala University](http://www.it.uu.se), the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/) ([Wallenberg Academy Fellow](https://kaw.wallenberg.org/en/andre-teixeira)), the [Swedish Research Council](https://www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html)), and the [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)).
 
 <div class="row">
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix vcenter">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/UU_logo_4f125px.png" style="width: 125px">
 
 </div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix vcenter">
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/KAW_Logotype_Large.png" style="width: 125px">
+
+</div>
+
+<div class="col-sm-3 clearfix vcenter">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/svart_fyrkant_eng.png" style="width: 120px">
 
 </div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-2 clearfix vcenter">
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/ssf_gb_rgb-300x247.png" style="width: 124px">
 
 </div>
