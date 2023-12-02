@@ -8,9 +8,9 @@ permalink: /project.html
 
 # Projects
 
-{% for article in site.data.project %}
-{{ article.title }}
-{{ article.agency | markdownify}}
+{% for project in site.data.project %}
+{{ project.title, (project.period) }}
+{{ project.agency | markdownify}}
 <br/>
 
 {% endfor %}
