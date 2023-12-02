@@ -50,9 +50,9 @@
   education4:  
   
 - name: Per Mattsson
-  photo: Mattsson.jpg
+  photo: PerMatsson.jpg
   info: Associate Professor
-  short_bio: Per Mattsson is an Assistant Professor at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the M.Sc. degree in engineering physics from Uppsala University, Sweden, in 2010. He received the Ph.D. degree in automatic control and system identification from Uppsala University in 2016. His research interests include system identification, machine learning and automatic control.
+  short_bio: Per Mattsson is an Associate Professor in automatic control in the Department of Information Technology at Uppsala University. He received his Ph.D. degree in automatic control and system identification from Uppsala University in 2016. Mattsson’s research focuses on the development and analysis of data-driven methods for modeling, control, and predictive maintenance.
   topics:
   email: per.mattsson@it.uu.se
   website: https://katalog.uu.se/profile/?id=N10-1806
