@@ -30,7 +30,7 @@
   category: SSF Future Research Leaders 7 Grant
   period: 2020-2025
   lead: André Teixeira
-  member: Anh Tung Nguyen, Sribalaji Anand
+  member: Sribalaji Anand, Anh Tung Nguyen
   ongoing: 1  
   summary: Reports of cyber-attacks on digitally controlled systems supporting modern societies, such as Stuxnet, have shown their devastating consequences to safety and human lives, and shed light on the attackers modus operandi first learn the system, then tamper the visible information so the attack is undetected, and meanwhile have significant impact on the physical system. It is of the utmost importance to be able to detect and mitigate such malicious cyber-attacks. Unfortunately, existing methods in control engineering consider impact on the physical system and detectability separately, and thus fail to accurately tackle cyber attacks that strategically mix high impact with low detectability. On the other hand, approaches from secure control assume adversaries with perfect knowledge, resulting in overly pessimistic, unrealistic conclusions. The project will produce approaches to analyze and mitigate cyber-attacks on control systems, through the following actions 1) to construct novel sensitivity metrics that jointly consider the impact and detectability of attacks under uncertainty; 2) to design optimal anomaly detectors, controllers, and security measure deployment that minimize the novel sensitivity metrics, and thus increase security; 3) to experimentally validate the developed scientific approaches in testbeds and numerical benchmarks. The developed science and tools will induce a paradigm change in robust control and fault detection, and allow for more effective handling of anomalies.
 
