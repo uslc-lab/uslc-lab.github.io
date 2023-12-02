@@ -6,7 +6,7 @@ sitemap: false
 permalink: /project.html
 ---
 
-# News
+# Projects
 
 {% for article in site.data.project %}
 {{ article.title }}
