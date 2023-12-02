@@ -1,1 +1,67 @@
+- title: Prob4Sec - Probabilistic Methods for Secure Learning and Control
+  agency: Swedish Research Council (Vetenskapsrådet)
+  category: VR Project Grant in Information and Cyber Security
+  period: 2023-2027
+  ongoing: 1
+  summary: Prob4Sec aims to develop theory and probabilistic methods for securing cyber-physical systems (CPSs) possessing learning and control capabilities: digital devices that learn from data they collect, and automatically decide how to best interact with the physical world over time. Intelligent CPSs are pervasive in our society. Users rely and trust that these devices will operate in a safe and secure manner. The consequences of incorrect behaviors in CPSs can be dire, threatening the users’ well-being. Securing these systems is of utmost importance. Probabilistic methods are a natural way to deal with the uncertainty of physical systems and unintentional failures. Mathematical and statistical tools enable us to take a small number of samples and still be able to draw general conclusions. However, attacks are not only probabilistic but can have strategic behaviors, tailored to causing harm while avoiding detection. Hence, it is critical to develop systematic approaches that integrate the probabilistic and the strategic aspects of attacks in security analysis. Prob4Sec combines knowledge from security, statistical methods, and AI and control engineering to develop new methods for designing secure CPSs with learning and control functionalities. These methods will be instrumental in preventing future threats to all who benefit from this technology. Prob4Sec will provide further tools based on which trust in new technologies can be built and communicated, from developers to end-users.
 
+- title: ADVOLCANO - Adverse Voltage Controllers’ Interactions in Active Distribution Networks
+  agency: Swedish Energy
+  category: 
+  period: 2023-2026
+  ongoing: 1
+  summary: To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project's focus is on modeling and characterizing the interactions between voltage contorllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply.
+
+- title: ReSiSt - Resilience, Safety, and Security in Tree-structured Civil Networks
+  agency: Swedish Research Council (Vetenskapsrådet)
+  category: VR Project Grant in Societal Security
+  period: 2023-2026
+  ongoing: 1  
+  summary: Civil infrastructure networks (CIN) critically support modern society by distributing resources and protecting communities from hazards. Distributed control and monitoring of CIN to meet network demand under the network efficiency and cost constraints also poses physical security and cyber-security challenges. The resilience of civil infrastructure to disruptive events is the overarching topic of the present project. The project goal is to devise a coherent system-theoretical platform for resilience analysis of CIN as well as resilience-informed control of those. More specifically, a CIN is modeled as a cyber-physical system (CPS) whose physical layer is a transportation network equipped with actuator and sensor nodes interlaced with a computer network that implements control and monitoring of the physical layer. The scope is limited to the consideration of CPS with a tree-structured physical layer and covers a broad class of pipeline systems, i.e. networked systems transporting single- or multi-phase fluids. Failures, breakdowns, natural hazards, and cyberattacks are considered potential disruptive events. The project will be conducted along three main threads: Mathematical modeling of CIM as CPS; Model-based assessment of resilience via operational indices; Resilience-informed control of CIM. The feasibility and efficacy of the developed mathematical models and algorithms will be evaluated with respect to urban water and wastewater networks.
+  
+- title: Secure and Resilient Control Systems
+  agency: Swedish Foundation for Strategic Research (SSF)
+  category: SSF Future Research Leaders 7 Grant
+  period: 2020-2025
+  ongoing: 1  
+  summary: Reports of cyber-attacks on digitally controlled systems supporting modern societies, such as Stuxnet, have shown their devastating consequences to safety and human lives, and shed light on the attackers’ modus operandi: first learn the system, then tamper the visible information so the attack is undetected, and meanwhile have significant impact on the physical system. It is of the utmost importance to be able to detect and mitigate such malicious cyber-attacks. Unfortunately, existing methods in control engineering consider impact on the physical system and detectability separately, and thus fail to accurately tackle cyber-attacks that strategically mix high impact with low detectability. On the other hand, approaches from secure control assume adversaries with perfect knowledge, resulting in overly pessimistic, unrealistic conclusions. The project will produce approaches to analyze and mitigate cyber-attacks on control systems, through the following actions: 1) to construct novel sensitivity metrics that jointly consider the impact and detectability of attacks under uncertainty; 2) to design optimal anomaly detectors, controllers, and security measure deployment that minimize the novel sensitivity metrics, and thus increase security; 3) to experimentally validate the developed scientific approaches in testbeds and numerical benchmarks. The developed science and tools will induce a paradigm change in robust control and fault detection, and allow for more effective handling of anomalies.
+
+- title: ADSec - Analysis and Design of Secure and Resilient Control Systems
+  agency: Swedish Research Council (Vetenskapsrådet)
+  category: VR Starting Grant
+  period: 2019-2023
+  ongoing: 1  
+  summary: Reports on cyber-attacks, such as Stuxnet, have shown their devastating consequences on digitally controlled systems supporting modern societies. It is therefore of the utmost importance for control systems to be able to early detect and mitigate malicious cyber-attacks, which aim at having a significant impact on the system while remaining undetected. Unfortunately, existing techniques in control theory consider impact and detectability separately, and thus fail to accurately tackle malicious cyber-attacks. The aim of this project is to develop novel security metrics that jointly consider the impact and detectability of attacks, and that support the analysis and design of anomaly detectors and controllers for improved security and resilience.
+
+- title: LifeSec - Don't Hack my Body
+  agency: Swedish Foundation for Strategic Research (SSF)
+  category: 
+  period: 2018-2023
+  ongoing: 1  
+  summary: Implanted devices must be effectively secured to avoid life-threatening scenarios where attackers control implanted devices such as pacemakers or insuline pumps, or install malware inside a human's body. This project devises a security architecture for networked implanted medical devices that also enables a secure connection of the in-body network to the Internet. Our architecture ensures confidentiality, integrity and availability of the implanted devices considering also patients’ privacy.
+
+- title: SOS4Floods - Secure our Flood Management Systems
+  agency: Netherlands Organisation for Scientific Research
+  category: 
+  period: 2015-2019
+  ongoing: 0  
+  summary: Cyber attacks on critical infrastructures can have devastating consequences for environment, health and even human lives. To improve the protection and resilience, various approaches for security risk assessment, attack detection and safety monitoring have been developed. However, the links between cyber security and safety management are poorly understood, and relevant information is not shared, creating space for malicious activities to pass undetected. The project has two objectives. Firstly, the project will enrich network security monitoring with safety context information. Secondly, the project will improve safety incident response by procedures that include information from security monitoring in assessing the expected effectiveness of responses. The integration of the two innovations will enable adequate responses to flood defense security threats.
+
+- title: SPARKS - Smart Grid Protection Against Cyber Attacks
+  agency: European Commission
+  category: FP7
+  period: 2014-2017
+  ongoing: 0  
+  summary: The aim of the project was to reduce the attack surface of smart grid systems, detect cyber-attacks in real-time, and improve the resilience of smart grid infrastructure during an attack. Furthermore, SPARKS aims at providing a deeper understanding of the threats, vulnerabilities and economic consequences of cyber-attacks on smart grid infrastructure, raise awareness amongst industry leaders, present convincing information to stakeholders, lead the debate and draw through action to improve the cyber readiness of European network operators.
+
+- title: VIKING - Vital Infrastructure, Networks, Information and Control Systems Management
+  agency: European Commission
+  category: FP7
+  period: 2009-2011
+  ongoing: 0  
+  summary: The aim of the project was to develop, test and evaluate methodologies for the analysis, design and operation of resilient and secure industrial control systems for critical infrastructures, focusing on power transmission and distribution networks. VIKING was executed by a consortium of industrial and academic partners.
+  
+
+
+
+  
