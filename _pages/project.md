@@ -15,7 +15,7 @@ permalink: /project.html
 
 **Title:** {{ project.title }} ({{ project.period}})
 
-{{project.category}} funded by {{ project.agency}}
+{{project.category}} *funded by* {{ project.agency}}
 
 **Awarded:** {{project.lead}}
 
@@ -37,7 +37,7 @@ permalink: /project.html
 
 **Title:** {{ project.title }} ({{ project.period}})
 
-{{project.category}} funded by {{ project.agency}}
+{{project.category}} *funded by* {{ project.agency}}
 
 **Summary:** {{ project.summary | markdownify}}
 <br/>
