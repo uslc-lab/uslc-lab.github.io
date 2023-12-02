@@ -6,7 +6,7 @@ sitemap: false
 permalink: /project.html
 ---
 
-# Ongoing projects
+### Ongoing projects
 
 {% for project in site.data.project %}
 {{ project.title }} {{ &#40; project.period &#41; | markdownify }}
@@ -15,3 +15,6 @@ permalink: /project.html
 <br/>
 
 {% endfor %}
+
+### Past projects
+
