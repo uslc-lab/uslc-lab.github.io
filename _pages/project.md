@@ -13,8 +13,8 @@ permalink: /project.html
 
 {% if project.ongoing == 1 %}
 
-{{**Title:**}} {{ project.title }} {{ &lpar;project.period&rpar; \n }}
-{{ project.agency}} {{ &comma;project.category \n }}
+{{**Title:**}} {{ project.title }} {{ project.period \n }}
+{{ project.agency}} {{ project.category \n }}
 {{ project.summary | markdownify}}
 <br/>
 
@@ -29,8 +29,8 @@ permalink: /project.html
 
 {% if project.ongoing == 0 %}
 
-{{**Title:**}} {{ project.title }} {{ &lpar;project.period&rpar; \n }}
-{{ project.agency}} {{ &comma;project.category \n }}
+{{**Title:**}} {{ project.title }} {{ project.period \n }}
+{{ project.agency}} {{ project.category \n }}
 {{ project.summary | markdownify}}
 <br/>
 
