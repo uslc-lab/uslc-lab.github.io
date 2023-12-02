@@ -9,8 +9,8 @@ permalink: /project.html
 # Ongoing projects
 
 {% for project in site.data.project %}
-{{ project.title, (project.period) }}
-{{ project.agency, project.category }}
+{{ project.title }} {{(project.period) | markdownify }}
+{{ project.agency}} {{ project.category | markdownify }}
 {{ project.summary | markdownify}}
 <br/>
 
