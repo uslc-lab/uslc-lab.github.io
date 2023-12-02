@@ -21,8 +21,9 @@ permalink: /project.html
 
 **Members:** {{project.member}}
 
-**Summary:** {{ project.summary | markdownify}}
-<br/>
+**Summary:** {{ project.summary}}
+
+<br/> 
 
 {% endif %}
 
