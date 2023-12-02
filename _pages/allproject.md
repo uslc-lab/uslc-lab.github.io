@@ -40,7 +40,8 @@ permalink: /allproject.html
 
 {{project.category}} *funded by* {{ project.agency}}
 
-**Summary:** {{ project.summary | markdownify}}
+**Summary:** {{ project.summary}}
+
 <br/>
 
 {% endif %}
