@@ -6,7 +6,7 @@ sitemap: false
 permalink: /project.html
 ---
 
-# Projects
+# Ongoing projects
 
 {% for project in site.data.project %}
 {{ project.title, (project.period) }}
