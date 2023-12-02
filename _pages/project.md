@@ -10,7 +10,7 @@ permalink: /project.html
 <br/>
 
 {% for project in site.data.project %}
-{ **Title:** { project.title }} {{ &#40; project.period &#41; \n }}
+{ **Title:** { project.title }} {{ &lpar;project.period&rpar; \n }}
 { **Agency:** { project.agency}} {, { project.category \n }}
 { **Summary:** { project.summary | markdownify}}
 <br/>
