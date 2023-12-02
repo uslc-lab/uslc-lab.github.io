@@ -10,7 +10,7 @@
   category: 
   period: 2023-2026
   ongoing: 1
-  summary: To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project's focus is on modeling and characterizing the interactions between voltage contorllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply.
+  summary: To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project focus is on modeling and characterizing the interactions between voltage contorllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply.
 
 - title: ReSiSt - Resilience, Safety, and Security in Tree-structured Civil Networks
   agency: Swedish Research Council (Vetenskapsrådet)
@@ -33,12 +33,12 @@
   ongoing: 1  
   summary: Reports on cyber-attacks, such as Stuxnet, have shown their devastating consequences on digitally controlled systems supporting modern societies. It is therefore of the utmost importance for control systems to be able to early detect and mitigate malicious cyber-attacks, which aim at having a significant impact on the system while remaining undetected. Unfortunately, existing techniques in control theory consider impact and detectability separately, and thus fail to accurately tackle malicious cyber-attacks. The aim of this project is to develop novel security metrics that jointly consider the impact and detectability of attacks, and that support the analysis and design of anomaly detectors and controllers for improved security and resilience.
 
-- title: LifeSec - Don't Hack my Body
+- title: LifeSec - Dont Hack my Body
   agency: Swedish Foundation for Strategic Research (SSF)
   category: 
   period: 2018-2023
   ongoing: 1  
-  summary: Implanted devices must be effectively secured to avoid life-threatening scenarios where attackers control implanted devices such as pacemakers or insuline pumps, or install malware inside a human's body. This project devises a security architecture for networked implanted medical devices that also enables a secure connection of the in-body network to the Internet. Our architecture ensures confidentiality, integrity and availability of the implanted devices considering also patients’ privacy.
+  summary: Implanted devices must be effectively secured to avoid life-threatening scenarios where attackers control implanted devices such as pacemakers or insuline pumps, or install malware inside a human body. This project devises a security architecture for networked implanted medical devices that also enables a secure connection of the in-body network to the Internet. Our architecture ensures confidentiality, integrity and availability of the implanted devices considering also patients’ privacy.
 
 - title: SOS4Floods - Secure our Flood Management Systems
   agency: Netherlands Organisation for Scientific Research
