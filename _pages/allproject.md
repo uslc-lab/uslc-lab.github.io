@@ -21,7 +21,7 @@ permalink: /allproject.html
 
 **Members:** {{project.member}}
 
-**Summary:** {{ project.summary}}
+**Summary:** {{ project.summary }}
 
 <br/> 
 
@@ -40,7 +40,7 @@ permalink: /allproject.html
 
 {{project.category}} *funded by* {{ project.agency}}
 
-**Summary:** {{ project.summary}}
+**Summary:** {{ project.summary }}
 
 <br/>
 
