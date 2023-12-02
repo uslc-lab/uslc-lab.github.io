@@ -14,7 +14,7 @@ permalink: /project.html
 {% if project.ongoing == 1 %}
 
 {{ project.title }} {{ project.period \n }}
-{{ project.agency}} {{ project.category \n }}
+{{ project.category}} {{ project.agency \n }}
 {{ project.summary | markdownify}}
 <br/>
 
