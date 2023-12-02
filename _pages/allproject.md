@@ -3,7 +3,7 @@ title: "Project"
 layout: textlay
 excerpt: "Secure Learning and Control Lab at Uppsala University."
 sitemap: false
-permalink: /project.html
+permalink: /allproject.html
 ---
 
 ### Ongoing projects
