@@ -13,7 +13,7 @@ permalink: /project.html
 
 {% if project.ongoing == 1 %}
 
-{{ project.title }} {{ project.period \n }}
+**Title:** {{ project.title }} {{ project.period \n }}
 {{ project.category}} {{ project.agency \n }}
 {{ project.summary | markdownify}}
 <br/>
