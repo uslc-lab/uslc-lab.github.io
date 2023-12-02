@@ -1,10 +1,12 @@
 <div class="well">
 <h4>Projects</h4>
 
-{% for article in site.data.news limit:5 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}<br></p>
+{% for project in site.data.project %}
+{% if project.selected == 1 %}
+<p> Project {{ project.title }} was funded by {{ project.agency | markdownify}}<br></p>
+{% endif %}
 {% endfor %}
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
+<h4><a href="{{ site.url }}{{ site.baseurl }}/allproject.html">... see all Projects</a></h4>
 
     </div>
