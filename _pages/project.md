@@ -7,14 +7,15 @@ permalink: /project.html
 ---
 
 ### Ongoing projects
+<br/>
 
 {% for project in site.data.project %}
 {{ project.title }} {{ &#40; project.period &#41; | markdownify }}
-{{ project.agency project.category \n }}
+{{ project.agency}} {{ project.category \n }}
 {{ project.summary | markdownify}}
 <br/>
 
 {% endfor %}
 
 ### Past projects
-
+<br/>
