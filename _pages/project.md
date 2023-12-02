@@ -10,7 +10,8 @@ permalink: /project.html
 
 {% for project in site.data.project %}
 {{ project.title, (project.period) }}
-{{ project.agency | markdownify}}
+{{ project.agency, project.category }}
+{{ project.summary | markdownify}}
 <br/>
 
 {% endfor %}
