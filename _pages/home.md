@@ -51,7 +51,7 @@ We are a dynamic research group at the [Department of Information Technology, Up
 
 
 ### Our support
-We are grateful for funding from [Uppsala University](http://www.it.uu.se), the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/) ([Wallenberg Academy Fellow](https://kaw.wallenberg.org/en/andre-teixeira)), the [Swedish Research Council](https://www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html)), and the [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)).
+We are grateful for the early-career funding from [Uppsala University](http://www.it.uu.se), the [Knut and Alice Wallenberg Foundation](https://kaw.wallenberg.org/) ([Wallenberg Academy Fellow](https://kaw.wallenberg.org/en/andre-teixeira)), the [Swedish Research Council](https://www.vr.se) ([Starting Grant](https://www.vr.se/english/applying-for-funding/calls/2018-03-07-starting-grant-within-natural-and-engineering-sciences.html)), and the [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders Grant](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)).
 
 <div class="row">
 
@@ -76,5 +76,7 @@ We are grateful for funding from [Uppsala University](http://www.it.uu.se), the 
 </div>
 
 </div>
+
+See our funding and ongoing projects at our [Funding page](funding).
  
  

@@ -6,8 +6,9 @@ sitemap: false
 permalink: /allprojects.html
 ---
 
+# All projects
+
 ### Ongoing projects
-<br/>
 
 {% for project in site.data.project %}
 
@@ -29,14 +30,12 @@ permalink: /allprojects.html
 </div></div>
 </div>
 </div>
-<br/> 
 
 {% endif %}
 
 {% endfor %}
 
 ### Past projects
-<br/>
 
 {% for project in site.data.project %}
 
