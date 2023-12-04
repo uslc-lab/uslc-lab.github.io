@@ -9,6 +9,17 @@
   selected: 1
   summary: "Prob4Sec aims to develop theory and probabilistic methods for securing cyber-physical systems (CPSs) possessing learning and control capabilities digital devices that learn from data they collect, and automatically decide how to best interact with the physical world over time. Intelligent CPSs are pervasive in our society. Users rely and trust that these devices will operate in a safe and secure manner. The consequences of incorrect behaviors in CPSs can be dire, threatening the users well being. Securing these systems is of utmost importance. Probabilistic methods are a natural way to deal with the uncertainty of physical systems and unintentional failures. Mathematical and statistical tools enable us to take a small number of samples and still be able to draw general conclusions. However, attacks are not only probabilistic but can have strategic behaviors, tailored to causing harm while avoiding detection. Hence, it is critical to develop systematic approaches that integrate the probabilistic and the strategic aspects of attacks in security analysis. Prob4Sec combines knowledge from security, statistical methods, and AI and control engineering to develop new methods for designing secure CPSs with learning and control functionalities. These methods will be instrumental in preventing future threats to all who benefit from this technology. Prob4Sec will provide further tools based on which trust in new technologies can be built and communicated, from developers to end users."
 
+- title: "Learning for decision and control in a population of dynamical systems"
+  key: "VR2023-PM"
+  agency: "Swedish Research Council (Vetenskapsrådet)"
+  category: "VR Starting grant within natural and engineering sciences"
+  period: "2024-2027"
+  ongoing: 1
+  lead: "*Per Mattsson* (PI)"
+  member: "1 PhD student"
+  selected: 1
+  summary: "In real-world applications there are often many individual systems with similar dynamics - a population of systems. For example batteries in different cars, different batches in the process industry or different patients in medicine. By taking a population view we can study how the dynamical systems in the population can learn from each other, both when it comes to estimating models and designing controllers, and how to detect systems with anomalous behavior that may need maintenance or replacement. The aim of this project is to develop methods and analysis to tackle these problems in a coherent way. To realize this we have identified three subprojects. In the first we will develop and analyze estimation methods for populations of systems that can also handle anomalous systems. In the second we will study how these models can be used for population-wide monitoring and anomaly detection. In the third we will develop methods for robust data-driven control, where individual systems learn from each other. We already have established collaborations with experts in industry that can provide us with relevant applications and data for evaluation of the developed methods. By considering populations, instead of single systems as traditionally done in control theory, and taking on these three problems in a coherent way we believe that this project will open up new research directions in, and make significant contributions to, data-driven modeling, fault detection and control."
+
 - title: "ADVOLCANO - Adverse Voltage Controllers’ Interactions in Active Distribution Networks"
   key: "STEM2023-AT"
   agency: "Swedish Energy Agency"
