@@ -14,7 +14,7 @@ We are grateful to the following organizations that generously fund our activiti
 - [Swedish Research Council](https://www.vr.se), 
 - [Swedish Foundation for Strategic Research](https://strategiska.se) ([Future Research Leaders 7](https://strategiska.se/en/research/ongoing-research/framtidens-forskningsledare-7/)),
 - [Swedish Energy Agency](https://www.energimyndigheten.se/en/),
-- [Swedish Agency for Innovation (Vinnova)](https://www.vinnova.se/en/),
+- [Sweden's Innovation Agency](https://www.vinnova.se/en/),
 - [eSSENCE-SciLife Graduate School in Data-Intensive Science](https://essenceofescience.se/graduate-school/).
 
 <div class="row">
@@ -72,7 +72,7 @@ Their funding supports our work in research, education, and outreach, not the le
 
 **Awarded to:** {{project.lead}}
 
-**Members:** {{project.member}}
+**USLC Members:** {{project.member}}
 
 <a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Popular Abstract**</a>
 <div class="collapse" id="{{project.key}}-bib"><div class="well-abs">

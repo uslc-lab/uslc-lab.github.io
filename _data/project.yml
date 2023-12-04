@@ -5,20 +5,43 @@
   period: "2023-2027"
   ongoing: 1
   lead: "*André Teixeira* (PI) and *Per Mattsson*"
-  member: "TBA"
+  member: "1 PhD student"
   selected: 1
   summary: "Prob4Sec aims to develop theory and probabilistic methods for securing cyber-physical systems (CPSs) possessing learning and control capabilities digital devices that learn from data they collect, and automatically decide how to best interact with the physical world over time. Intelligent CPSs are pervasive in our society. Users rely and trust that these devices will operate in a safe and secure manner. The consequences of incorrect behaviors in CPSs can be dire, threatening the users well being. Securing these systems is of utmost importance. Probabilistic methods are a natural way to deal with the uncertainty of physical systems and unintentional failures. Mathematical and statistical tools enable us to take a small number of samples and still be able to draw general conclusions. However, attacks are not only probabilistic but can have strategic behaviors, tailored to causing harm while avoiding detection. Hence, it is critical to develop systematic approaches that integrate the probabilistic and the strategic aspects of attacks in security analysis. Prob4Sec combines knowledge from security, statistical methods, and AI and control engineering to develop new methods for designing secure CPSs with learning and control functionalities. These methods will be instrumental in preventing future threats to all who benefit from this technology. Prob4Sec will provide further tools based on which trust in new technologies can be built and communicated, from developers to end users."
 
 - title: "ADVOLCANO - Adverse Voltage Controllers’ Interactions in Active Distribution Networks"
   key: "STEM2023-AT"
-  agency: "Swedish Energy"
+  agency: "Swedish Energy Agency"
   category: "Program 'The Electrical System of the Future'"
   period: "2023-2026"
   ongoing: 1
   lead: "Stefan Stanković (PI, RISE), Xiaofeng Xong (KTH), Henrik Sandberg (KTH), *André Teixeira*"
-  member: "TBA"
+  member: "1 PhD student"
   selected: 1
   summary: "To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project focus is on modeling and characterizing the interactions between voltage contorllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply."
+
+
+- title: "Validating a System Development Kit for edge federated learning"
+  key: "VINNOVA2023-AT"
+  agency: "Sweden's Innovation Agency (Vinnova)"
+  category: "'Advanced and innovative digitalisation'"
+  period: "2023-2025"
+  ongoing: 1
+  lead: "Andreas Hellander (PI, Scaleout), *Salman Toor* (Scaleout), *André Teixeira*"
+  member: "Usama Zafar, 1 Postdoc"
+  selected: 1
+  summary: "The project´s primary aim is to increase our understanding of scalability and cyber security in federated machine learning specifically for cloud edge applications. We will also further develop and validate a system development kit for federated machine learning, FEDn, for large-scale applications in fleet intelligence."
+
+- title: "Secure Federated Machine Learning at Scale"
+  key: "UU2022-ST"
+  agency: "Dept. of Information Technology, Uppsala University"
+  category: "'Joint Strategic Research Activities - Graduate School in Cybersecurity'"
+  period: "2022-2026"
+  ongoing: 1
+  lead: "*Salman Toor* (PI), *André Teixeira*"
+  member: "Usama Zafar"
+  selected: 1
+  summary: "The overall aims of the project are to mitigate the risk of attacks by providing security and enhanced privacy for a scalable federated training environment. In particular, the project addresses concerns related to security and privacy in federated machine learning against model poisoning and information leakage attacks. The envisioned approach is centered around developing new theories and methodologies to achieve two main aims:  secure aggregation of local models under poisoning attacks, and private distributed aggregation of local models."
 
 - title: "ReSiSt - Resilience, Safety, and Security in Tree-structured Civil Networks"
   key: "VR2021-AT"
