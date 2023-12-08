@@ -11,6 +11,7 @@ permalink: /openings
 
 **At the moment, we have the following positions open:**
 * **Deadline January 15, 2024:** [1 Postdoctoral position in Machine Learning focusing on Secure Federated Learning](https://uu.varbi.com/en/what:job/jobID:679885/)
+* **Deadline January 30, 2024:** [1 PhD position in Automatic Control focusing on Distributed Voltage Control](https://uu.varbi.com/en/what:job/jobID:680621/)
 
 **We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects, so stay tuned!**
 
