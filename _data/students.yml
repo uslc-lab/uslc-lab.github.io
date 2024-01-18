@@ -8,6 +8,12 @@
 #  education3:
 #  education4:
 
+- name: Andreas Hertzberg,
+  photo: rock.jpg
+  info: Master student, Spring 2024 - "Secure Multi-Agent Control Systems"
+  number_educ: 0
+  education1:
+
 - name: Linus Svensson,
   photo: rock.jpg
   info: Master student, Spring 2023 - "Modelling of cyber-physical security for an automotive battery control system"

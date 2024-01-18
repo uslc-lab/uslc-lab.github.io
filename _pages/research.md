@@ -75,7 +75,7 @@ Have a look at a popular science video about our research on developing secure c
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag or y == theme-item.taga -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}} || tag1={{y}}]]* %}
+{% bibliography -f uscl_publications -q @*[tag={{y}} || taga={{y}}]]* %}
 {% endif %}
 {% endfor %}
 </div></div></div>
