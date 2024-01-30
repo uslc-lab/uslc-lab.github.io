@@ -53,4 +53,4 @@ For step 1, see the minimal example below:
 
 The final four fields are used to construct buttons that link to the respective items. The website's engine automatically ads prefix to the the DOI and Arxiv, and the '.pdf' suffix to the filename.
 
-The field tag is used to select the publication to be included in a given research theme (for now a many-to-one mapping, extending this is work in progress).
+The field tag is used to select the publication to be included in a given research theme (for now awe can use "tag" and "taga" for tagging up to 2 areas).
