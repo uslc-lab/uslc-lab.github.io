@@ -10,7 +10,9 @@ permalink: /openings
 [//]: # (**At the moment, we do not have any open positions. We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects.**)
 
 **At the moment, we have the following positions open:**
-* **Deadline March 08, 2024:** [1 PhD position in Automatic Control focusing on probabilistic methods for secure control](https://www.jobb.uu.se/details/?positionId=697970&languageId=1).
+* **Deadline March 25, 2024:** [1 PhD position in Automatic Control focusing on probabilistic methods for secure control](https://www.jobb.uu.se/details/?positionId=697970&languageId=1).
+* **Deadline March 28, 2024:** [1 PhD position in Automatic Control focusing on data-driven methods](https://www.jobb.uu.se/details/?positionId=701901&languageId=1).
+* **Deadline April 18, 2024:** [1 Postdoc position in Machine Learning focusing on secure federated learning](https://uu.varbi.com/what:job/jobID:707876/).
 
 [//]: # (**We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects, so stay tuned!**)
 

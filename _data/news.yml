@@ -1,3 +1,6 @@
+- date: 08 March 2024
+  headline: "One recent paper has been accepted to the [IFAC SafeProcess 2024, Ferarra, Italy ](https://www.safeprocess2024.eu). The paper addresses the design of a full-state observer to maximize the transient detectability of static sensor errors, possibly caused through bias injection attacks. See the details at [Publications](publications)."
+
 - date: 29 February 2024
   headline: "Our two recent papers have been accepted to the [European Control Conference 2024, Stockholm ](https://ecc24.euca-ecc.org). They investigate problems in security of safety filters and detection of delay attacks. See their details at [Publications](publications)."
 
