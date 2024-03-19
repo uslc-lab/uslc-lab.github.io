@@ -1,7 +1,7 @@
 ---
-title: "Secure Learning and Control Lab - Home"
+title: "Phong Lam - Home"
 layout: homelay
-excerpt: "Secure Learning and Control Lab at Uppsala University."
+excerpt: "Phong Lam"
 sitemap: false
 permalink: /
 ---
