@@ -10,7 +10,7 @@ title: Phong Lam's Home Page
 email: lamthuaphong@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of Phong Lam.
-baseurl: "/"
+baseurl: "https://phonglam3103.github.io"
 url: ""
 
 include:
