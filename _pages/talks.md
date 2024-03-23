@@ -29,7 +29,7 @@ Have a look at a popular science video about our research on developing secure c
 {% assign paper_show = true %}
 
 
- {% assign number_printed = 0 %}
+{% assign number_printed = 0 %}
 {% for theme-item in site.data.research_themes %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
