@@ -7,7 +7,7 @@ tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /talks/
 ---
 
-# Our Research
+# Talks
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/group_logo_medium.png" class="img-responsive" width="15%" style="float: left"/>
 
 Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
@@ -18,14 +18,14 @@ To do so, we look into these sytems from a security perspective, under various a
 
 Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
-## Popular science video
+## Project 1
 {% include youtubePlayer.html id="k01OGxClLXE?si=Awnl9VCWb7bxCm_F" %}
 
 
 
 
 
-## Selected research themes
+## Project 2
 {% assign paper_show = true %}
 
 
