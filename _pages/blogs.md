@@ -3,7 +3,7 @@ title: "Secure Learning and Control Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /openings
+permalink: /blogs
 ---
 
 # Open positions
