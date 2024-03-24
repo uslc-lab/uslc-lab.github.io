@@ -7,7 +7,7 @@ tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /teaching/
 ---
 
-# Talks
+# Teaching
 
 {% for talk in site.data.talk %}
 
