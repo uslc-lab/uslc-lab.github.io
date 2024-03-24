@@ -1,7 +1,9 @@
 - title: "Safety and Security in Control Systems"
   level: "Master's course"
-  location: "Dept. IT - Uppsala University"
+  location: "Department of IT - Uppsala University"
   term: "Spring 2024"
-  teachers: "[André Teixeira](https://www.it.uu.se/katalog/andhe344) and Alexander Medvedev"
+  teachers: "[André Teixeira](https://www.it.uu.se/katalog/andhe344) and [Alexander Medvedev](https://www.it.uu.se/katalog/am)"
   ILO: "The main goal of the course is to introduce the students to safety and security aspects of modern control systems arising due to their digital and networked implementation. The main course body consists of basic concepts, approaches to and methods of modeling, analysis, and detection of faults and attacks in control systems."
   about: "The course introduces you to safety and security aspects of modern control systems arising due to your digital and networked implementation. The main course body consists of basic concepts, approaches to and methods of modelling, analysis, and detection of faults and attacks in control systems."
+
+- title: ""
