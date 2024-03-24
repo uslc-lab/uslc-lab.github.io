@@ -1,7 +1,7 @@
 ---
-title: "Secure Learning and Control Lab - Publications"
+title: "Phong Lam - Publications"
 layout: gridlay
-excerpt: "Secure Learning and Control Lab -- Publications."
+excerpt: "Phong Lam -- Publications."
 sitemap: false
 years: [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010]
 permalink: /publications/
@@ -10,13 +10,9 @@ permalink: /publications/
 
 # Publications
 
- 
-(See also the personal webpage of our group members)
 
 
-## Group highlights
-
-(For a full list of publications, see [below](#list-of-publications), and see also the personal webpage of our group members)
+## Highlights
 
 
 {% assign number_printed = 0 %}
