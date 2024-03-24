@@ -23,7 +23,6 @@ permalink: /teaching/
 
 with **Teachers:** {{course.teachers}}
 
-
 <a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Course Content**</a>
 <div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
 {{ course.about }}
