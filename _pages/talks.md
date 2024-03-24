@@ -20,7 +20,8 @@ permalink: /talks/
 
 **Summary:** {{talk.summary}}
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/presentations/{{ talk.presentation }}" class="img-responsive" width="{{ theme-item.width }}" style="float: top"/>
+<a href="{{ site.url }}{{ site.baseurl }}/assets/presentations/{{ talk.presentation }}"> **Presentation** </a>
+
 
 </div>
 </div>
