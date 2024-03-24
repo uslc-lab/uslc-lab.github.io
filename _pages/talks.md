@@ -20,8 +20,10 @@ permalink: /talks/
 
 **Summary:** {{talk.summary}}
 
-**Presentation:** {{talk.presentation}}
-
+<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Presentation**</a>
+<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
+{{ talk.summary }}
+</div></div>
 
 </div>
 </div>
