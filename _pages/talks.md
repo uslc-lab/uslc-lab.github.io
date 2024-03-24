@@ -16,7 +16,7 @@ permalink: /talks/
 
 #### {{ talk.title }} 
 
-**Event:** {{talk.category}}
+**Event:** {{talk.event}}
 
 **Summary:** {{talk.summary}}
 
