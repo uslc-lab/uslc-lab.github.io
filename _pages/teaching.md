@@ -3,7 +3,6 @@ title: "Phong Lam - Teaching"
 layout: gridlay2
 excerpt: "Phong Lam - Teaching"
 sitemap: false
-tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /teaching/
 ---
 
@@ -28,10 +27,6 @@ with **Teachers:** {{course.teachers}}
 <a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Course Content**</a>
 <div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
 {{ course.about }}
-</div></div>
-<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Learning Outcomes**</a>
-<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
-{{ course.ILO }}
 </div></div>
 </div>
 </div>
