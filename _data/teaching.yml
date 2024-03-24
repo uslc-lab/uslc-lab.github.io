@@ -6,4 +6,19 @@
   ILO: "The main goal of the course is to introduce the students to safety and security aspects of modern control systems arising due to their digital and networked implementation. The main course body consists of basic concepts, approaches to and methods of modeling, analysis, and detection of faults and attacks in control systems."
   about: "The course introduces you to safety and security aspects of modern control systems arising due to your digital and networked implementation. The main course body consists of basic concepts, approaches to and methods of modelling, analysis, and detection of faults and attacks in control systems."
 
-- title: ""
+- title: "Automatic Control II"
+  level: "Master's course"
+  location: "Department of IT - Uppsala University"
+  term: "Fall 2023, Spring 2023, Fall 2022, Spring 2022"
+  teachers: "[Sérgio Pequito](https://www.spequito.com/) and [Hans Roth](https://www.it.uu.se/katalog/hn)"
+  ILO: "On completion of the course, the student should be able to: determine relations between multivariable dynamic models in form of state space models and transfer functions. Analyse multivariable dynamic systems with respect to stability, sensitivity for disturbances, statistical properties, and controllability and observability. Analyse dynamic systems influenced by noise, and to determine stationary variances for given linear models. Design optimal observers (Kalman filters). Design controllers for linear multivariable systems based on linear quadratic (LQ) control. Account for the principles behind model predictive control (MPC). Evaluate controllers in laboratory work on real processes"
+  about: "The course covers both continuous-time and discrete-time linear systems. It includes a sampling of continuous-time systems and an introduction to discrete-time systems. Stochastic processes are introduced and used as models for disturbances, and the Kalman filter is introduced as a tool for estimation and prediction. Based on this, LQ/LQG and MPC are presented as examples of optimal controllers."
+
+- title: "Introduction to Computer Control Systems"
+  level: "Bachelor's and Master's course"
+  location: "Department of IT - Uppsala University"
+  term: "Spring 2024, Spring 2023, Spring 2022"
+  teachers: "[Fabio Bonassi](https://www.it.uu.se/katalog/fabbo794), [Daniel Arnström](https://www.it.uu.se/katalog/danar782), [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778), [Carl Andersson](https://www.it.uu.se/katalog/caran948), and [Dave Zachariah](https://www.it.uu.se/katalog/davza513)"
+  ILO: "On completion of the course, the student should be able to: Define basic concepts in automatic control. Determine relations between different model representations. Analyse linear time-invariant systems with respect to relevant properties. Design and implement simple controllers"
+  about: "System models: State-space forms and the solution of the state-space equation in discrete and continuous time. Sampling. Transfer functions and transfer operators. Model transformations from transfer functions to state-space models and vice versa. System properties: Controllability and observability. Static gain. Step and impulse responses in discrete and continuous time. Frequency domain properties (connection to sampling). Stability in discrete and continuous time; asymptotic stability, bounded-input bounded-output stability, the Nyquist criterion. Controller design: Pole placement in state-space form. State feedback with observer. PID controllers. Stability margins. Sensitivity functions. The notion of robustness. Computer implementation (sampling, aliasing)."
+  
