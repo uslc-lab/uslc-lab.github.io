@@ -21,4 +21,11 @@
   teachers: "[Fabio Bonassi](https://www.it.uu.se/katalog/fabbo794), [Daniel Arnström](https://www.it.uu.se/katalog/danar782), [Niklas Wahlström](https://www.it.uu.se/katalog/nikwa778), [Carl Andersson](https://www.it.uu.se/katalog/caran948), and [Dave Zachariah](https://www.it.uu.se/katalog/davza513)"
   ILO: "On completion of the course, the student should be able to: Define basic concepts in automatic control. Determine relations between different model representations. Analyse linear time-invariant systems with respect to relevant properties. Design and implement simple controllers"
   about: "System models: State-space forms and the solution of the state-space equation in discrete and continuous time. Sampling. Transfer functions and transfer operators. Model transformations from transfer functions to state-space models and vice versa. System properties: Controllability and observability. Static gain. Step and impulse responses in discrete and continuous time. Frequency domain properties (connection to sampling). Stability in discrete and continuous time; asymptotic stability, bounded-input bounded-output stability, the Nyquist criterion. Controller design: Pole placement in state-space form. State feedback with observer. PID controllers. Stability margins. Sensitivity functions. The notion of robustness. Computer implementation (sampling, aliasing)."
-  
+
+- title: "Program Design and Data Structures"
+  level: "Bachelor's course"
+  location: "Department of IT - Uppsala University"
+  term: "Fall 2021"
+  teachers: "[Johannes Borgström](https://www.katalog.uu.se/profile/?id=N10-775) and [Eva Darulova](https://www.katalog.uu.se/profile/?id=N21-880)"
+  about: 
+  ILO:
