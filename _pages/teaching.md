@@ -9,18 +9,25 @@ permalink: /teaching/
 
 # Teaching
 
-{% for talk in site.data.talk %}
+{% for course in site.data.teaching %}
 
 <div class="row">
 <div class="well">
 
-#### {{ talk.title }} 
+#### {{ course.title }} 
 
-**Event:** {{talk.event}}
+**Level:** {{course.level}}
 
-**Summary:** {{talk.summary}}
+**Term:** {{course.term}}
 
-<a href="{{ site.url }}{{ site.baseurl }}/assets/presentations/{{ talk.presentation }}"> **Presentation** </a>
+**Location:** {{course.location}}
+
+with **Teachers:** {{course.teachers}}
+
+<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Learning Outcomes**</a>
+<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
+{{ course.ILO }}
+</div></div>
 
 
 </div>
