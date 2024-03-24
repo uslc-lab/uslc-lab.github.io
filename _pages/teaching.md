@@ -23,10 +23,11 @@ permalink: /teaching/
 
 with **Teachers:** {{course.teachers}}
 
-<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Course Content**</a>
-<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
-{{ course.about }}
-</div></div>
+<a data-toggle="collapse" href="#{{key}}-about" class="btn-about" role="button">**Course Content**</a>
+<div class="collapse" id="{{key}}-about">
+<div class="well-about">
+{{course.about}}
+</div> </div>
 </div>
 </div>
 
