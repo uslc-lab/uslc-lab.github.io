@@ -20,7 +20,7 @@ permalink: /talks/
 
 **Summary:** {{talk.summary}}
 
-**Presentation:** abc
+**Presentation:** {{talk.presentation}}
 
 </div></div>
 </div>
