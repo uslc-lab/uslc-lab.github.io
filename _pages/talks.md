@@ -22,7 +22,7 @@ permalink: /talks/
 
 **Presentation:** {{talk.presentation}}
 
-</div></div>
+
 </div>
 </div>
 
