@@ -22,7 +22,7 @@ Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsal
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/IL33_mixmd.jpg" height="4" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/IL33_mixmd.png" height="4" alt="Slide 1" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/new_angstrom.jpg" class="img-responsive" height="40%" alt="Slide 2" />
