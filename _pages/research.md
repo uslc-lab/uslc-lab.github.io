@@ -10,20 +10,21 @@ permalink: /research/
 # Research
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
 
-My vision is to develop and apply computational methodologies to understand the atomistic mechanism of how a small molecule could interact and inhibit a therapeutic target. Such information could streamline the drug discovery process which is costly and laborious.
+My vision is to develop and apply computational methodologies aimed at understanding the atomistic mechanisms underlying the interactions between small molecules and therapeutic targets. By elucidating such mechanisms, we can streamline the drug discovery process, which is both costly and laborious.
 
-To do so, we look into these sytems from a security perspective, under various adversary models. Specifically, we develop techniques to assess the risk (i.e., impact and likelihood) of adversaries and failures, and propose methodologies to design and systematically deploy defense measures to prevent, detect, and mitigate malicious attacks and natural disruptive events. In our research, we combine methodologies from cybersecurity, control theory, optimization and machine learning, game-theory and networked systems.
+## Structure-based drug design
+Over the past two decades, significant strides have been made in computational resources and AI, revolutionizing various fields, including drug discovery. Among the methodologies employed, structure-based drug design (SBDD), centered around molecular docking, remains a cornerstone. Despite the advancements, fundamental concepts in computer-aided drug design (CADD) continue to be relevant today.
 
-[//]: # (For a high-level summary of a selection of our results, see [Research Results](research_results).)
+Recent years have witnessed a surge in leveraging artificial intelligence (AI), particularly machine learning and deep learning, to augment the accuracy and predictive power of molecular docking. AI methodologies have been instrumental in refining docking scoring functions and improving the enrichment rates of docking models.
 
-Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
-
-## Molecular docking
 <img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="100%" style="float: center"/>
 
 
 ## Molecular dynamics simulation
 The video illustrates how a drug molecule (montelukast) may interact with a protein (interleukin-33) in a physiological condition. This is one of the repurposed hits that has shown promising results in-vitro.
+
+## Chemoinformatics and applications of machine learning in drug discovery
+
 
 {% include youtubePlayer.html id="b0c43LOoPMw" %}
 
