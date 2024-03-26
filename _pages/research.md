@@ -27,7 +27,7 @@ Have a look at a popular science video about our research on developing secure c
 
 ## Molecular dynamics simulation
 {% include youtubePlayer.html id="b0c43LOoPMw" %}
-
+The video illustrates how a drug molecule (montelukast) may interact with a protein (interleukin-33) in a physiological condition. This is one of the repurposed hits that has shown promising results in-vitro.
 
 {% assign number_printed = 0 %}
 {% for theme-item in site.data.research_themes %}
