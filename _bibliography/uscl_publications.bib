@@ -45,13 +45,23 @@
 
 @inproceedings{Seifullaev_CDC024,
 	author = {R. Seifullaev and A. M. H. Teixeira and A. Ahl\'{e}n},
-	booktitle = {Submitted},
+	booktitle = {Submitted to CDC 2024},
 	title = {Event-triggered control of nonlinear systems under deception and Denial-of-Service attacks},
 	year = {},
 	published={9999},
 	tag={10004}
 }
 
+
+
+@inproceedings{Anand_CDC024,
+	author = {S. C. Anand and C. Grussler and A. M. H. Teixeira},
+	booktitle = {Submitted to CDC 2024},
+	title = {Scalable metrics to quantify security of large-scale systems},
+	year = {},
+	published={9999},
+	tag={10001}
+}
 
 
 %%%%%%%%%%% Up: under review
@@ -61,7 +71,8 @@
 	booktitle = {European Control Conference (Accepted)},
 	title = {Stealthy Deactivation of Safety Filters},
 	year = {2024},
-	abstract={Safety filters ensure that only safe control actions are executed. We propose a simple and stealthy false-data injection attack for deactivating such safety filters; in particular, we focus on deactivating safety filters that are based on controlbarrier functions. The attack injects false sensor measurements to bias state estimates to the interior of a safety region, which makes the safety filter accept unsafe control actions. To detect such attacks, we also propose a detector that detects biases manufactured by the proposed attack policy, which complements conventional detectors when safety filters are used. The proposed attack policy and detector are illustrated on a double integrator example.},
+	abstract={Safety filters ensure that only safe control actions are executed. We propose a simple and stealthy false-data injection attack for deactivating such safety filters; in particular, we focus on deactivating safety filters that are based on control barrier functions. The attack injects false sensor measurements to bias state estimates to the interior of a safety region, which makes the safety filter accept unsafe control actions. To detect such attacks, we also propose a detector that detects biases manufactured by the proposed attack policy, which complements conventional detectors when safety filters are used. The proposed attack policy and detector are illustrated on a double integrator example.},
+	pdf = {arnstrom_teixeira_ECC2024},
 	published={1}
 }
 
@@ -70,8 +81,9 @@
 	booktitle = {European Control Conference (Accepted)},
 	title = {Delay Attack and Detection in Feedback Linearized Control Systems},
 	year = {2024},
-	abstract={Delay injection attacks on nonlinear control systems have many consequences. Nonlinear instability mechanisms, for example finite escape time dynamics, can be triggered which is why rapid attack detection needs research. The paper therefore considers delay attacks on feedback linearized systems and shows how a recursive identification algorithm for nonlinear systems with delay may be used for detection of delay injection in the feedback path. The attack methodology is illustrated using a simulated feedback linearized automotive cruise controller where the attack is disguised, but anyway rapidly detected.},
+	abstract={Delay injection attacks on nonlinear control systems may trigger instability mechanisms like finite escape time dynamics. The paper guards against such attacks by showing how a recursive algorithm for identification of nonlinear dynamics and delay can simultaneously provide parameter estimates for controller tuning and detection of delay injection in the feedback path. The attack methodology is illustrated using a simulated feedback linearized automotive cruise controller where the attack is disguised, but anyway rapidly detected.},
 	published={1},
+	pdf={wigren_teixeira_ECC2024},
 	tag={10004}
 }
 
