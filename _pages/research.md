@@ -7,10 +7,10 @@ tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /research/
 ---
 
-# Talks
+# Research
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
 
-Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries and natural failures. 
+My vision is to develop and apply computational methodologies to advance the drug discovery process which is costly and tedious.
 
 To do so, we look into these sytems from a security perspective, under various adversary models. Specifically, we develop techniques to assess the risk (i.e., impact and likelihood) of adversaries and failures, and propose methodologies to design and systematically deploy defense measures to prevent, detect, and mitigate malicious attacks and natural disruptive events. In our research, we combine methodologies from cybersecurity, control theory, optimization and machine learning, game-theory and networked systems.
 
@@ -18,15 +18,15 @@ To do so, we look into these sytems from a security perspective, under various a
 
 Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
-## Project 1
-{% include youtubePlayer.html id="k01OGxClLXE?si=Awnl9VCWb7bxCm_F" %}
+## Molecular docking
 
 
 
 
 
-## Project 2
-{% assign paper_show = true %}
+
+## Molecular dynamics simulation
+{% include youtubePlayer.html id="b0c43LOoPMw" %}
 
 
 {% assign number_printed = 0 %}
