@@ -20,7 +20,7 @@ Over the past two decades, significant strides have been made in computational r
 
 Recent years have witnessed a surge in leveraging artificial intelligence (AI), particularly machine learning and deep learning, to augment the accuracy and predictive power of molecular docking. AI methodologies have been instrumental in refining docking scoring functions and improving the enrichment rates of docking models.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="80%" style="float: center"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="80%" class="center"/>
 
 
 ## Molecular dynamics simulation
