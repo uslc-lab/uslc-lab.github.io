@@ -1,7 +1,7 @@
 ---
-title: "Secure Learning and Control Lab - Research"
+title: "Phong Lam - Research"
 layout: gridlay2
-excerpt: "Secure Learning and Control Lab -- Research"
+excerpt: "Phong Lam -- Research"
 sitemap: false
 tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /research/
@@ -10,7 +10,7 @@ permalink: /research/
 # Research
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
 
-My vision is to develop and apply computational methodologies to advance the drug discovery process which is costly and tedious.
+My vision is to develop and apply computational methodologies to understand the atomistic mechanism of how a small molecule could interact and inhibit a therapeutic target. Such information could streamline the drug discovery process which is costly and laborious.
 
 To do so, we look into these sytems from a security perspective, under various adversary models. Specifically, we develop techniques to assess the risk (i.e., impact and likelihood) of adversaries and failures, and propose methodologies to design and systematically deploy defense measures to prevent, detect, and mitigate malicious attacks and natural disruptive events. In our research, we combine methodologies from cybersecurity, control theory, optimization and machine learning, game-theory and networked systems.
 
@@ -19,10 +19,7 @@ To do so, we look into these sytems from a security perspective, under various a
 Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
 ## Molecular docking
-<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="50%" style="float: left"/>
-
-
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="50%"/>
 
 
 ## Molecular dynamics simulation
