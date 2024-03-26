@@ -8,16 +8,17 @@ permalink: /research/
 ---
 
 # Research
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" />
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
 My vision is to develop and apply computational methodologies aimed at understanding the atomistic mechanisms underlying the interactions between small molecules and therapeutic targets. By elucidating such mechanisms, we can streamline the drug discovery process, which is both costly and laborious.
+<br />
+<br />
 
 ## Structure-based drug design
 Over the past two decades, significant strides have been made in computational resources and AI, revolutionizing various fields, including drug discovery. Among the methodologies employed, structure-based drug design (SBDD), centered around molecular docking, remains a cornerstone. Despite the advancements, fundamental concepts in computer-aided drug design (CADD) continue to be relevant today.
 
 Recent years have witnessed a surge in leveraging artificial intelligence (AI), particularly machine learning and deep learning, to augment the accuracy and predictive power of molecular docking. AI methodologies have been instrumental in refining docking scoring functions and improving the enrichment rates of docking models.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="100%" style="float: center"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="80%" style="float: center"/>
 
 
 ## Molecular dynamics simulation
