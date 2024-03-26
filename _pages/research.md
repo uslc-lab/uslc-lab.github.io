@@ -7,8 +7,10 @@ tags: [10001, 10002,10003, 10004, 10005, 10006]
 permalink: /research/
 ---
 
-# Research
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
+<br />
+# Research
 My vision is to develop and apply computational methodologies aimed at understanding the atomistic mechanisms underlying the interactions between small molecules and therapeutic targets. By elucidating such mechanisms, we can streamline the drug discovery process, which is both costly and laborious.
 <br />
 <br />
