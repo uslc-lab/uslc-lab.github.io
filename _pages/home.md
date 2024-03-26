@@ -9,7 +9,7 @@ permalink: /
 ### Phong Lam
 Phong Lam is a pharmacist interested in computer-aided drug design using in-silico approaches including molecular docking, and molecular dynamics simulations. Additionally, he is also interested in the use of machine learning and deep learning techniques, together with conventional techniques to further advance the drug discovery process. In his undergraduate study, he was involved in several drug discovery projects, which have been transformed into publications.
 
-Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsala University, Sweden, where he is expected to graduate in June 2025. He will be conducting his thesis project related to G-protein coupled receptors (GPCR) under the supervision of Professor Jens Carlsson (https://www.carlssonlab.org/) at the Department of Cell and Molecular Biology, Uppsala University.
+Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsala University, Sweden, where he is expected to graduate in June 2025. He will be conducting his thesis project related to G-protein coupled receptors (GPCR) under the supervision of Professor Jens Carlsson ([https://www.carlssonlab.org/](https://www.carlssonlab.org/)) at the Department of Cell and Molecular Biology, Uppsala University.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->
@@ -25,7 +25,7 @@ Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsal
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/IL33_mixmd.png" height="4" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Flavonoid_SR.png" class="img-responsive" height="3.8" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/redock.png" class="img-responsive" height="3.8" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 3" />
