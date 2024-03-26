@@ -19,7 +19,7 @@ To do so, we look into these sytems from a security perspective, under various a
 Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
 ## Molecular docking
-<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="50%"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="100%" style="float: center"/>
 
 
 ## Molecular dynamics simulation
