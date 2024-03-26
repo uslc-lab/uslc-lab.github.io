@@ -25,7 +25,7 @@ Currently, he is pursuing a Master's degree in Pharmaceutical modeling at Uppsal
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/IL33_mixmd.png" height="4" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Flavonoid_SR.tif" class="img-responsive" height="4" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Flavonoid_SR.png" class="img-responsive" height="4" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 3" />
