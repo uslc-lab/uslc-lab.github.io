@@ -8,7 +8,7 @@ permalink: /research/
 ---
 
 # Research
-<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" style="float: left"/>
+<img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Personal_photo.JPG" class="img-responsive" width="15%" />
 
 My vision is to develop and apply computational methodologies aimed at understanding the atomistic mechanisms underlying the interactions between small molecules and therapeutic targets. By elucidating such mechanisms, we can streamline the drug discovery process, which is both costly and laborious.
 
@@ -23,10 +23,11 @@ Recent years have witnessed a surge in leveraging artificial intelligence (AI), 
 ## Molecular dynamics simulation
 The video illustrates how a drug molecule (montelukast) may interact with a protein (interleukin-33) in a physiological condition. This is one of the repurposed hits that has shown promising results in-vitro.
 
+{% include youtubePlayer.html id="b0c43LOoPMw" %}
+
 ## Chemoinformatics and applications of machine learning in drug discovery
 
 
-{% include youtubePlayer.html id="b0c43LOoPMw" %}
 
 {% assign number_printed = 0 %}
 {% for theme-item in site.data.research_themes %}
