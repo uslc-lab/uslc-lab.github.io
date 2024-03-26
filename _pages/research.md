@@ -19,15 +19,16 @@ To do so, we look into these sytems from a security perspective, under various a
 Have a look at a popular science video about our research on developing secure control systems. You can also find some of our recent research themes described at the end of this page.
 
 ## Molecular docking
-
+<img src="{{ site.url }}{{ site.baseurl }}/images/posts/Docking.png" class="img-responsive" width="50%" style="float: left"/>
 
 
 
 
 
 ## Molecular dynamics simulation
-{% include youtubePlayer.html id="b0c43LOoPMw" %}
 The video illustrates how a drug molecule (montelukast) may interact with a protein (interleukin-33) in a physiological condition. This is one of the repurposed hits that has shown promising results in-vitro.
+
+{% include youtubePlayer.html id="b0c43LOoPMw" %}
 
 {% assign number_printed = 0 %}
 {% for theme-item in site.data.research_themes %}
