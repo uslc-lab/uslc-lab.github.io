@@ -55,7 +55,7 @@ The video illustrates how a drug molecule (montelukast) may interact with a prot
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}}]* %}
+{% bibliography -f publications -q @*[tag={{y}}]* %}
 {% endif %}
 {% endfor %}
 </div></div></div>
@@ -77,7 +77,7 @@ The video illustrates how a drug molecule (montelukast) may interact with a prot
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag or y == theme-item.taga -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}} || taga={{y}}]]* %}
+{% bibliography -f publications -q @*[tag={{y}} || taga={{y}}]]* %}
 {% endif %}
 {% endfor %}
 </div></div></div>
