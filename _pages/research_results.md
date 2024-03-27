@@ -1,7 +1,7 @@
 ---
-title: "Secure Learning and Control Lab - Publications"
+title: "Phong Lam - Publications"
 layout: gridlay2
-excerpt: "Secure Learning and Control Lab -- Publications."
+excerpt: "Phong Lam -- Publications."
 sitemap: false
 tags: [10001, 10002, 10003, 10004, 10005, 10006]
 permalink: /research/research_results/
@@ -42,7 +42,7 @@ permalink: /research/research_results/
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}}]* %}
+{% bibliography -f publications -q @*[tag={{y}}]* %}
 {% endif %}
 {% endfor %}
 </div></div></div>
@@ -64,7 +64,7 @@ permalink: /research/research_results/
 <div class="collapse" id="{{theme-item.key}}-bib"><div class="well-abs"><div class="publications">
 {%- for y in page.tags %}
 {%- if y == theme-item.tag -%}
-{% bibliography -f uscl_publications -q @*[tag={{y}}]* %}
+{% bibliography -f publications -q @*[tag={{y}}]* %}
 {% endif %}
 {% endfor %}
 </div></div></div>
