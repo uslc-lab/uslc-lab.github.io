@@ -76,7 +76,7 @@ permalink: /publications/
 ### Under Review
 <div class="publications">
   
-{% bibliography -f uscl_publications -q @*[published={{0}}]* %}
+{% bibliography -f publications -q @*[published={{0}}]* %}
 
 </div>
 
@@ -85,7 +85,7 @@ permalink: /publications/
 
 {%- for y in page.years %}
   <h3 class="year">{{y}}</h3>
-  {% bibliography -f uscl_publications -q @*[year={{y}}]* %}
+  {% bibliography -f publications -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
