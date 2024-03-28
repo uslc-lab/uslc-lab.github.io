@@ -13,7 +13,7 @@ permalink: /publications/
  
 
 
-## Highlights
+<!--## Highlights
 
 
 
@@ -78,9 +78,9 @@ permalink: /publications/
   
 {% bibliography -f publications -q @*[published={{0}}]* %}
 
-</div>
+</div> 
 
-### Published
+### Published -->
 <div class="publications">
 
 {%- for y in page.years %}
