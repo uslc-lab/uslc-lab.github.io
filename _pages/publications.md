@@ -70,17 +70,17 @@ permalink: /publications/
 
 <p> &nbsp; </p>
 
-
+-->
 ## List of Publications
 
-### Under Review
+### Under Revision
 <div class="publications">
   
 {% bibliography -f publications -q @*[published={{0}}]* %}
 
 </div> 
 
-### Published -->
+### Published 
 <div class="publications">
 
 {%- for y in page.years %}
