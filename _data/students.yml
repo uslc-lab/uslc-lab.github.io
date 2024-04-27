@@ -14,11 +14,11 @@
   number_educ: 0
   education1:
 
-- name: Linus Svensson,
-  photo: rock.jpg
-  info: Master student, Spring 2023 - "Modelling of cyber-physical security for an automotive battery control system"
-  number_educ: 0
-  education1:
+# - name: Linus Svensson,
+#  photo: rock.jpg
+#  info: Master student, Spring 2023 - "Modelling of cyber-physical security for an automotive battery control system"
+#  number_educ: 0
+#  education1:
 
 # - name: Duc Huy Le,
 #   photo: rock.jpg
@@ -38,12 +38,12 @@
 #   number_educ: 0
 #   education1:
 
-- name: Karl Walletin,
-  photo: rock.jpg
-  info: Master student, Spring 2022 - "Implementation and evaluation of digital signal watermarking for control systems"
-  # email: 
-  number_educ: 0
-  education1:
+#- name: Karl Walletin,
+#  photo: rock.jpg
+#  info: Master student, Spring 2022 - "Implementation and evaluation of digital signal watermarking for control systems"
+#  # email: 
+#  number_educ: 0
+#  education1:
 
 # - name: Teja Kedar Vaddehulgesh,
 #   photo: rock.jpg
