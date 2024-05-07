@@ -1,8 +1,11 @@
+- date: 07 May 2024
+  headline: "One recent paper has been accepted to the [The International Conference on Availability, Reliability and Security 2024, Vienna, Austria](https://www.ares-conference.eu/). The paper proposes a GNN based intrusion detection system that can learn static, dynamic, and structural information by the incorporation of attack graphs and real-time measurements. See the details at [Publications](publications)."
+
 - date: 03 May 2024
   headline: "Sribalaji C. Anand will have his Doctoral defence on May 30, 2024. [Sri's doctoral thesis is available online.](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-525726) Good luck!"
 
 - date: 16 April 2024
-  headline: "Our group participated in the [ELLIIT Focus Period Symposium: Security and Fault Tolerance of Cyber-Physical Systems](https://elliit.se/news-and-events/focus-period-lund-2024/symposium/) in Lund, April 16-18, 2024. André was one of the invited speakers, while Tung amd Sri were invited as Visiting Scholars for two weeks during the Focus Period."
+  headline: "Our group participated in the [ELLIIT Focus Period Symposium: Security and Fault Tolerance of Cyber-Physical Systems](https://elliit.se/news-and-events/focus-period-lund-2024/symposium/) in Lund, April 16-18, 2024. André was one of the invited speakers, while Tung and Sri were invited as Visiting Scholars for two weeks during the Focus Period."
 
 - date: 26 March 2024
   headline: "We have **1 Postdoc position** in Machine Learning focusing on Secure Federated Learning, together with [Scaleout Systems AB](https://www.scaleoutsystems.com), **deadline on April 18, 2024**. See [the job ad](https://uu.varbi.com/what:job/jobID:707876/) for how to apply!"
