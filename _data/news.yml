@@ -1,3 +1,12 @@
+- date: 31 May 2024
+  headline: "Welcome Ville Kjellqvist as a new PhD student to our [group](team)! Ville will be working on the [Prob4Sec project](funding) with André, Per, and Torbjörn."
+
+- date: 30 May 2024
+  headline: "Sribalaji C. Anand has been awarded an [International Postdoc Grant from the Swedish Research Council](https://www.vr.se/soka-finansiering/beslut/2024-04-18-internationell-postdok-inom-naturvetenskap-och-teknikvetenskap-varens-utlysning.html)! The grant funds a 3-year postdoc employment at KTH Royal Institute of Technology, where the first 2 years would be hosted by the University of Pennsylvania, USA. Congratulations!"
+
+- date: 30 May 2024
+  headline: "Sribalaji C. Anand has successfully defended his Doctoral thesis, congratulations!! [Sri's doctoral thesis is available online.](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-525726)"
+
 - date: 07 May 2024
   headline: "One recent paper has been accepted to the [The International Conference on Availability, Reliability and Security 2024, Vienna, Austria](https://www.ares-conference.eu/). The paper proposes a GNN based intrusion detection system that can learn static, dynamic, and structural information by the incorporation of attack graphs and real-time measurements. See the details at [Publications](publications)."
 
@@ -19,10 +28,10 @@
 - date: 02 February 2024
   headline: "We have **1 PhD position in Automatic Control focusing on probabilistic methods for secure control**, **deadline on March 08, 2024**. See the [job ad](https://www.jobb.uu.se/details/?positionId=697970&languageId=1) for how to apply!"
 
-- date: 30 Janurary 2024
+- date: 30 January 2024
   headline: "Welcome Jingwei Dong as a new PostDoc to our [group](team)! "
 
-- date: 08 Janurary 2024
+- date: 08 January 2024
   headline: "Our article [''Quickest detection of bias injection attacks on the glucose sensor in the artificial pancreas under meal disturbances''](https://www.sciencedirect.com/science/article/pii/S0959152424000027) was published on Journal of Process Control. The article studies the problem of detecting bias injection attacks on the glucose sensor in the artificial pancreas under sporadic meal uncertainties."
 
 - date: 06 December 2023

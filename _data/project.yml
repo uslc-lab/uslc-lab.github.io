@@ -5,7 +5,7 @@
   period: "2023-2027"
   ongoing: 1
   lead: "*André Teixeira* (PI) and *Per Mattsson*"
-  member: "1 PhD student"
+  member: "Ville Kjellqvist"
   selected: 1
   summary: "Prob4Sec aims to develop theory and probabilistic methods for securing cyber-physical systems (CPSs) possessing learning and control capabilities: digital devices that learn from data they collect, and automatically decide how to best interact with the physical world over time. Intelligent CPSs are pervasive in our society. Users rely and trust that these devices will operate in a safe and secure manner. The consequences of incorrect behaviors in CPSs can be dire, threatening the users well being. Securing these systems is of utmost importance. Probabilistic methods are a natural way to deal with the uncertainty of physical systems and unintentional failures. Mathematical and statistical tools enable us to take a small number of samples and still be able to draw general conclusions. However, attacks are not only probabilistic but can have strategic behaviors, tailored to causing harm while avoiding detection. Hence, it is critical to develop systematic approaches that integrate the probabilistic and the strategic aspects of attacks in security analysis. Prob4Sec combines knowledge from security, statistical methods, and AI and control engineering to develop new methods for designing secure CPSs with learning and control functionalities. These methods will be instrumental in preventing future threats to all who benefit from this technology. Prob4Sec will provide further tools based on which trust in new technologies can be built and communicated, from developers to end users."
 
@@ -19,6 +19,18 @@
   member: "1 PhD student"
   selected: 1
   summary: "In real-world applications there are often many individual systems with similar dynamics - a population of systems. For example batteries in different cars, different batches in the process industry or different patients in medicine. By taking a population view we can study how the dynamical systems in the population can learn from each other, both when it comes to estimating models and designing controllers, and how to detect systems with anomalous behavior that may need maintenance or replacement. The aim of this project is to develop methods and analysis to tackle these problems in a coherent way. To realize this we have identified three subprojects. In the first we will develop and analyze estimation methods for populations of systems that can also handle anomalous systems. In the second we will study how these models can be used for population-wide monitoring and anomaly detection. In the third we will develop methods for robust data-driven control, where individual systems learn from each other. We already have established collaborations with experts in industry that can provide us with relevant applications and data for evaluation of the developed methods. By considering populations, instead of single systems as traditionally done in control theory, and taking on these three problems in a coherent way we believe that this project will open up new research directions in, and make significant contributions to, data-driven modeling, fault detection and control."
+
+
+- title: "SOCRATES: Sensor and actuator selection for learning, estimation and control of fractional dynamical networks"
+  key: "VR2023-SP"
+  agency: "Swedish Research Council (Vetenskapsrådet)"
+  category: "VR Project grant within natural and engineering sciences"
+  period: "2024-2027"
+  ongoing: 1
+  lead: "*Sérgio Pequito* (PI)"
+  member: "Alessandro Varalda, André Teixeira"
+  selected: 1
+  summary: "Neurological diseases and disorders significantly burden society, affecting millions of people and costing billions of euros annually. Digital pathology shows great potential in facilitating accurate diagnosis, prognosis, and treatment of these conditions, but models characterizing neural dynamics must be both explainable and efficient while capturing the long-term memory properties that play a crucial role in many neurological diseases and disorders. Fractional-order dynamical networks (FODNs) are a promising class of models, but the lack of necessary and sufficient conditions for learning them has hindered their adoption in practice. The SOCRATES project aims to develop necessary and sufficient conditions for efficient learning of FODNs and identify the minimum sensor and actuator placement for learning, observability, and controllability. The project will be carried out over four years and solved using concepts from dynamical and control systems theory, graph theory, and combinatorial optimization. The SOCRATES project aims to achieve the aforementioned goals, which will develop a new set of tools to improve our understanding of fractional-order dynamical networks, particularly neural dynamics. This enhanced understanding can lead to new therapies using neurostimulation devices for conditions such as epilepsy, chronic pain, and retinitis pigmentosa."
 
 - title: "ADVOLCANO - Adverse Voltage Controllers’ Interactions in Active Distribution Networks"
   key: "STEM2023-AT"
@@ -66,8 +78,6 @@
   selected: 1
   summary: "In the last two decades, solutions to address software vulnerabilities have evolved significantly. With predictive schemes, vulnerability analysis has shifted from being reactive to being proactive in terms of early identification of possible risks. A comprehensive vulnerability analysis requires data from application execution patterns, network logs, infrastructure logs, and traces from the source code. Efficient collection, availability and analysis of the log files is a non-trivial task as this data grows rapidly with the execution pattern of the applications. The other sources include infrastructure settings and, most importantly, the information available in public vulnerability databases. All these massive data sources form the basis to call vulnerability analysis a big data challenge. A comprehensive data-driven vulnerability analysis framework will be required to ensure reliable, efficient and uninterrupted mission critical services based on software applications. This project takes a data-intensive approach to analyse and diagnose the presence of cybersecurity vulnerabilities in software applications supporting services within critical computing infrastructures. Our approach consists of combining above-mentioned different data sources with attack modeling frameworks and use explainable machine learning techniques to analyze and diagnose security vulnerabilities in software and network configurations."
 
-
-
 - title: "ReSiSt - Resilience, Safety, and Security in Tree-structured Civil Networks"
   key: "VR2021-AT"
   agency: "Swedish Research Council (Vetenskapsrådet)"
@@ -85,7 +95,7 @@
   category: "SSF Future Research Leaders 7"
   period: "2020-2025"
   lead: "*André Teixeira* (PI)"
-  member: "Sribalaji Anand, Anh Tung Nguyen, Daniel Arnstöm, Ruslan Seifullaev"
+  member: "Sribalaji Anand, Anh Tung Nguyen, Daniel Arnström, Ruslan Seifullaev"
   ongoing: 1  
   selected: 1
   summary: "Reports of cyber-attacks on digitally controlled systems supporting modern societies, such as Stuxnet, have shown their devastating consequences to safety and human lives, and shed light on the attackers modus operandi first learn the system, then tamper the visible information so the attack is undetected, and meanwhile have significant impact on the physical system. It is of the utmost importance to be able to detect and mitigate such malicious cyber-attacks. Unfortunately, existing methods in control engineering consider impact on the physical system and detectability separately, and thus fail to accurately tackle cyber attacks that strategically mix high impact with low detectability. On the other hand, approaches from secure control assume adversaries with perfect knowledge, resulting in overly pessimistic, unrealistic conclusions. The project will produce approaches to analyze and mitigate cyber-attacks on control systems, through the following actions 1) to construct novel sensitivity metrics that jointly consider the impact and detectability of attacks under uncertainty; 2) to design optimal anomaly detectors, controllers, and security measure deployment that minimize the novel sensitivity metrics, and thus increase security; 3) to experimentally validate the developed scientific approaches in testbeds and numerical benchmarks. The developed science and tools will induce a paradigm change in robust control and fault detection, and allow for more effective handling of anomalies."
@@ -97,7 +107,7 @@
   period: "2019-2023"
   lead: "*André Teixeira* (PI)"
   member: "Sribalaji Anand, Fatih Emre Tosun"
-  ongoing: 1  
+  ongoing: 0  
   selected: 0
   summary: "Reports on cyber-attacks, such as Stuxnet, have shown their devastating consequences on digitally controlled systems supporting modern societies. It is therefore of the utmost importance for control systems to be able to early detect and mitigate malicious cyber-attacks, which aim at having a significant impact on the system while remaining undetected. Unfortunately, existing techniques in control theory consider impact and detectability separately, and thus fail to accurately tackle malicious cyber-attacks. The aim of this project is to develop novel security metrics that jointly consider the impact and detectability of attacks, and that support the analysis and design of anomaly detectors and controllers for improved security and resilience."
 
@@ -108,7 +118,7 @@
   period: "2018-2023"
   lead: "Thiemo Voigt (UU, PI), Robin Augustin (UU), Anders Ahlén (UU), Subhrakanti Dey (UU)"
   member: "André Teixeira, Fatih Emre Tosun"
-  ongoing: 1  
+  ongoing: 0  
   selected: 1
   summary: "Implanted devices must be effectively secured to avoid life-threatening scenarios where attackers control implanted devices such as pacemakers or insuline pumps, or install malware inside a human body. This project devises a security architecture for networked implanted medical devices that also enables a secure connection of the in-body network to the Internet. Our architecture ensures confidentiality, integrity and availability of the implanted devices considering also patients’ privacy."
 
