@@ -114,15 +114,15 @@
   education3:
   education4:  
 
-- name: Sribalaji C. Anand
-  photo: Anand1.jpg
-  info: Ph.D. student, started August 2019
-  short_bio: Sribalaji C. Anand is a Ph.D. student specializing in Automatic Control, at the Division of Signals and Systems, Department of Electrical Engineering, Uppsala University, Sweden. He works under the supervision of Dr. André Teixeira and Prof. Anders Ahlén. His research interests include optimization, Security of cyber-physical systems, Adaptive control. He received his M.Sc. degree in systems and control from the Delft Centre for Systems and Control (DCSC), TU Delft, the Netherlands in 2017. From 2016 to 2017, he was a research assistant at the Robotics Research Centre, International Institute of Information Technology (IIIT), Hyderabad, India. He received his Bachelor's degree in Mechatronics from SASTRA University, India. He was the recipient of the Dean's lister merit scholarship award for the years 2012 to 2016.
-  topics: 
-  email: sribalaji.anand@angstrom.uu.se
-  website: https://sites.google.com/view/sribalajianand/home
-  number_educ: 0
-  education1: 
+#- name: Sribalaji C. Anand
+#  photo: Anand1.jpg
+#  info: Ph.D. student, started August 2019
+#  short_bio: Sribalaji C. Anand is a Ph.D. student specializing in Automatic Control, at the Division of Signals and Systems, Department of Electrical Engineering, Uppsala University, Sweden. He works under the supervision of Dr. André Teixeira and Prof. Anders Ahlén. His research interests include optimization, Security of cyber-physical systems, Adaptive control. He received his M.Sc. degree in systems and control from the Delft Centre for Systems and Control (DCSC), TU Delft, the Netherlands in 2017. From 2016 to 2017, he was a research assistant at the Robotics Research Centre, International Institute of Information Technology (IIIT), Hyderabad, India. He received his Bachelor's degree in Mechatronics from SASTRA University, India. He was the recipient of the Dean's lister merit scholarship award for the years 2012 to 2016.
+#  topics: 
+#  email: sribalaji.anand@angstrom.uu.se
+#  website: https://sites.google.com/view/sribalajianand/home
+#  number_educ: 0
+#  education1: 
 
 - name: Fatih Emre Tosun
   photo: emre.jpg

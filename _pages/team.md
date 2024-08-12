@@ -71,7 +71,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-## Master and Bachelor Students
+### Master and Bachelor Students
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -126,6 +126,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 ## Alumni
+### Former PhDs and Postdocs
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
@@ -139,7 +140,10 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.position }}</i> <br> ({{ member.info_current }}) <br> ORCID: [{{member.ORCID}}](https://orcid.org/{{member.ORCID}})
+  <i>{{ member.duration }} <br> Role: {{ member.position }}</i> 
+  <br> ({{ member.info_current }}) 
+  <br> ORCID: [{{member.ORCID}}](https://orcid.org/{{member.ORCID}})
+  <br> [Website]({{member.website}})
   <ul style="overflow: hidden">
 
   </ul>
@@ -159,7 +163,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 {% endif %}
 
 
-## Former visitors, BSc/MSc students
+### Former visitors, BSc/MSc students
 <div class="row">
 
 {::comment}
