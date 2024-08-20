@@ -29,7 +29,7 @@
   short_bio: Salman Toor is an Associate Professor at the Division of Scientific Computing, Department of Information Technology, Uppsala University, Sweden. He earned his Masters and PhD in Scientific Computing from Uppsala University. In 2014, Toor finished his postdoctoral research from CMS program, Helsinki Institute of Physics, Finland. His area of expertise includes management, scalability and performance of distributed infrastructures for scientific applications. Toor is an active member of Distributed Computing Applications (DCA) group at Uppsala University. From 2015-2017, Toor was employed as a researcher in the Department of Information Technology, Uppsala University and as a senior cloud architect at Swedish National Infrastructure for Computing (SNIC). His research focuses on Distributed Computing Infrastructures.
   topics:
   email: salman.toor@it.uu.se
-  website: https://katalog.uu.se/profile/?id=N7-398
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N7-398
   number_educ: 0
   education1: 
   education2:
@@ -42,7 +42,7 @@
   short_bio: Torbjörn Wigren is a Guest Researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the M.Sc. degree in engineering physics (electrical engineering) in 1985, and the Dr. of Technology degree in automatic control in 1990, both from Uppsala University, Uppsala Sweden. His main employer from 2001 is Ericsson AB, where he is a Principal Developer, responsible for R&D on radio near feedback control and signal processing algorithms for 5G and 6G cellular systems. Before joining Ericsson, he held positions with Bofors Aerotronics (1985-1991), Ericsson Radio Systems (1991-1995) and Celsius Tech Systems (1995-2001) where he was involved in development of fire control systems, audio signal processing, and passive air-target tracking. During 2000 - 2018 he was Adjunct Professor of Automatic Control at Uppsala University. His research is focused on nonlinear dynamic systems, including recursive identification, optimal control and estimation, as well as on the use of feedback principles in machine learning.
   topics:
   email: Torbjorn.Wigren@it.uu.se
-  website: http://www.it.uu.se/katalog/tw
+  website: https://www.uu.se/kontakt-och-organisation/personal?query=N0-536
   number_educ: 0
   education1: 
   education2:
@@ -55,7 +55,7 @@
   short_bio: Per Mattsson is an Associate Professor in automatic control in the Department of Information Technology at Uppsala University. He received his Ph.D. degree in automatic control and system identification from Uppsala University in 2016. Mattsson’s research focuses on the development and analysis of data-driven methods for modeling, control, and predictive maintenance.
   topics:
   email: per.mattsson@it.uu.se
-  website: https://katalog.uu.se/profile/?id=N10-1806
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N10-1806
   number_educ: 0
   education1: 
   education2:
@@ -68,7 +68,7 @@
   short_bio: Ruslan Seifullaev is a Postdoctoral Researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the Diploma (M.Sc.) degree in theoretical cybernetics and the Candidate of Science (Ph.D.) degree in discrete mathematics and mathematical cybernetics from St. Petersburg University in 2012 and 2016, respectively. From 2014 to 2018, he was employed as a Research Engineer at the Institute of Problems in Mechanical Engineering of Russian Academy of Sciences. In 2023, he received the Ph.D. degree in signal processing from the Division of Signals and Systems, Uppsala University. His research interests include nonlinear control theory, time-delay systems, and networked control systems.
   topics: 
   email: ruslan.seifullaev@angstrom.uu.se
-  website: https://www.katalog.uu.se/empinfo/?id=N18-1190
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N18-1190
   number_educ: 0
   education1: 
   education2:
@@ -94,7 +94,7 @@
   short_bio: Alain Govaert is a Postdoctoral researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the M.Sc. degree in Industrial Engineering and the Ph.D. degree in automatic control from the Faculty of Sciences at University of Groningen in the Netherlands in 2015 and 2020, respectively. His research interests include complex systems theory, game theory, random graphs, and control systems.
   topic: 
   email: alain.govaert@it.uu.se
-  website: https://www.katalog.uu.se/profile/?id=N23-2090
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N23-2090
   number_educ: 0
   education1: 
   education2:
@@ -107,7 +107,7 @@
   short_bio: Jingwei Dong is a Postdoctoral Researcher at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the M. Eng degree in Control Science and Engineering from Harbin Institute of Technology, China, in 2018, and the Ph.D. degree in Systems and Control from Delft Center for Systems and Control, TU Delft, The Netherlands, in 2023. His research interests include optimization-based fault diagnosis, security of cyber-physical systems, control theory, and optimization methods.
   topic: 
   email:  jingwei.dong@it.uu.se
-  website: https://www.katalog.uu.se/profile/?id=N24-18
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N24-18
   number_educ: 0
   education1: 
   education2:
@@ -130,7 +130,7 @@
   short_bio: Fatih Emre Tosun received the B.S. and M.S. degrees in mechatronics engineering from Sabancı University, Istanbul, Turkey, in 2015 and 2019, respectively. He is currently working toward the Ph.D. degree in electrical engineering with Uppsala University, Uppsala, Sweden.,He conducted research in system design and control for physical human–robot interaction and series elastic actuation. His current research interests include secure and resilient control systems.
   topics: 
   email: fatihemre.tosun@angstrom.uu.se
-  website: https://katalog.uu.se/profile/?id=N19-1870
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N19-1870
   number_educ: 0
   education1: 
 
@@ -150,7 +150,7 @@
   short_bio: Zhenlu Sun is a Ph.D. student at the Division of Scientific Computing, Department of Information Technology, Uppsala University, Sweden. He received the Bachelor's Degree in Measurement and Control Technology and Instrument from Shanghai Maritime University, Shanghai, China. He received the Master's Degree in Control Science and Engineering from Beijing Institute of Technology, Beijing, China. Zhenlu worked at Intel China for three years, focusing on design and development of cloud computing and edge computing under the 5G telecom context. Before joining Intel, he was a software engineer at Cadence Design Systems from 2017 to 2019, focusing on development of EDA software toolkit. He is conducting research in cybersecurity and machine learning for critical infrastructures under the supervision of Prof. Salman Toor and Prof. André Teixeira. His research interests include security and privacy, distributed computing, machine learning and 5G telecom technologies.
   topics: 
   email: zhenlu.sun@it.uu.se
-  website: https://www.katalog.uu.se/empinfo/?id=N22-2419
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N22-2419
   number_educ: 0
   education1: 
 
@@ -160,7 +160,7 @@
   short_bio: Usama Zafar is a Ph.D. student at the Division of Scientific Computing, Department of Information Technology, Uppsala University, Sweden. He received his Bachelor’s Degree in Computer Software Engineering from National University of Sciences and Technology (NUST), Islamabad, Pakistan. He completed his Master’s Degree in Advanced Computing Science from Tsinghua University, Beijing, China. Usama has worked at Netsol Technologies for two years, focusing on research and development of FinTech products. He is currently conducting research in secure federated machine learning under the supervision of Prof. Salman Toor and Prof. André Teixeira. His research interests include distributed computing, security and privacy, distributed and federated machine learning.
   topics: 
   email: usama.zafar@it.uu.se
-  website: https://www.katalog.uu.se/empinfo/?id=N22-2641
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N22-2641
   number_educ: 0
   education1:  
 
@@ -181,6 +181,16 @@
   topics: 
   email: alessandro.varalda@it.uu.se
   website: https://www.uu.se/kontakt-och-organisation/personal?query=N23-888
+  number_educ: 0
+  education1:  
+
+- name: Ville Mattsson Kjellqvist
+  photo: 
+  info: Ph.D. student, started June 2024
+  short_bio: 
+  topics: 
+  email: ville.mattssonkjellqvist@it.uu.se
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N18-2352
   number_educ: 0
   education1:  
 
