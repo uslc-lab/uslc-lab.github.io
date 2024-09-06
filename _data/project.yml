@@ -39,7 +39,7 @@
   period: "2023-2026"
   ongoing: 1
   lead: "Stefan Stanković (PI, RISE), Xiaofeng Xong (KTH), Henrik Sandberg (KTH), *André Teixeira*"
-  member: "1 PhD student"
+  member: "Xinyu Wei"
   selected: 1
   summary: "To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project focus is on modeling and characterizing the interactions between voltage controllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply."
 
