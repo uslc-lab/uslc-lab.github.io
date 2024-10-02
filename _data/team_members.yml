@@ -114,6 +114,19 @@
   education3:
   education4:  
 
+- name: Javad Parsa
+  photo: Javad.jpg
+  info: Postdoc, started October 2024
+  short_bio: I am currently a Postdoctoral researcher in the Division of Systems and Control at Uppsala University. In 2024, I obtained my PhD from the Division of Decision and Control Systems at KTH Royal Institute of Technology, where I was supervised by Prof. Håkan Hjalmarsson. Prior to that, I completed my M.Sc. in Communication and Signal Processing in 2019 at the Department of Electrical Engineering, Sharif University of Technology. My research interests lie in the areas of machine learning, system identification and signal processing.
+  topic: 
+  email:  javad.parsa@it.uu.se
+  website: https://www.uu.se/en/contact-and-organisation/staff?query=N24-2238
+  number_educ: 0
+  education1: 
+  education2:
+  education3:
+  education4:    
+
 #- name: Sribalaji C. Anand
 #  photo: Anand1.jpg
 #  info: Ph.D. student, started August 2019
