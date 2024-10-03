@@ -20,7 +20,6 @@
   selected: 1
   summary: "In real-world applications there are often many individual systems with similar dynamics - a population of systems. For example batteries in different cars, different batches in the process industry or different patients in medicine. By taking a population view we can study how the dynamical systems in the population can learn from each other, both when it comes to estimating models and designing controllers, and how to detect systems with anomalous behavior that may need maintenance or replacement. The aim of this project is to develop methods and analysis to tackle these problems in a coherent way. To realize this we have identified three subprojects. In the first we will develop and analyze estimation methods for populations of systems that can also handle anomalous systems. In the second we will study how these models can be used for population-wide monitoring and anomaly detection. In the third we will develop methods for robust data-driven control, where individual systems learn from each other. We already have established collaborations with experts in industry that can provide us with relevant applications and data for evaluation of the developed methods. By considering populations, instead of single systems as traditionally done in control theory, and taking on these three problems in a coherent way we believe that this project will open up new research directions in, and make significant contributions to, data-driven modeling, fault detection and control."
 
-
 - title: "SOCRATES: Sensor and actuator selection for learning, estimation and control of fractional dynamical networks"
   key: "VR2023-SP"
   agency: "Swedish Research Council (Vetenskapsrådet)"
@@ -42,7 +41,6 @@
   member: "Xinyu Wei"
   selected: 1
   summary: "To meet the climate and safety challenges of today and the future, new technology is used that changes the dynamics of the electric power system, but which often also leads to unpredictable system behavior. To support voltage regulation in local distribution systems, but also to assist with voltage regulation in the overhead power transmission system, inverter-based generation is often used. However, these can lead to harmful interactions between voltage regulators that can compromise system security. This project analyzes these interactions. The project focus is on modeling and characterizing the interactions between voltage controllers, as well as developing methods for analyzing them. Based on the analysis, in the project we will propose solutions on how to implement new voltage regulation strategies in active distribution networks while avoiding risks of harmful interactions. The project thus contributes to improved resilience and future secure electricity supply."
-
 
 - title: "Validating a System Development Kit for edge federated learning"
   key: "VINNOVA2023-AT"
@@ -85,7 +83,7 @@
   period: "2021-2024"
   ongoing: 1  
   lead: "*André Teixeira* (PI), Alexander Medvedev, *Per Mattsson*, Stefan Engblom"
-  member: "Mohamed Abdalmoaty, Alain Govaert"
+  member: "Mohamed Abdalmoaty, Alain Govaert, Jingwei Dong"
   selected: 0
   summary: "Civil infrastructure networks (CIN) critically support modern society by distributing resources and protecting communities from hazards. Distributed control and monitoring of CIN to meet network demand under the network efficiency and cost constraints also poses physical security and cyber-security challenges. The resilience of civil infrastructure to disruptive events is the overarching topic of the present project. The project goal is to devise a coherent system theoretical platform for resilience analysis of CIN as well as resilience informed control of those. More specifically, a CIN is modeled as a cyber-physical system (CPS) whose physical layer is a transportation network equipped with actuator and sensor nodes interlaced with a computer network that implements control and monitoring of the physical layer. The scope is limited to the consideration of CPS with a tree-structured physical layer and covers a broad class of pipeline systems, i.e. networked systems transporting single or multi phase fluids. Failures, breakdowns, natural hazards, and cyberattacks are considered potential disruptive events. The project will be conducted along three main threads Mathematical modeling of CIM as CPS Model based assessment of resilience via operational indices Resilience informed control of CIM. The feasibility and efficacy of the developed mathematical models and algorithms will be evaluated with respect to urban water and wastewater networks."
   
@@ -95,7 +93,7 @@
   category: "SSF Future Research Leaders 7"
   period: "2020-2025"
   lead: "*André Teixeira* (PI)"
-  member: "Sribalaji Anand, Anh Tung Nguyen, Daniel Arnström, Ruslan Seifullaev"
+  member: "Sribalaji Anand, Anh Tung Nguyen, Lovisa Eriksson, Daniel Arnström, Ruslan Seifullaev"
   ongoing: 1  
   selected: 1
   summary: "Reports of cyber-attacks on digitally controlled systems supporting modern societies, such as Stuxnet, have shown their devastating consequences to safety and human lives, and shed light on the attackers modus operandi first learn the system, then tamper the visible information so the attack is undetected, and meanwhile have significant impact on the physical system. It is of the utmost importance to be able to detect and mitigate such malicious cyber-attacks. Unfortunately, existing methods in control engineering consider impact on the physical system and detectability separately, and thus fail to accurately tackle cyber attacks that strategically mix high impact with low detectability. On the other hand, approaches from secure control assume adversaries with perfect knowledge, resulting in overly pessimistic, unrealistic conclusions. The project will produce approaches to analyze and mitigate cyber-attacks on control systems, through the following actions 1) to construct novel sensitivity metrics that jointly consider the impact and detectability of attacks under uncertainty; 2) to design optimal anomaly detectors, controllers, and security measure deployment that minimize the novel sensitivity metrics, and thus increase security; 3) to experimentally validate the developed scientific approaches in testbeds and numerical benchmarks. The developed science and tools will induce a paradigm change in robust control and fault detection, and allow for more effective handling of anomalies."
