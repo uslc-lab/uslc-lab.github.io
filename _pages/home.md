@@ -15,6 +15,8 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Items -->
@@ -23,13 +25,16 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ECC2024_Outside.jpg" height="4" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DISC_2022_USLC.jpg" height="4" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Workshop_Outside.jpg" height="4" alt="Slide 2" />
+        </div> 
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DISC_2022_USLC.jpg" height="4" alt="Slide 3" />
         </div>  
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Angstrom_Outside.jpg" height="4" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Angstrom_Outside.jpg" height="4" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 5" />
         </div>          
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
