@@ -18,7 +18,7 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
         <li data-target="#carousel" data-slide-to="3"></li>
         <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
-
+ 
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
