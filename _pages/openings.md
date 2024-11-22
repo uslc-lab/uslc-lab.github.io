@@ -5,7 +5,7 @@ excerpt: "Openings"
 sitemap: false
 permalink: /openings
 ---
-
+ 
 # Open positions
 **At the moment, we do not have any open positions. We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects.**
 We do plan to PhD positions in late 2024 and early 2025 for our recently awarded projects, so stay tuned!
