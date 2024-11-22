@@ -23,11 +23,14 @@ Our vision is to develop methodologies for designing intelligent autonomous deci
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/DISC_2022_USLC.jpg" height="4" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/new_angstrom.jpg" class="img-responsive" height="40%" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Angstrom_Outside.jpg" class="img-responsive" height="40%" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/uppsala_photo.jpg" height="4" alt="Slide 3" />
-        </div>     
+        </div> 
+        <div class="item">
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ECC2024_Outside.jpg" height="4" alt="Slide 4" />
+        </div>   
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
