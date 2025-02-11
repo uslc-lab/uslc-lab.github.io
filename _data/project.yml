@@ -49,7 +49,7 @@
   period: "2023-2025"
   ongoing: 1
   lead: "Andreas Hellander (PI, Scaleout), *Salman Toor* (Scaleout), *André Teixeira*"
-  member: "Usama Zafar, 1 Postdoc"
+  member: "Usama Zafar, Javad Parsa"
   selected: 1
   summary: "The project´s primary aim is to increase our understanding of scalability and cyber security in federated machine learning specifically for cloud edge applications. We will also further develop and validate a system development kit for federated machine learning, FEDn, for large-scale applications in fleet intelligence."
 
