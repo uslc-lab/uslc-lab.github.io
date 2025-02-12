@@ -11,7 +11,6 @@ permalink: /openings
 
 [//]: # (We do plan to PhD positions in late 2024 and early 2025 for our recently awarded projects, so stay tuned!)
 
-
 **At the moment, we have the following positions open:**
 * **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/)
 
