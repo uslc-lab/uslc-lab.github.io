@@ -12,7 +12,7 @@ permalink: /openings
 
 
 **At the moment, we have the following positions open:**
-* **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/).
+* **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/)
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
