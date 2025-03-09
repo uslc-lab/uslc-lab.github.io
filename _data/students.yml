@@ -1,12 +1,36 @@
-- name: None at the moment.
+# - name: None at the moment.
+#   photo: rock.jpg
+#   info:
+#   email:
+#   number_educ:
+#   education1:
+#   education2:
+#   education3:
+#   education4:
+
+- name: Sam Farkhooi
   photo: rock.jpg
-  info:
-  email:
-  number_educ:
-  education1:
-  education2:
-  education3:
-  education4:
+  info: Master student, Spring 2025 - "Optimization-based real-time control of an inverted pendulum"
+  number_educ: 0
+  education1: 
+
+- name: Alessandro Gallo
+  photo: rock.jpg
+  info: Erasmus Master student, Spring 2025 - "Secure control systems"
+  number_educ: 1
+  education1: University Campus Bio-Medico of Rome, Italy
+
+- name: Alessia Rossi
+  photo: rock.jpg
+  info: Erasmus Master student, Spring 2025 - "Federated Learning"
+  number_educ: 1
+  education1: University Campus Bio-Medico of Rome, Italy
+
+- name: Fabio di Gregorio
+  photo: rock.jpg
+  info: Erasmus Master student, Spring 2025 - "Data-driven Safety Filters"
+  number_educ: 1
+  education1: University Campus Bio-Medico of Rome, Italy
 
 #- name: Andreas Hertzberg,
 #  photo: rock.jpg
