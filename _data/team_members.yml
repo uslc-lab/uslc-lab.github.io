@@ -137,15 +137,15 @@
 #  number_educ: 0
 #  education1: 
 
-- name: Fatih Emre Tosun
-  photo: emre.jpg
-  info: Ph.D. student, started October 2019
-  short_bio: Fatih Emre Tosun received the B.S. and M.S. degrees in mechatronics engineering from Sabancı University, Istanbul, Turkey, in 2015 and 2019, respectively. He is currently working toward the Ph.D. degree in electrical engineering with Uppsala University, Uppsala, Sweden.,He conducted research in system design and control for physical human–robot interaction and series elastic actuation. His current research interests include secure and resilient control systems.
-  topics: 
-  email: fatihemre.tosun@angstrom.uu.se
-  website: https://www.uu.se/en/contact-and-organisation/staff?query=N19-1870
-  number_educ: 0
-  education1: 
+# - name: Fatih Emre Tosun
+#   photo: emre.jpg
+#   info: Ph.D. student, started October 2019
+#   short_bio: Fatih Emre Tosun received the B.S. and M.S. degrees in mechatronics engineering from Sabancı University, Istanbul, Turkey, in 2015 and 2019, respectively. He is currently working toward the Ph.D. degree in electrical engineering with Uppsala University, Uppsala, Sweden.,He conducted research in system design and control for physical human–robot interaction and series elastic actuation. His current research interests include secure and resilient control systems.
+#   topics: 
+#   email: fatihemre.tosun@angstrom.uu.se
+#   website: https://www.uu.se/en/contact-and-organisation/staff?query=N19-1870
+#   number_educ: 0
+#   education1: 
 
 - name: Anh Tung Nguyen
   photo: Tung1.jpg
