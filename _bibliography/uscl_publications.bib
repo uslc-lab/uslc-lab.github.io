@@ -6,15 +6,27 @@
 
 %%%%%%%%%%%%%%%%% Under Review
 
+@article{Zafar_TDSC2025,
+      title={Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework}, 
+      journal = {IEEE Trans. Dependable and Secure Computing (Submitted)},
+      author={Usama Zafar and André M. H. Teixeira and Salman Toor},
+      abstract={Federated Learning (FL) enables collaborative model training across decentralized devices without sharing raw data, but it remains vulnerable to poisoning attacks that compromise model integrity. Existing defenses often rely on external datasets or predefined heuristics (e.g. number of malicious clients), limiting their effectiveness and scalability. To address these limitations, we propose a privacy-preserving defense framework that leverages a Conditional Generative Adversarial Network (cGAN) to generate synthetic data at the server for authenticating client updates, eliminating the need for external datasets. Our framework is scalable, adaptive, and seamlessly integrates into FL workflows. Extensive experiments on benchmark datasets demonstrate its robust performance against a variety of poisoning attacks, achieving high True Positive Rate (TPR) and True Negative Rate (TNR) of malicious and benign clients, respectively, while maintaining model accuracy. The proposed framework offers a practical and effective solution for securing federated learning systems.},
+      year={2025},
+      arxiv={2503.20884},
+      published={0},
+      tag={10003}
+}
+
 @article{Ramos_Automatica2024,
 	author = {G. Ramos and D. Silvestre and A. M. H. Teixeira and S. Pequito},
-	journal = {Automatica (Submitted)},
+	journal = {(Submitted)},
 	number = {},
 	pages = {},
 	title = {Average consensus with resilience and privacy guarantees without losing accuracy},
-  abstract = {},
+    abstract = {},
 	volume = {},
 	year = {},
+	arxiv={2503.19453},
 	published={0},
 	tag = {10006}
 }
@@ -40,10 +52,21 @@
 
 %%%%%%%%%%% Up: under review
 
+@inproceedings{Nguyen_NecSys2025,
+	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
+	title = {Security Metrics for Uncertain Interconnected Systems under Stealthy Data Injection Attacks},
+  booktitle = {10th IFAC Conference on Networked Systems (NecSys) (Accepted)},
+  abstract={},
+  arxiv={},
+	published={1},
+	year={2025},
+	tag={10005}
+}
+
 @inproceedings{Arnstrom_L4DC2025,
 	author = {D. Arnstr\"{o}m and A. M. H. Teixeira},
 	title = {Data-Driven and Stealthy Deactivation of Safety Filters},
-  booktitle = {Annual Learning for Dynamics & Control Conference (L4DC) 2025 (Accepted)},
+  booktitle = {Annual Learning for Dynamics & Control Conference (L4DC) (Accepted)},
   abstract={Safety filters ensure that control actions that are executed are always safe, no matter the controller in question. Previous work has proposed a simple and stealthy false-data injection attack for deactivating such safety filters. This attack injects false sensor measurements to bias state estimates toward the interior of a safety region, making the safety filter accept unsafe control actions. The attack does, however, require the adversary to know the dynamics of the system, the safety region used in the safety filter, and the observer gain. In this work we relax these requirements and show how a similar data-injection attack can be performed when the adversary only observes the input and output of the observer that is used by the safety filter, without any a priori knowledge about the system dynamics, safety region, or observer gain. In particular, the adversary uses the observed data to identify a state-space model that describes the observer dynamics, and then approximates a safety region in the identified embedding. We exemplify the data-driven attack on an inverted pendulum, where we show how the attack can make the system leave a safe set, even when a safety filter is supposed to stop this from happening.},
   arxiv={2412.01346},
 	published={1},
@@ -216,7 +239,7 @@ doi={10.1109/CDC56724.2024.10886808},
 	tag={10004}
 }
 
-@inproceedings{Tosun_SP024,
+@inproceedings{Tosun_SAFEPROCESS2024,
 	author = {F. E. Tosun and A. M. H. Teixeira and A. Ahlén and S. Dey},
 	booktitle = {12th IFAC Symposium on Fault Detection, Supervision and Safety for Technical Processes},
 	title = {Kullback-Leibler Divergence-Based Detector Design Against Bias Injection Attacks in an Artificial Pancreas System},
