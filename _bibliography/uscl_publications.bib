@@ -87,10 +87,12 @@ Multiple Model Filtering},
 	taga = {10001}
 }
 
-@article{Li_TAC2024,
+@article{Li_TAC2025,
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
 	journal = {IEEE Trans. Automatic Control (Submitted)},
-	title = {Secure Filtering against Spatio-Temporal False Data under Asynchronous Sampling},
+	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
+  abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
+  arxiv = {2411.19765},
 	published={0},
 	tag = {}
 }
