@@ -1,7 +1,7 @@
 ---
-title: "Secure Learning and Control Lab - Home"
+title: "Robust Decision Making and Learning Lab - Home"
 layout: homelay
-excerpt: "Secure Learning and Control Lab at Uppsala University."
+excerpt: "Robust Decision Making and Learning Lab at Australian National University."
 sitemap: false
 permalink: /
 ---
