@@ -6,6 +6,17 @@
 
 # - name: Oscar Larsson, Spring 2022 - "Topic".
 
+- name: Sam Farkhooi,
+  info: Master student, Spring 2025 - "Optimization-based real-time control of an inverted pendulum"
+
+- name: Alessandro Gallo,
+  info: Erasmus Master student, Spring 2025 - "Secure Control Systems". University Campus Bio-Medico of Rome, Italy
+
+- name: Alessia Rossi,
+  info: Erasmus Master student, Spring 2025 - "Federated Learning". University Campus Bio-Medico of Rome, Italy
+
+- name: Fabio di Gregorio,
+  info: Erasmus Master student, Spring 2025 - "Data-driven Attacks against Safety Filters". University Campus Bio-Medico of Rome, Italy
 
 - name: Andreas Hertzberg,
   info: Master student, Spring 2024 - ["Centrality Measures-Based Security Allocation in Networked Control Systems"](https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-534384)

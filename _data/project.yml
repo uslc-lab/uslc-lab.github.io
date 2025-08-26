@@ -1,3 +1,14 @@
+- title: "SecReCy4You - Young researcher network for security and resilience of critical cyber-physical systems"
+  key: "MSCA-DN-2024-AT"
+  agency: "European Commission"
+  category: "EU MSCA Doctoral Network"
+  period: "2025-2029"
+  ongoing: 1
+  lead: "*André Teixeira* (PI-UU), together with PIs from 7 other EU universities"
+  member: "TBA"
+  selected: 1
+  summary: "This DN intends to bridge the gap between theory and practice for secure and resilient cyber-physical systems by tackling the problem at its root. It brings together domain experts from control theory, computer science, and major industrial stakeholders to boost the security and resilience of control systems by outlining a sustainable program for training the next generation of innovators in this critical domain. It pursues a holistic approach that combines specialized training (in both academia and industry), while identifying challenging characteristics and security flaws in existing legacy systems, and pinpointing design requirements and solutions in future (networked) control systems."
+
 - title: "Prob4Sec - Probabilistic Methods for Secure Learning and Control"
   key: "VR2023-AT"
   agency: "Swedish Research Council (Vetenskapsrådet)"
