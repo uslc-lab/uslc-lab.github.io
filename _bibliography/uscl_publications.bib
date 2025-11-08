@@ -6,73 +6,88 @@
 
 %%%%%%%%%%%%%%%%% Under Review
 
-@inproceedings{Zhang_CDC2025,
-	author = {Kangkang Zhang and Andreas Kasis and A. M. H. Teixeira and Bin Jiang},
-	title = {Vulnerability Analysis against Stealthy Integrity Attacks for Nonlinear Systems},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
-  abstract={},
-  arxiv={},
-	published={1},
-	year={2025},
-	tag={}
-}
-
-@inproceedings{Nguyen_CDC2025,
-	author = {A. T. Nguyen and Q. Zhu and A. M. H. Teixeira},
-	title = {Bilateral Cognitive Security Games in Networked Control Systems under Stealthy Injection Attacks},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
-  abstract={},
-  arxiv={2505.01232},
-	published={1},
-	year={2025},
-	tag={}
-}
-
-@inproceedings{Eriksson_CDC2025,
-	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
-	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
-  booktitle = {(In preparation)},
-  abstract={},
-  arxiv={},
-	published={0},
-	year={},
-	tag={}
-}
-
-@inproceedings{Dong_CDC2025,
-	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
-	title = {Unification of output-to-output and input-to-input gains for anomaly detection and their fundamental limitations},
-  booktitle = {(In preparation)},
-  abstract={},
-  arxiv={},
-	published={0},
-	year={},
-	tag={}
-}
-
-@article{Zafar_TDSC2025,
-      title={Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework}, 
-      journal = {(Submitted)},
-      author={Usama Zafar and André M. H. Teixeira and Salman Toor},
-      abstract={Federated Learning (FL) enables collaborative model training across decentralized devices without sharing raw data, but it remains vulnerable to poisoning attacks that compromise model integrity. Existing defenses often rely on external datasets or predefined heuristics (e.g. number of malicious clients), limiting their effectiveness and scalability. To address these limitations, we propose a privacy-preserving defense framework that leverages a Conditional Generative Adversarial Network (cGAN) to generate synthetic data at the server for authenticating client updates, eliminating the need for external datasets. Our framework is scalable, adaptive, and seamlessly integrates into FL workflows. Extensive experiments on benchmark datasets demonstrate its robust performance against a variety of poisoning attacks, achieving high True Positive Rate (TPR) and True Negative Rate (TNR) of malicious and benign clients, respectively, while maintaining model accuracy. The proposed framework offers a practical and effective solution for securing federated learning systems.},
-      year={},
-      arxiv={2503.20884},
-      published={0},
-      tag={10003}
-}
-
-@article{Ramos_Automatica2024,
-	author = {G. Ramos and D. Silvestre and A. M. H. Teixeira and S. Pequito},
-	journal = {(In preparation)},
+@article{Tosun_EJC2025,
+	author = {F. E. Tosun and A. M. H. Teixeira and J. Dong and A. Ahlén and S. Dey},
+	journal = {European Journal of Control (Submitted)},
+	volume = {},
 	number = {},
 	pages = {},
-	title = {Average consensus with resilience and privacy guarantees without losing accuracy},
-    abstract = {},
+	title = {Kullback-Leibler Divergence-Based Filter Design Against Bias Injection Attacks},
+  abstract = {Cyber-physical systems (CPS) are increasingly deployed in safety-critical applications, making them prime targets for adversarial attacks. Timely detection and mitigation of such attacks are imperative for the safe operation of CPS. This paper proposes a novel
+residual generator design method for enhanced detection of bias injection attacks (BIAs) in linear CPS driven by white Gaussian noise. Specifically, we define a flexible attack impact metric based on the weighted norm of the injected bias and a detectability metric based on the Kullback-Leibler divergence. Using these two metrics, we characterize the worst-case BIAs as those that minimize detectability while maintaining a specified minimum impact. For residual generation filter synthesis, we formulate two optimization problems: one for maximizing the detectability of worst-case BIAs at the attack onset and the other at steady state. Since these two problems are inherently conflicting, we employ the ϵ-constraint method to obtain Pareto-optimal solutions that balance transient and steady-state detectability. The effectiveness of the proposed filter design method is demonstrated through numerical simulations, with a comparison against two state-of-the-art benchmarks: the Kalman filter and the H_/H2 filter.},
+	year = {},
+	published={0},
+	tag = {10002}
+}
+
+
+@article{Arnstrom_SCL2025,
+	author = {D. Arnstr\"{o}m and A. M. H. Teixeira},
+	journal = {System \& Control Letters (Submitted)},
+	volume = {},
+	number = {},
+	pages = {},
+	title = {Efficiently Computing the Cyclic Output-to-Output Gain},
+  abstract = {The cyclic output-to-output gain is a security metric for control systems. Commonly, it is computed by solving a semidefinite program, which scales badly and inhibits its use for large-scale systems. We propose a method for computing the cyclic output-to-output gain using Hamiltonian matrices, similar to existing methods for the H∞-norm. In contrast to existing methods for the H∞-norm, the proposed method considers generalized singular values rather than regular singular values. Moreover, to ensure that the Hamiltonian matrices exist, we introduce a regularized version of the cyclic output-to-output gain. Through numerical experiments, we show that the proposed method is more efficient, scalable, and reliable than semi-definite programming approaches.},
+	year = {},
+	published={0},
+	tag = {10005}
+}
+
+
+@inproceedings{Eriksson_ECC025,
+	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
+	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
+  	booktitle = {ECC (Submitted)},
+	published={0},
+	year={},
+	tag={}
+}
+
+@inproceedings{Dong_ACC2025,
+	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
+	title = {Fundamental limitations of sensitivity metrics for anomaly impact analysis in LTI systems},
+	booktitle = {ACC (Submitted)},
+	published={0},
+	year={},
+	tag={10005}
+}
+
+@inproceedings{Seifullaev_IFACWC2025,
+	author = {R. Seifullaev and A. M. H. Teixeira},
+	title = {Impact analysis of hidden faults in nonlinear control systems
+      using output-to-output gain},
+	booktitle = {IFAC WC (Submitted)},
+	published={0},
+	year={},
+	tag={10005}
+}
+
+@article{Ramos_TAC2025,
+	author = {G. Ramos and D. Silvestre and A. M. H. Teixeira and S. Pequito},
+	journal = {IEEE Trans. Automatic Control (Submitted)},
+	number = {},
+	pages = {},
+	title = {Accurate Average Consensus with Joint Resilience and Privacy Guarantees},
+    	abstract = {This paper addresses achieving private and resilient average consensus among discrete-time networked agents without compromising accuracy. While state-of-the-art solutions entail explicit trade-offs between privacy, resilience, and accuracy, we propose a methodology that avoids such compromises. Our approach enables non-faulty agents to reach consensus in the presence of faulty agents while keeping initial states private through strategic noise injection and removal. Unlike previous methods, our approach avoids computing left-eigenvectors, eliminating numerical inaccuracies, and achieves polynomial time complexity that scales better than existing methods requiring network augmentation. Additionally, our method provides the strongest privacy protection with zero information leakage while maintaining exact consensus accuracy, unlike approaches that trade accuracy for privacy. We illustrate the method with examples covering diverse faulty agent scenarios.},
 	volume = {},
 	year = {},
 	arxiv={2503.19453},
 	published={0},
 	tag = {10006}
+}
+
+@article{Gallo_TAC2025,
+	author = {A. Gallo and A. T. Nguyen and G. Oliva and A. M. H. Teixeira},
+	journal = {IEEE Trans. Automatic Control (Submitted)},
+	number = {},
+	pages = {},
+	title = {On the Boundedness of the Solution to the Output-to-output l2-gain Strategic Stealthy Attacks Problem},
+    abstract = {This paper investigates the output-to-output l2-gain problem in the context of strategic stealthy attacks on networked control systems. We derive necessary and sufficient conditions for the boundedness of the gain by leveraging duality, dissipativity, and applying the semidefinite version of the Farkas Lemma. The analysis yields a rigorous characterization of attack feasibility: we equivalently formulate the problem as a definite programming problem and we show that it admits a solution if and only if the non-minimum phase zeros of the detection subsystem are shared with the performance subsystem. This condition enables the precise assessment of an attacker’s ability to induce maximal disruption while evading detection. The proposed framework offers both theoretical insight and a tractable computational formulation that facilitates practical vulnerability analysis. The obtained results are validated through numerical examples.},
+	volume = {},
+	year = {},
+	published={0},
+	tag = {10005}
 }
 
 @article{Nguyen_TAC2025,
@@ -81,7 +96,7 @@
 	title = {Scalable and Optimal Security Allocation in Networks against Stealthy Injection Attacks},
 	abstract={This paper addresses the security allocation problem in a networked control system under stealthy injection attacks. The networked system is comprised of interconnected subsystems which are represented by nodes in a digraph. An adversary compromises the system by injecting false data into several nodes with the aim of maximally disrupting the performance of the network while remaining stealthy to a defender. To minimize the impact of such stealthy attacks, the defender, with limited knowledge about attack policies and attack resources, allocates several sensors on nodes to impose the stealthiness constraint governing the attack policy. We provide an optimal security allocation algorithm to minimize the expected attack impact on the entire network. Furthermore, under a suitable local control design, the proposed security allocation algorithm can be executed in a scalable way. Finally, the obtained results are validated through several numerical examples.},
 	published={0},
-  arxiv={2411.15319},
+  	arxiv={2411.15319},
 	tag = {10005},
 	taga = {10001}
 }
@@ -96,13 +111,59 @@
 	tag = {}
 }
 
+@article{Dong_TCST2025,
+	author = {Jingwei Dong and Mahdieh S. Sadabadi and Per Mattsson and  Andr\'{e} Teixeira},
+	journal = {IEEE Trans. Control System Technology (Submitted)},
+	volume = {},
+	number = {},
+	pages = {},
+	title = {Distributed Multiple Fault Detection and Estimation in DC Microgrids with Unknown Power Loads},
+  abstract = {This paper proposes a distributed diagnosis scheme to detect and estimate actuator and power line faults in DC microgrids subject to unknown power loads and stochastic noise. To address actuator faults, we design a fault estimation filter whose parameters are determined through a tractable optimization problem to achieve fault estimation, decoupling from power line faults, and robustness against noise. In contrast, the estimation of power line faults poses greater challenges due to the inherent coupling between fault currents and unknown power loads, which becomes ill-posed when the underlying system is insufficiently excited. To the best of our knowledge, this is the first study to address this critical yet underexplored issue. Our solution introduces a novel differentiate-before-estimate strategy. A set of diagnostic rules based on the temporal characteristics of a constructed residual is developed to distinguish load changes from line faults. Once a power line fault is detected, a regularized least-squares method is activated to estimate the fault currents, for which we further derive an upper bound on the estimation error. Finally, comprehensive simulation results validate the effectiveness of the proposed methods.},
+	year = {},
+	published={0},
+	tag = {}
+}
+
+@article{Zafar_TDSC2025,
+      title={Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework}, 
+      journal = {(In preparation)},
+      author={Usama Zafar and André M. H. Teixeira and Salman Toor},
+      abstract={Federated Learning (FL) enables collaborative model training across decentralized devices without sharing raw data, but it remains vulnerable to poisoning attacks that compromise model integrity. Existing defenses often rely on external datasets or predefined heuristics (e.g. number of malicious clients), limiting their effectiveness and scalability. To address these limitations, we propose a privacy-preserving defense framework that leverages a Conditional Generative Adversarial Network (cGAN) to generate synthetic data at the server for authenticating client updates, eliminating the need for external datasets. Our framework is scalable, adaptive, and seamlessly integrates into FL workflows. Extensive experiments on benchmark datasets demonstrate its robust performance against a variety of poisoning attacks, achieving high True Positive Rate (TPR) and True Negative Rate (TNR) of malicious and benign clients, respectively, while maintaining model accuracy. The proposed framework offers a practical and effective solution for securing federated learning systems.},
+      year={},
+      arxiv={2503.20884},
+      published={0},
+      tag={10003}
+}
+
 %%%%%%%%%%% Up: under review
+
+@inproceedings{Zhang_CDC2025,
+	author = {Kangkang Zhang and Andreas Kasis and A. M. H. Teixeira and Bin Jiang},
+	title = {Vulnerability Analysis against Stealthy Integrity Attacks for Nonlinear Systems},
+  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
+  abstract={},
+  arxiv={},
+	published={1},
+	year={2025},
+	tag={10005}
+}
+
+@inproceedings{Nguyen_CDC2025,
+	author = {A. T. Nguyen and Q. Zhu and A. M. H. Teixeira},
+	title = {Bilateral Cognitive Security Games in Networked Control Systems under Stealthy Injection Attacks},
+  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
+  abstract={},
+  arxiv={2505.01232},
+	published={1},
+	year={2025},
+	tag={}
+}
 
 @inproceedings{Nguyen_NecSys2025,
 	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
 	title = {Security Metrics for Uncertain Interconnected Systems under Stealthy Data Injection Attacks},
   booktitle = {10th IFAC Conference on Networked Systems (NecSys)},
-  abstract={},
+  abstract={This paper quantifies the security of uncertain interconnected systems under stealthy data injection attacks. In particular, we consider a large-scale system composed of a certain subsystem interconnected with an uncertain subsystem, where only the input-output channels are accessible. An adversary is assumed to inject false data to maximize the performance loss of the certain subsystem while remaining undetected. By abstracting the uncertain subsystem as a class of admissible systems satisfying an L2 gain constraint, the worst-case performance loss is obtained as the solution to a convex semi-definite program depending only on the certain subsystem dynamics and such an L2 gain constraint. This solution is proved to serve as an upper bound for the actual worst-case performance loss when the model of the entire system is fully certain. The results are demonstrated through numerical simulations of the power transmission grid spanning Sweden and Northern Denmark.},
   arxiv={2505.01233},
 	published={1},
 	year={2025},
