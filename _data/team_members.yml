@@ -10,18 +10,18 @@
   education3:
   education:
 
-- name: Sergio Pequito
-  photo: Sergio.png
-  info: Associate Professor
-  short_bio: Sérgio Pequito is an associate professor in automatic control in the Department of Information Technology,  at Uppsala University. Pequito's research consists of understanding the global qualitative behavior of large-scale systems from their structural or parametric descriptions and provides a rigorous framework for the design, analysis, optimization, and control of large-scale systems. His interests span neuroscience and biomedicine, where dynamical systems and control theoretic tools can be leveraged to develop new analysis tools for brain dynamics toward effective personalized medicine and improve bidirectional interfaces. Pequito was awarded the best student paper finalist in the 48th IEEE Conference on Decision and Control (2009) and the 2016 O. Hugo Schuck Award in the Theory Category by the American Automatic Control Council.
-  topics:
-  email: sergio.pequito@it.uu.se
-  website: https://www.spequito.com/
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:  
+#- name: Sergio Pequito
+#  photo: Sergio.png
+#  info: Associate Professor
+#  short_bio: Sérgio Pequito is an associate professor in automatic control in the Department of Information Technology,  at Uppsala University. Pequito's research consists of understanding the global qualitative behavior of large-scale systems from their structural or parametric descriptions and provides a rigorous framework for the design, analysis, optimization, and control of large-scale systems. His interests span neuroscience and biomedicine, where dynamical systems and control theoretic tools can be leveraged to develop new analysis tools for brain dynamics toward effective personalized medicine and improve bidirectional interfaces. Pequito was awarded the best student paper finalist in the 48th IEEE Conference on Decision and Control (2009) and the 2016 O. Hugo Schuck Award in the Theory Category by the American Automatic Control Council.
+#  topics:
+#  email: sergio.pequito@it.uu.se
+#  website: https://www.spequito.com/
+#  number_educ: 0
+#  education1: 
+#  education2:
+#  education3:
+#  education4:  
   
 - name: Salman Toor
   photo: Toor.png
@@ -75,18 +75,6 @@
   education3:
   education4:
 
-- name: Daniel Arnström
-  photo: daniel.jpeg
-  info: Postdoc, started August 2023
-  short_bio: Daniel Arnström is a Postdoc at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the Ph.D in automatic control from Linköping University, Sweden, in 2023. Previously, he had received M.Sc and Licentiate degrees from Linköping University in 2018 and 2021, respectively. At the 22nd World Congress of the International Federation of Automatic Control (IFAC) he was awarded the Young Author Prize (YAP) for his work on embedded optimization solvers. His research interests include reliable embedded optimization and reliable real-time Model Predictive Control (MPC); for reliability, his research interests include computational, safety, and security aspects.
-  topic: 
-  email: daniel.arnstrom@it.uu.se
-  website: https://darnstrom.github.io/
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:
 
 - name: Alain Govaert
   photo: Alain.jpg
@@ -217,3 +205,16 @@
   number_educ: 0
   education1:  
        
+
+  # - name: Daniel Arnström
+  # photo: daniel.jpeg
+  # info: Postdoc, started August 2023
+  # short_bio: Daniel Arnström is a Postdoc at the Division of Systems and Control, Department of Information Technology, Uppsala University, Sweden. He received the Ph.D in automatic control from Linköping University, Sweden, in 2023. Previously, he had received M.Sc and Licentiate degrees from Linköping University in 2018 and 2021, respectively. At the 22nd World Congress of the International Federation of Automatic Control (IFAC) he was awarded the Young Author Prize (YAP) for his work on embedded optimization solvers. His research interests include reliable embedded optimization and reliable real-time Model Predictive Control (MPC); for reliability, his research interests include computational, safety, and security aspects.
+  # topic: 
+  # email: daniel.arnstrom@it.uu.se
+  # website: https://darnstrom.github.io/
+  # number_educ: 0
+  # education1: 
+  # education2:
+  # education3:
+  # education4:

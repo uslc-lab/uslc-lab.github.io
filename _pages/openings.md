@@ -7,24 +7,29 @@ permalink: /openings
 ---
  
 # Open positions
-[//]: # (**At the moment, we do not have any open positions. We do plan to PhD positions in late 2023 and early 2024 for our recently awarded projects.**)
+At the moment, we do not have any open positions.
 
-[//]: # (We do plan to PhD positions in late 2024 and early 2025 for our recently awarded projects, so stay tuned!)
+**We do plan to a PhD position in early 2025 for our EU MSCA Doctoral Network, so stay tuned!**
 
-**At the moment, we have the following positions open:**
-* **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/)
+[//]: # (**At the moment, we have the following positions open:**)
+[//]: # (* **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/))
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
 
+
+**Note:** Sometimes we do not have funding for additional PhD and postdoc positions. In those periods, we can only welcome you if you have a fellowship or grant. 
+
+**Interested in applying to grant?** Take a look at the [VR International Postdoc grant](https://www.vr.se/english/applying-for-funding/calls/2021-11-17-international-post-doc-grant-within-natural-and-engineering-sciences-spring-call.html) or the [Marie Curie Postdoc fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships). **Get in touch if you would like to apply through our group!**
+
+
+## Local thesis projects:
 We are always looking for new group members with passion, talent, and grit!
 
 You will have the chance to work on basic and applied research at the intersection of cybersecurity, control theory, and machine learning. 
 
 You will take an acive role in determining the important and interesting research questions to tackle, creating novel scientific methodologies and tailoring them for specific practical applications, developing new adversary models and defense mechanisms, and evaluating the proposed methods on experimental setups.
 
-
-**Note: Sometimes we do not have funding for additional PhD and postdoc positions. In those periods, we can only welcome you if you have a fellowship. We would be happy to support you after you apply to our group. Take a look at the [VR International Postdoc grant](https://www.vr.se/english/applying-for-funding/calls/2021-11-17-international-post-doc-grant-within-natural-and-engineering-sciences-spring-call.html) or the [Marie Curie Postdoc fellowship](https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships).**
 
 
 ### Past open positions

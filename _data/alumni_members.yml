@@ -6,6 +6,16 @@
 #   info_current: 
 #   website:
 
+
+- name: Daniel Arnström
+  photo: daniel.jpeg
+  position: Postdoc
+  duration: 2023 - 2025
+  ORCID: 0000-0003-0970-0620
+  info_current: Ericsson Research
+  website: https://darnstrom.github.io/
+
+
 - name: Fatih Emre Tosun
   photo: emre.jpg
   position: Ph.D. student
