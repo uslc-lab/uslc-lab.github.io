@@ -1,3 +1,15 @@
+- title: "Federated Reinforcement and Imitation Learning for Safe and Scalable Autonomous Driving"
+  key: "WASP-IPhD-2026-AT"
+  agency: "WASP"
+  category: "WASP Industrial PhD project grant"
+  period: "2026-2030"
+  ongoing: 1
+  lead: "*André Teixeira* (PI-UU), together with Mina Alibeigi (PI-Zenseact)"
+  member: "Adrian Gheorghiu"
+  selected: 1
+  summary: "This project introduces a Federated Reinforcement and Imitation Learning (FRL+FIL) framework for safe, scalable, and privacy-preserving training of planning policies in (semi-)autonomous fleets. The approach enables vehicles to collaboratively learn planning policies without sharing raw data, thus preserving privacy while exploiting the diversity of large fleets. Planning policies will be bootstrapped from expert demonstrations and refined locally through shielded reinforcement learning, with runtime safety mechanisms—such as coarse planners and learned safety filters—ensuring safe exploration. Model updates will be aggregated using robust federated techniques that tolerate faulty or malicious clients with low-quality driving behaviors and support personalization for region-specific adaptations. The framework will be validated on both simulated and real-world driving datasets, paving the way for the industrial deployment of next-generation AD/ADAS systems that are safer, more robust, and human-like in their driving behavior."
+
+
 - title: "SecReCy4You - Young researcher network for security and resilience of critical cyber-physical systems"
   key: "MSCA-DN-2024-AT"
   agency: "European Commission"
@@ -92,7 +104,7 @@
   agency: "Swedish Research Council (Vetenskapsrådet)"
   category: "VR Project Grant in Societal Security"
   period: "2021-2024"
-  ongoing: 1  
+  ongoing: 0  
   lead: "*André Teixeira* (PI), Alexander Medvedev, *Per Mattsson*, Stefan Engblom"
   member: "Mohamed Abdalmoaty, Alain Govaert, Jingwei Dong"
   selected: 0
@@ -117,7 +129,7 @@
   lead: "*André Teixeira* (PI)"
   member: "Sribalaji Anand, Fatih Emre Tosun"
   ongoing: 0  
-  selected: 0
+  selected: 1
   summary: "Reports on cyber-attacks, such as Stuxnet, have shown their devastating consequences on digitally controlled systems supporting modern societies. It is therefore of the utmost importance for control systems to be able to early detect and mitigate malicious cyber-attacks, which aim at having a significant impact on the system while remaining undetected. Unfortunately, existing techniques in control theory consider impact and detectability separately, and thus fail to accurately tackle malicious cyber-attacks. The aim of this project is to develop novel security metrics that jointly consider the impact and detectability of attacks, and that support the analysis and design of anomaly detectors and controllers for improved security and resilience."
 
 - title: "LifeSec - Don't Hack my Body"

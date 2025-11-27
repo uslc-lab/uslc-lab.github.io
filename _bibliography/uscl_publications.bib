@@ -6,19 +6,18 @@
 
 %%%%%%%%%%%%%%%%% Under Review
 
-@article{Tosun_EJC2025,
-	author = {F. E. Tosun and A. M. H. Teixeira and J. Dong and A. Ahlén and S. Dey},
-	journal = {European Journal of Control (Submitted)},
-	volume = {},
-	number = {},
-	pages = {},
-	title = {Kullback-Leibler Divergence-Based Filter Design Against Bias Injection Attacks},
-  abstract = {Cyber-physical systems (CPS) are increasingly deployed in safety-critical applications, making them prime targets for adversarial attacks. Timely detection and mitigation of such attacks are imperative for the safe operation of CPS. This paper proposes a novel
-residual generator design method for enhanced detection of bias injection attacks (BIAs) in linear CPS driven by white Gaussian noise. Specifically, we define a flexible attack impact metric based on the weighted norm of the injected bias and a detectability metric based on the Kullback-Leibler divergence. Using these two metrics, we characterize the worst-case BIAs as those that minimize detectability while maintaining a specified minimum impact. For residual generation filter synthesis, we formulate two optimization problems: one for maximizing the detectability of worst-case BIAs at the attack onset and the other at steady state. Since these two problems are inherently conflicting, we employ the ϵ-constraint method to obtain Pareto-optimal solutions that balance transient and steady-state detectability. The effectiveness of the proposed filter design method is demonstrated through numerical simulations, with a comparison against two state-of-the-art benchmarks: the Kalman filter and the H_/H2 filter.},
-	year = {},
+
+
+@article{Anand_Review2026,
+	author = {S. C. Anand and A. T. Nguyen  and A. M. H. Teixeira and H. Sandberg and K. H. Johansson},
+	journal = {Annual Reviews in Control (Submitted)},
+	title = {Quantifying Security for Networked Control Systems: A Review},
+	abstract={Networked Control Systems (NCSs) are integral in critical infrastructures such as power grids, transportation networks, and production systems. Ensuring the resilient operation of these large-scale NCSs against cyber-attacks is crucial for societal well-being. Over the past two decades, extensive research has been focused on developing metrics to quantify the vulnerabilities of NCSs against attacks. Once the vulnerabilities are quantified, mitigation strategies can be employed to enhance system resilience. This article provides a comprehensive overview of methods developed for assessing NCS vulnerabilities and the corresponding mitigation strategies. Furthermore, we emphasize the importance of probabilistic risk metrics to model vulnerabilities under adversaries with imperfect process knowledge. The article concludes by outlining promising directions for future research.},
 	published={0},
-	tag = {10002}
+  	arxiv={2510.18645},
+	tag = {10001}
 }
+
 
 
 @article{Arnstrom_SCL2025,
@@ -35,7 +34,7 @@ residual generator design method for enhanced detection of bias injection attack
 }
 
 
-@inproceedings{Eriksson_ECC025,
+@inproceedings{Eriksson_ECC026,
 	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
 	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
   	booktitle = {ECC (Submitted)},
@@ -44,7 +43,7 @@ residual generator design method for enhanced detection of bias injection attack
 	tag={}
 }
 
-@inproceedings{Dong_ACC2025,
+@inproceedings{Dong_ACC2026,
 	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
 	title = {Fundamental limitations of sensitivity metrics for anomaly impact analysis in LTI systems},
 	booktitle = {ACC (Submitted)},
@@ -53,11 +52,20 @@ residual generator design method for enhanced detection of bias injection attack
 	tag={10005}
 }
 
-@inproceedings{Seifullaev_IFACWC2025,
+@inproceedings{Seifullaev_IFACWC2026,
 	author = {R. Seifullaev and A. M. H. Teixeira},
 	title = {Impact analysis of hidden faults in nonlinear control systems
       using output-to-output gain},
 	booktitle = {IFAC WC (Submitted)},
+	published={0},
+	year={},
+	tag={10005}
+}
+
+@inproceedings{Seifullaev_ECC2026,
+	author = {R. Seifullaev and A. M. H. Teixeira},
+	title = {An H2-norm approach to performance analysis of networked control systems under multiplicative routing transformations},
+	booktitle = {European Control Conference (Submitted)},
 	published={0},
 	year={},
 	tag={10005}
@@ -88,17 +96,6 @@ residual generator design method for enhanced detection of bias injection attack
 	year = {},
 	published={0},
 	tag = {10005}
-}
-
-@article{Nguyen_TAC2025,
-	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Trans. Automatic Control (Submitted)},
-	title = {Scalable and Optimal Security Allocation in Networks against Stealthy Injection Attacks},
-	abstract={This paper addresses the security allocation problem in a networked control system under stealthy injection attacks. The networked system is comprised of interconnected subsystems which are represented by nodes in a digraph. An adversary compromises the system by injecting false data into several nodes with the aim of maximally disrupting the performance of the network while remaining stealthy to a defender. To minimize the impact of such stealthy attacks, the defender, with limited knowledge about attack policies and attack resources, allocates several sensors on nodes to impose the stealthiness constraint governing the attack policy. We provide an optimal security allocation algorithm to minimize the expected attack impact on the entire network. Furthermore, under a suitable local control design, the proposed security allocation algorithm can be executed in a scalable way. Finally, the obtained results are validated through several numerical examples.},
-	published={0},
-  	arxiv={2411.15319},
-	tag = {10005},
-	taga = {10001}
 }
 
 @article{Li_TAC2025,
@@ -135,7 +132,44 @@ residual generator design method for enhanced detection of bias injection attack
       tag={10003}
 }
 
+@inproceedings{Parsa_ICLR2026,
+	author = {J. Parsa and A. H. Daghestani and A. M. H. Teixeira and M. Johansson},
+	title = {Byzantine-Robust Federated Learning with Learnable Aggregation Weights},
+  	booktitle = {ICLR 2026 (Submitted)},
+  	abstract={Federated Learning (FL) enables clients to collaboratively train a global model without sharing their private data. However, the presence of malicious (Byzantine) clients poses significant challenges to the robustness of FL, particularly when data distributions across clients are heterogeneous. In this paper, we propose a novel Byzantine-robust FL optimization problem that incorporates adaptive weighting into the aggregation process. Unlike conventional approaches, our formulation treats aggregation weights as learnable parameters, jointly optimizing them alongside the global model parameters. To solve this optimization problem, we develop an alternating minimization algorithm with strong convergence guarantees under adversarial attack. We analyze the Byzantine resilience of the proposed objective. We evaluate the performance of our algorithm against state-of-the-art Byzantine-robust FL approaches across various datasets and attack scenarios. Experimental results demonstrate that our method consistently outperforms existing approaches, particularly in settings with highly heterogeneous data and a large proportion of malicious clients.},
+	published={0},
+	year={},
+	tag={10003},
+	arxiv={2511.03529}
+}
+
 %%%%%%%%%%% Up: under review
+
+@article{Nguyen_TAC2026,
+	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
+	journal = {IEEE Trans. Automatic Control (Accepted)},
+	title = {Scalable and Optimal Security Allocation in Networks against Stealthy Injection Attacks},
+	abstract={This paper addresses the security allocation problem in a networked control system under stealthy injection attacks. The networked system is comprised of interconnected subsystems which are represented by nodes in a digraph. An adversary compromises the system by injecting false data into several nodes with the aim of maximally disrupting the performance of the network while remaining stealthy to a defender. To minimize the impact of such stealthy attacks, the defender, with limited knowledge about attack policies and attack resources, allocates several sensors on nodes to impose the stealthiness constraint governing the attack policy. We provide an optimal security allocation algorithm to minimize the expected attack impact on the entire network. Furthermore, under a suitable local control design, the proposed security allocation algorithm can be executed in a scalable way. Finally, the obtained results are validated through several numerical examples.},
+	published={0},
+	year={2026},
+  	arxiv={2411.15319},
+	tag = {10005},
+	taga = {10001}
+}
+
+@article{Tosun_EJC2025,
+	author = {F. E. Tosun and A. M. H. Teixeira and J. Dong and A. Ahlén and S. Dey},
+	journal = {European Journal of Control (Accepted)},
+	volume = {},
+	number = {},
+	pages = {},
+	title = {Kullback-Leibler Divergence-Based Filter Design Against Bias Injection Attacks},
+  abstract = {Cyber-physical systems (CPS) are increasingly deployed in safety-critical applications, making them prime targets for adversarial attacks. Timely detection and mitigation of such attacks are imperative for the safe operation of CPS. This paper proposes a novel
+residual generator design method for enhanced detection of bias injection attacks (BIAs) in linear CPS driven by white Gaussian noise. Specifically, we define a flexible attack impact metric based on the weighted norm of the injected bias and a detectability metric based on the Kullback-Leibler divergence. Using these two metrics, we characterize the worst-case BIAs as those that minimize detectability while maintaining a specified minimum impact. For residual generation filter synthesis, we formulate two optimization problems: one for maximizing the detectability of worst-case BIAs at the attack onset and the other at steady state. Since these two problems are inherently conflicting, we employ the ϵ-constraint method to obtain Pareto-optimal solutions that balance transient and steady-state detectability. The effectiveness of the proposed filter design method is demonstrated through numerical simulations, with a comparison against two state-of-the-art benchmarks: the Kalman filter and the H_/H2 filter.},
+	year = {2026},
+	published={0},
+	tag = {10002}
+}
 
 @inproceedings{Zhang_CDC2025,
 	author = {Kangkang Zhang and Andreas Kasis and A. M. H. Teixeira and Bin Jiang},
@@ -143,7 +177,7 @@ residual generator design method for enhanced detection of bias injection attack
   booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
   abstract={},
   arxiv={},
-	published={1},
+	published={0},
 	year={2025},
 	tag={10005}
 }
@@ -154,10 +188,12 @@ residual generator design method for enhanced detection of bias injection attack
   booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
   abstract={},
   arxiv={2505.01232},
-	published={1},
+	published={0},
 	year={2025},
 	tag={}
 }
+%%%%%%%%%%% Up: Accepted
+
 
 @inproceedings{Nguyen_NecSys2025,
 	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},

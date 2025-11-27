@@ -8,6 +8,30 @@
   education3:
   education4:
 
+- name: Kartikey Sharma
+  photo: rock.jpg
+  info: Master student, Spring 2026 - "Client Selection in Federated Learning"
+  number_educ: 0
+  education1: 
+
+- name: Teame Hailu Gebru
+  photo: rock.jpg
+  info: Master student, Spring 2026 - "Optimization-based methods for client selection in Federated Machine Learning"
+  number_educ: 0
+  education1: 
+
+- name: Laheeq Syed
+  photo: rock.jpg
+  info: Master student, Spring 2026 - "Robust Federated Fine-Tuning of Large Language Models via Learnable LoRA Adapter Weights"
+  number_educ: 0
+  education1: 
+
+- name: Isak Wadman
+  photo: rock.jpg
+  info: Master student, Spring 2026 - "Optimization-based fault diagnosis for grid-connected energy storage systems"
+  number_educ: 0
+  education1: 
+
 # - name: Sam Farkhooi
 #   photo: rock.jpg
 #   info: Master student, Spring 2025 - "Optimization-based real-time control of an inverted pendulum"
