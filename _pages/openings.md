@@ -9,7 +9,7 @@ permalink: /openings
 # Open positions
 At the moment, we do not have any open positions.
 
-**We do plan to a PhD position in early 2025 for our EU MSCA Doctoral Network, so stay tuned!**
+**We do plan to a PhD position in early 2026 for our EU MSCA Doctoral Network, so stay tuned!**
 
 [//]: # (**At the moment, we have the following positions open:**)
 [//]: # (* **Deadline March 28, 2025:** [1 PhD position in Automatic Control focusing on secure control under uncertainty](https://uu.varbi.com/en/what:job/jobID:795517/))
