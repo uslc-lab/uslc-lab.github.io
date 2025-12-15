@@ -5,7 +5,7 @@
   period: "2026-2030"
   ongoing: 1
   lead: "*André Teixeira* (PI-UU), together with Mina Alibeigi (PI-Zenseact)"
-  member: "Adrian Gheorghiu"
+  member: "Adrian Gheorghiu (PhD student at Zenseact)"
   selected: 1
   summary: "This project introduces a Federated Reinforcement and Imitation Learning (FRL+FIL) framework for safe, scalable, and privacy-preserving training of planning policies in (semi-)autonomous fleets. The approach enables vehicles to collaboratively learn planning policies without sharing raw data, thus preserving privacy while exploiting the diversity of large fleets. Planning policies will be bootstrapped from expert demonstrations and refined locally through shielded reinforcement learning, with runtime safety mechanisms—such as coarse planners and learned safety filters—ensuring safe exploration. Model updates will be aggregated using robust federated techniques that tolerate faulty or malicious clients with low-quality driving behaviors and support personalization for region-specific adaptations. The framework will be validated on both simulated and real-world driving datasets, paving the way for the industrial deployment of next-generation AD/ADAS systems that are safer, more robust, and human-like in their driving behavior."
 

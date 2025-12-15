@@ -8,11 +8,11 @@
 #   education3:
 #   education4:
 
-- name: Kartikey Sharma
-  photo: rock.jpg
-  info: Master student, Spring 2026 - "Client Selection in Federated Learning"
-  number_educ: 0
-  education1: 
+# - name: Kartikey Sharma
+#   photo: rock.jpg
+#   info: Master student, Spring 2026 - "Client Selection in Federated Learning"
+#   number_educ: 0
+#   education1: 
 
 - name: Teame Hailu Gebru
   photo: rock.jpg
