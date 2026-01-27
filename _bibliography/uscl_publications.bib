@@ -43,14 +43,7 @@
 	tag={}
 }
 
-@inproceedings{Dong_ACC2026,
-	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
-	title = {Fundamental limitations of sensitivity metrics for anomaly impact analysis in LTI systems},
-	booktitle = {ACC (Submitted)},
-	published={0},
-	year={},
-	tag={10005}
-}
+
 
 @inproceedings{Seifullaev_IFACWC2026,
 	author = {R. Seifullaev and A. M. H. Teixeira},
@@ -132,18 +125,29 @@
       tag={10003}
 }
 
+%%%%%%%%%%% Up: under review
+
 @inproceedings{Parsa_ICLR2026,
 	author = {J. Parsa and A. H. Daghestani and A. M. H. Teixeira and M. Johansson},
 	title = {Byzantine-Robust Federated Learning with Learnable Aggregation Weights},
-  	booktitle = {ICLR 2026 (Submitted)},
+  	booktitle = {ICLR 2026 (Accepted)},
   	abstract={Federated Learning (FL) enables clients to collaboratively train a global model without sharing their private data. However, the presence of malicious (Byzantine) clients poses significant challenges to the robustness of FL, particularly when data distributions across clients are heterogeneous. In this paper, we propose a novel Byzantine-robust FL optimization problem that incorporates adaptive weighting into the aggregation process. Unlike conventional approaches, our formulation treats aggregation weights as learnable parameters, jointly optimizing them alongside the global model parameters. To solve this optimization problem, we develop an alternating minimization algorithm with strong convergence guarantees under adversarial attack. We analyze the Byzantine resilience of the proposed objective. We evaluate the performance of our algorithm against state-of-the-art Byzantine-robust FL approaches across various datasets and attack scenarios. Experimental results demonstrate that our method consistently outperforms existing approaches, particularly in settings with highly heterogeneous data and a large proportion of malicious clients.},
-	published={0},
-	year={},
+	published={1},
+	year={2026},
 	tag={10003},
 	arxiv={2511.03529}
 }
 
-%%%%%%%%%%% Up: under review
+@inproceedings{Dong_ACC2026,
+	author = {J. Dong and K. Zhang and A. T. Nguyen and A. M. H. Teixeira},
+	title = {Fundamental limitations of sensitivity metrics for anomaly impact analysis in LTI systems},
+	booktitle = {American Control Conference (Accepted)},
+	abstract={This study establishes a connection between the output-to-output gain (OOG), a sensitivity metric quantifying the impact of stealthy attacks, and a novel input-to-input gain (IIG) introduced to evaluate fault sensitivity under disturbances, and investigates their fundamental performance limitations arising from the transmission zeros of the underlying dynamical system. Inspired by the OOG, which characterizes the maximum performance loss caused by stealthy attacks, the IIG is proposed as a new measure of robust fault sensitivity, and is defined as the maximum energy of undetectable faults for a given disturbance intensity. Then, using right (for OOG) and left (for IIG) co-prime factorizations, both metrics are expressed as the H-inf norm of a ratio of the numerator factors. This unified representation facilitates a systematic analysis of their fundamental limitations. Subsequently, by utilizing the Poisson integral relation, theoretical bounds for the IIG and OOG are derived, explicitly characterizing their fundamental limitations imposed by system \mbox{non-minimum} phase (NMP) zeros. Finally, a numerical example is employed to validate the results.},
+	published={0},
+	year={2026},
+	arxiv={2509.11194},
+	tag={10005}
+}
 
 @article{Nguyen_TAC2026,
 	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
@@ -158,13 +162,15 @@
 	taga = {10001}
 }
 
+%%%%%%%%%%% Up: Accepted, but not published
+
 @inproceedings{Zhang_CDC2025,
 	author = {Kangkang Zhang and Andreas Kasis and A. M. H. Teixeira and Bin Jiang},
 	title = {Vulnerability Analysis against Stealthy Integrity Attacks for Nonlinear Systems},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
-  abstract={},
+  booktitle = {IEEE Conf. on Decision and Control (CDC)},
+  abstract={This paper considers the vulnerability issues of a class of nonlinear systems to stealthy integrity attacks. To characterize the stealthiness of the attack, a forward-invariant set for the system output is introduced. Additionally, a safety set for the system state is established to evaluate the attack’s safety. Our analysis demonstrates that the nonlinear system is non-vulnerable to strictly stealthy integrity attacks if it is uniformly observable. When the uniform observability property is not satisfied, we show that the considered class of nonlinear systems is not vulnerable to stealthy integrity attacks when an output-to-state safe barrier function is admitted. Moreover, for nonlinear systems that are vulnerable to stealthy integrity attacks, we analytically show how these are parameterized. Our analytic results are validated with numerical simulations that demonstrate the applicability of the presented analysis.},
   arxiv={},
-	published={0},
+	published={1},
 	year={2025},
 	tag={10005}
 }
@@ -172,14 +178,14 @@
 @inproceedings{Nguyen_CDC2025,
 	author = {A. T. Nguyen and Q. Zhu and A. M. H. Teixeira},
 	title = {Bilateral Cognitive Security Games in Networked Control Systems under Stealthy Injection Attacks},
-  booktitle = {IEEE Conf. on Decision and Control (CDC) 2025 (Accepted)},
-  abstract={},
+  booktitle = {IEEE Conf. on Decision and Control (CDC)},
+  abstract={This paper studies a strategic security problem in networked control systems under stealthy false data injection attacks. The security problem is modeled as a bilateral cognitive security game between a defender and an adversary, each possessing cognitive reasoning abilities. The adversary with an adversarial cognitive ability strategically attacks some interconnections of the system with the aim of disrupting the network performance while remaining stealthy to the defender. Meanwhile, the defender with a defense cognitive ability strategically monitors some nodes to impose the stealthiness constraint with the purpose of minimizing the worst-case disruption caused by the adversary. Within the proposed bilateral cognitive security framework, the preferred cognitive levels of the two strategic agents are formulated in terms of two newly proposed concepts, cognitive mismatch and cognitive resonance. Moreover, we propose a method to compute the policies for the defender and the adversary with arbitrary cognitive abilities. A sufficient condition is established under which an increase in cognitive levels does not alter the policies for the defender and the adversary, ensuring convergence. The obtained results are validated through numerical simulations.},
   arxiv={2505.01232},
-	published={0},
+	published={1},
 	year={2025},
 	tag={}
 }
-%%%%%%%%%%% Up: Accepted, but not published
+
 
 @article{Tosun_EJC2025,
 	author = {F. E. Tosun and A. M. H. Teixeira and J. Dong and A. Ahlén and S. Dey},
