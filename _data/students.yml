@@ -14,6 +14,12 @@
 #   number_educ: 0
 #   education1: 
 
+- name: Omar Mohammed Nour
+  photo: rock.jpg
+  info: Master student, Spring 2026 - "Implementation of control and anomaly detection algorithms on a quadruple tank process"
+  number_educ: 0
+  education1: 
+
 - name: Teame Hailu Gebru
   photo: rock.jpg
   info: Master student, Spring 2026 - "Optimization-based methods for client selection in Federated Machine Learning"
