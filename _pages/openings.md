@@ -48,7 +48,7 @@ Other types of PhD and Postdoc positions may also be possible, for instance thro
 ### Master and Bachelor projects for Uppsala University students
 If you are a Master or Bachelor student at Uppsala University looking for a degree project, contact me (or any group member) per email or drop by my office.
 
-At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2023**. See [the list and details](https://tinyurl.com/MSc2024-SysCon) for how to apply!
+At the moment, we have several proposals for MSc thesis projects at our group, candidates are interviewed continuously **until early December 2023**. See [the list and details](https://tinyurl.com/MSc-SysCon-GD) for how to apply!
 
 ### Master students from elsewhere
 If you are interested in pursuing a Master degree at Uppsala University, see [the University's website](https://www.uu.se/en/admissions/master/). We may take external master students for a degree project or a short stay on their own funding, if we get exceptional applicants (this usually means very good grades and a personal recommendation).
