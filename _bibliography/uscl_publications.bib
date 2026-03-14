@@ -33,18 +33,6 @@
 	tag = {10005}
 }
 
-
-@inproceedings{Eriksson_ECC026,
-	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
-	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
-  	booktitle = {ECC (Submitted)},
-	published={0},
-	year={},
-	tag={}
-}
-
-
-
 @inproceedings{Seifullaev_IFACWC2026,
 	author = {R. Seifullaev and A. M. H. Teixeira},
 	title = {Impact analysis of hidden faults in nonlinear control systems using output-to-output gain},
@@ -54,14 +42,6 @@
 	tag={10005}
 }
 
-@inproceedings{Seifullaev_ECC2026,
-	author = {R. Seifullaev and A. M. H. Teixeira},
-	title = {An H2-norm approach to performance analysis of networked control systems under multiplicative routing transformations},
-	booktitle = {European Control Conference (Submitted)},
-	published={0},
-	year={},
-	tag={10005}
-}
 
 @article{Ramos_TAC2025,
 	author = {G. Ramos and D. Silvestre and A. M. H. Teixeira and S. Pequito},
@@ -125,6 +105,26 @@
 }
 
 %%%%%%%%%%% Up: under review
+
+@inproceedings{Seifullaev_ECC2026,
+	author = {R. Seifullaev and A. M. H. Teixeira},
+	title = {An H2-norm approach to performance analysis of networked control systems under multiplicative routing transformations},
+	booktitle = {European Control Conference (Accepted)},
+	abstract = {This paper investigates the performance of networked control systems subject to multiplicative routing transformations that alter measurement pathways without directly injecting signals. Such transformations, arising from faults or adversarial actions, modify the feedback structure and can degrade performance while remaining stealthy. An H2-norm framework is proposed to quantify the impact of these transformations by evaluating the ratio between the steady-state energies of performance and residual outputs. Equivalent linear matrix inequality (LMI) formulations are derived for computational assessment, and analytical upper bounds are established to estimate the worst-case degradation. The results provide structural insight into how routing manipulations influence closed-loop behavior and reveal conditions for stealthy multiplicative attacks.},
+	arxiv = {2512.13504},
+	published={0},
+	year={2026},
+	tag={10005}
+}
+
+@inproceedings{Eriksson_ECC026,
+	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
+	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
+  	booktitle = {European Control Conference  (Accepted)},
+	published={0},
+	year={2026},
+	tag={}
+}
 
 @inproceedings{Parsa_ICLR2026,
 	author = {J. Parsa and A. H. Daghestani and A. M. H. Teixeira and M. Johansson},
@@ -193,8 +193,7 @@
 	number = {},
 	pages = {101427},
 	title = {Kullback-Leibler Divergence-Based Filter Design Against Bias Injection Attacks},
-  abstract = {Cyber-physical systems (CPS) are increasingly deployed in safety-critical applications, making them prime targets for adversarial attacks. Timely detection and mitigation of such attacks are imperative for the safe operation of CPS. This paper proposes a novel
-residual generator design method for enhanced detection of bias injection attacks (BIAs) in linear CPS driven by white Gaussian noise. Specifically, we define a flexible attack impact metric based on the weighted norm of the injected bias and a detectability metric based on the Kullback-Leibler divergence. Using these two metrics, we characterize the worst-case BIAs as those that minimize detectability while maintaining a specified minimum impact. For residual generation filter synthesis, we formulate two optimization problems: one for maximizing the detectability of worst-case BIAs at the attack onset and the other at steady state. Since these two problems are inherently conflicting, we employ the ϵ-constraint method to obtain Pareto-optimal solutions that balance transient and steady-state detectability. The effectiveness of the proposed filter design method is demonstrated through numerical simulations, with a comparison against two state-of-the-art benchmarks: the Kalman filter and the H_/H2 filter.},
+  abstract = {Cyber-physical systems (CPS) are increasingly deployed in safety-critical applications, making them prime targets for adversarial attacks. Timely detection and mitigation of such attacks are imperative for the safe operation of CPS. This paper proposes a novel residual generator design method for enhanced detection of bias injection attacks (BIAs) in linear CPS driven by white Gaussian noise. Specifically, we define a flexible attack impact metric based on the weighted norm of the injected bias and a detectability metric based on the Kullback-Leibler divergence. Using these two metrics, we characterize the worst-case BIAs as those that minimize detectability while maintaining a specified minimum impact. For residual generation filter synthesis, we formulate two optimization problems: one for maximizing the detectability of worst-case BIAs at the attack onset and the other at steady state. Since these two problems are inherently conflicting, we employ the ϵ-constraint method to obtain Pareto-optimal solutions that balance transient and steady-state detectability. The effectiveness of the proposed filter design method is demonstrated through numerical simulations, with a comparison against two state-of-the-art benchmarks: the Kalman filter and the H_/H2 filter.},
 	year = {2025},
 	published={1},
 	doi = {10.1016/j.ejcon.2025.101427},
