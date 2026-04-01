@@ -10,7 +10,7 @@ permalink: /openings
 [//]: # (At the moment, we do not have any open positions.)
 
 **At the moment, we have the following positions open:**
-* **Deadline April 24, 2026:** 1 PhD position for a [MSCA Doctoral Student in the SecReSy4You Network on Critical Cyber-Physical Systems Security and Resilience, with a Focus on Secure Control Systems under Uncertainty](https://uu.varbi.com/en/what:job/jobID:917304/)
+* **Deadline April 29, 2026:** 1 PhD position for a [MSCA Doctoral Student in the SecReSy4You Network on Critical Cyber-Physical Systems Security and Resilience, with a Focus on Secure Control Systems under Uncertainty](https://uu.varbi.com/en/what:job/jobID:917304/)
 
 
 [//]: # (Our vision is to develop methodologies for designing intelligent autonomous decision-making systems that are secure and resilient against malicious adversaries.)
