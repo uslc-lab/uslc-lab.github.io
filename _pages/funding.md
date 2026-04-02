@@ -85,7 +85,7 @@ Their funding supports our work in research, education, and outreach, not the le
 </div></div>
 
 <div class="collapse" id="{{project.key}}-bib"><div class="well-abs"><div class="publications">
-{% bibliography -f uscl_publications -q @*[grant={{project.key}} || granta={{project.key}}]* %}
+{% bibliography -f uscl_publications -q @*[grant={{project.key}} || granta={{project.key}} || grantb={{project.key}} || grantc={{project.key}}]* %}
 </div></div></div>
 
 
