@@ -1,9 +1,9 @@
 ---
-title: "Secure Learning and Control Lab - Funding"
+title: "Secure Learning and Control Lab - Projects"
 layout: textlay
-excerpt: "Secure Learning and Control Lab -- Funding."
+excerpt: "Secure Learning and Control Lab -- Projects."
 sitemap: false
-permalink: /funding/
+permalink: /projects/
 ---
 
 # Our Funding
@@ -58,11 +58,11 @@ We are grateful to the following organizations that generously fund our activiti
 
 Their funding supports our work in research, education, and outreach, not the least through our scientific projects.
 
-### Ongoing projects
+### Selected ongoing projects
 
 {% for project in site.data.project %}
 
-{% if project.ongoing == 1 %}
+{% if project.ongoing == 1 and project.selected == 1 %}
 <div class="row">
 <div class="well">
 
@@ -96,6 +96,44 @@ Their funding supports our work in research, education, and outreach, not the le
 
 {% endfor %}
 
+
+### Selected past projects
+
+{% for project in site.data.project %}
+
+{% if project.ongoing == 0 and project.selected == 1 %}
+<div class="row">
+<div class="well">
+
+#### {{ project.title }} ({{ project.period}})
+
+**Call:** {{project.category}}, *funded by the* {{ project.agency}}
+
+**Awarded to:** {{project.lead}}
+
+**USLC Members:** {{project.member}}
+
+<div class="btn-group">
+  <a class="btn-abstract" data-toggle="collapse" href="#{{project.key}}-abs">**Popular Abstract**</a>
+  <a class="btn-papers" data-toggle="collapse" href="#{{project.key}}-bib">**Selected papers**</a>
+</div>
+
+
+<div class="collapse" id="{{project.key}}-abs"><div class="well-abs">
+{{ project.summary }}
+</div></div>
+
+<div class="collapse" id="{{project.key}}-bib"><div class="well-abs"><div class="publications">
+{% bibliography -f uscl_publications -q @*[grant={{project.key}} || granta={{project.key}} || grantb={{project.key}} || grantc={{project.key}}]* %}
+</div></div></div>
+
+
+</div>
+</div>
+
+{% endif %}
+
+{% endfor %}
 
 
 <h4><a href="{{ site.url }}{{ site.baseurl }}/allprojects.html">... see all Projects</a></h4>

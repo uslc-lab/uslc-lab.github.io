@@ -24,10 +24,21 @@ permalink: /allprojects.html
 
 **USLC Members:** {{project.member}}
 
-<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Popular Abstract**</a>
-<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
+
+<div class="btn-group">
+  <a class="btn-abstract" data-toggle="collapse" href="#{{project.key}}-abs">**Popular Abstract**</a>
+  <a class="btn-papers" data-toggle="collapse" href="#{{project.key}}-bib">**Selected papers**</a>
+</div>
+
+
+<div class="collapse" id="{{project.key}}-abs"><div class="well-abs">
 {{ project.summary }}
 </div></div>
+
+<div class="collapse" id="{{project.key}}-bib"><div class="well-abs"><div class="publications">
+{% bibliography -f uscl_publications -q @*[grant={{project.key}} || granta={{project.key}} || grantb={{project.key}} || grantc={{project.key}}]* %}
+</div></div></div>
+
 </div>
 </div>
 
@@ -49,10 +60,21 @@ permalink: /allprojects.html
 
 **Awarded to:** {{project.lead}}
 
-<a data-toggle="collapse" href="#{{project.key}}-bib"  class="btn-abstract" style="text-decoration:none; color:#ebebeb; hover:#ebebeb;" role="button" aria-expanded="false">**Popular Abstract**</a>
-<div class="collapse" id="{{project.key}}-bib"><div class="well-abs">
+<div class="btn-group">
+  <a class="btn-abstract" data-toggle="collapse" href="#{{project.key}}-abs">**Popular Abstract**</a>
+  <a class="btn-papers" data-toggle="collapse" href="#{{project.key}}-bib">**Selected papers**</a>
+</div>
+
+
+<div class="collapse" id="{{project.key}}-abs"><div class="well-abs">
 {{ project.summary }}
 </div></div>
+
+<div class="collapse" id="{{project.key}}-bib"><div class="well-abs"><div class="publications">
+{% bibliography -f uscl_publications -q @*[grant={{project.key}} || granta={{project.key}} || grantb={{project.key}} || grantc={{project.key}}]* %}
+</div></div></div>
+
+
 </div>
 </div>
 <br/>
