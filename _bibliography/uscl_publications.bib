@@ -81,16 +81,7 @@
 }
 
 
-@inproceedings{Seifullaev_IFACWC2026,
-	author = {R. Seifullaev and A. M. H. Teixeira},
-	title = {Impact analysis of hidden faults in nonlinear control systems using output-to-output gain},
-	booktitle = {IFAC World Congress (Submitted)},
-	published={0},
-	year={},
-	tag={10005},
-	grant = {SSF2020-AT},
-	grantb = {KAW-WAF},
-}
+
 
 
 @article{Ramos_TAC2025,
@@ -123,18 +114,7 @@
 	grantc = {KAW-WAF},
 }
 
-@article{Li_TAC2025,
-	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
-	journal = {IEEE Trans. Automatic Control (Submitted)},
-	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
-  abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
-  arxiv = {2411.19765},
-	published={0},
-	tag = {},
-	grant = {VR2021-AT},
-	grantb = {SSF2020-AT},
-	grantc = {KAW-WAF},
-}
+
 
 @article{Dong_TCST2025,
 	author = {Jingwei Dong and Mahdieh S. Sadabadi and Per Mattsson and  Andr\'{e} Teixeira},
@@ -165,7 +145,22 @@
 
 %%%%%%%%%%% Up: under review
 
-@article{Arnstrom_SCL2025,
+
+@article{Li_TAC2026,
+	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
+	journal = {IEEE Trans. Automatic Control (Accepted)},
+	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
+  abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
+  	year = {2026},
+  	arxiv = {2411.19765},
+	published={1},
+	tag = {},
+	grant = {VR2021-AT},
+	grantb = {SSF2020-AT},
+	grantc = {KAW-WAF},
+}
+
+@article{Arnstrom_SCL2026,
 	author = {D. Arnstr\"{o}m and A. M. H. Teixeira},
 	journal = {System \& Control Letters},
 	volume = {213},
@@ -180,6 +175,17 @@
 	tag = {10005},
 	grant = {SSF2020-AT},
 	granta = {KAW-WAF},
+}
+
+@inproceedings{Seifullaev_IFACWC2026,
+	author = {R. Seifullaev and A. M. H. Teixeira},
+	title = {Impact analysis of hidden faults in nonlinear control systems using output-to-output gain},
+	booktitle = {IFAC World Congress (Accepted)},
+	published={1},
+	year={2026},
+	tag={10005},
+	grant = {SSF2020-AT},
+	grantb = {KAW-WAF},
 }
 
 @inproceedings{Seifullaev_ECC2026,
@@ -210,7 +216,7 @@
 @inproceedings{Parsa_ICLR2026,
 	author = {J. Parsa and A. H. Daghestani and A. M. H. Teixeira and M. Johansson},
 	title = {Byzantine-Robust Federated Learning with Learnable Aggregation Weights},
-  	booktitle = {ICLR 2026 (Accepted)},
+  	booktitle = {The 14th Int. Conf. on Learning Representations (ICLR)},
   	abstract={Federated Learning (FL) enables clients to collaboratively train a global model without sharing their private data. However, the presence of malicious (Byzantine) clients poses significant challenges to the robustness of FL, particularly when data distributions across clients are heterogeneous. In this paper, we propose a novel Byzantine-robust FL optimization problem that incorporates adaptive weighting into the aggregation process. Unlike conventional approaches, our formulation treats aggregation weights as learnable parameters, jointly optimizing them alongside the global model parameters. To solve this optimization problem, we develop an alternating minimization algorithm with strong convergence guarantees under adversarial attack. We analyze the Byzantine resilience of the proposed objective. We evaluate the performance of our algorithm against state-of-the-art Byzantine-robust FL approaches across various datasets and attack scenarios. Experimental results demonstrate that our method consistently outperforms existing approaches, particularly in settings with highly heterogeneous data and a large proportion of malicious clients.},
 	published={1},
 	year={2026},

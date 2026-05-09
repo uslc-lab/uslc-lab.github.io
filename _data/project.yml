@@ -95,7 +95,7 @@
   ongoing: 1
   lead: "*Salman Toor* (PI), *André Teixeira*"
   member: "Zhenlu Sun"
-  selected: 0
+  selected: 1
   summary: "In the last two decades, solutions to address software vulnerabilities have evolved significantly. With predictive schemes, vulnerability analysis has shifted from being reactive to being proactive in terms of early identification of possible risks. A comprehensive vulnerability analysis requires data from application execution patterns, network logs, infrastructure logs, and traces from the source code. Efficient collection, availability and analysis of the log files is a non-trivial task as this data grows rapidly with the execution pattern of the applications. The other sources include infrastructure settings and, most importantly, the information available in public vulnerability databases. All these massive data sources form the basis to call vulnerability analysis a big data challenge. A comprehensive data-driven vulnerability analysis framework will be required to ensure reliable, efficient and uninterrupted mission critical services based on software applications. This project takes a data-intensive approach to analyse and diagnose the presence of cybersecurity vulnerabilities in software applications supporting services within critical computing infrastructures. Our approach consists of combining above-mentioned different data sources with attack modeling frameworks and use explainable machine learning techniques to analyze and diagnose security vulnerabilities in software and network configurations."
 
 - title: "ReSiSt - Resilience, Safety, and Security in Tree-structured Civil Networks"
