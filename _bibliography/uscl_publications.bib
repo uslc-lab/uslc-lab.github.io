@@ -8,7 +8,7 @@
 
 @article{Anand_Review2026,
 	author = {S. C. Anand and A. T. Nguyen  and A. M. H. Teixeira and H. Sandberg and K. H. Johansson},
-	journal = {Annual Reviews in Control (Submitted)},
+	journal = {International Journal of Control (Submitted)},
 	title = {Quantifying Security for Networked Control Systems: A Review},
 	abstract={Networked Control Systems (NCSs) are integral in critical infrastructures such as power grids, transportation networks, and production systems. Ensuring the resilient operation of these large-scale NCSs against cyber-attacks is crucial for societal well-being. Over the past two decades, extensive research has been focused on developing metrics to quantify the vulnerabilities of NCSs against attacks. Once the vulnerabilities are quantified, mitigation strategies can be employed to enhance system resilience. This article provides a comprehensive overview of methods developed for assessing NCS vulnerabilities and the corresponding mitigation strategies. Furthermore, we emphasize the importance of probabilistic risk metrics to model vulnerabilities under adversaries with imperfect process knowledge. The article concludes by outlining promising directions for future research.},
 	published={0},
@@ -58,10 +58,10 @@
 
 @article{Gurpegui_LCSS2026,
 	author = {A. Gurpegui and S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Control Systems Letters (submitted)},
+	journal = {IEEE Control Systems Letters (accepted)},
 	title = {Scalable Design of Attack-Resilient Controllers for Positive Systems},
 	abstract={This paper proposes a framework for secure and resilient controller design for positive systems against cyber-attacks. In particular, we consider a network-controlled system where an adversary injects false data into the actuator channels to increase the control cost (performance measure) while minimizing the attack effort (energy) and subject to state-dependent constraints. Using a minimax formulation, we analyze the worst-case performance loss caused by such adversaries, which is given by the solution of a difference equation, and an algebraic equation when the time horizon is infinite. We show that the optimal attack policy, among possible nonlinear policies, is linear. Despite the lack of explicit stealthiness constraints, we also show that when the measured output has an unstable zero which is not an unstable zero of the performance measure, the attacks can induce unbounded performance degradation. The proposed framework is also extended to systems with model uncertainty. Numerical examples illustrate the results and demonstrate how tools from positive systems and linear regulator theory can be used to mitigate cyber-attacks with low computational effort.},
-	published={0},
+	published={1},
   	arxiv={},
 	tag = {},
 	grant = {VR2021-AT},
@@ -148,7 +148,7 @@
 
 @article{Li_TAC2026,
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
-	journal = {IEEE Trans. Automatic Control (Accepted)},
+	journal = {IEEE Trans. Automatic Control},
 	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
   abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
   	year = {2026},
