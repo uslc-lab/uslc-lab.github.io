@@ -56,33 +56,6 @@
 }
 
 
-@article{Gurpegui_LCSS2026,
-	author = {A. Gurpegui and S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Control Systems Letters (accepted)},
-	title = {Scalable Design of Attack-Resilient Controllers for Positive Systems},
-	abstract={This paper proposes a framework for secure and resilient controller design for positive systems against cyber-attacks. In particular, we consider a network-controlled system where an adversary injects false data into the actuator channels to increase the control cost (performance measure) while minimizing the attack effort (energy) and subject to state-dependent constraints. Using a minimax formulation, we analyze the worst-case performance loss caused by such adversaries, which is given by the solution of a difference equation, and an algebraic equation when the time horizon is infinite. We show that the optimal attack policy, among possible nonlinear policies, is linear. Despite the lack of explicit stealthiness constraints, we also show that when the measured output has an unstable zero which is not an unstable zero of the performance measure, the attacks can induce unbounded performance degradation. The proposed framework is also extended to systems with model uncertainty. Numerical examples illustrate the results and demonstrate how tools from positive systems and linear regulator theory can be used to mitigate cyber-attacks with low computational effort.},
-	published={1},
-  	arxiv={},
-	tag = {},
-	grant = {VR2021-AT},
-	granta = {SSF2020-AT},
-}
-
-@inproceedings{Kjellqvist_CDC2026,
-	author = {V. Kjellqvist$ and P. Mattsson and T. Wigren and A. M. H. Teixeira},
-	title = {Constraint-Based Anomaly Detection for Estimation of ARX System Parameters},
-	booktitle = {IEEE Conf. Decision and Control (Submitted)},
-	abstract={The paper discusses the detection of false data injection attacks during data collection experiments for estimation of ARX system parameters from noisy measurements. As the system model is not fully known during the data collection and model estimation, typical model-based detection methods are not applicable. To enable the detection of attacks in such a setting, a hypothesis test is formulated based on a priori known properties of the system and the prediction error method. The asymptotic statistics of the test are derived, both for the case without and with attacks. Given the statistical properties of the hypothesis test, the detectability of attacks is investigated to characterize the set of detectable attacks. Finally, finite sample simulations are shown to validate the theoretical results, and show how key system parameters like the static gain may be protected.},
-	published={0},
-	year={},
-	tag={10005},
-	grant = {VR2023-AT},
-	grantb = {KAW-WAF},
-}
-
-
-
-
 
 @article{Ramos_TAC2025,
 	author = {G. Ramos and D. Silvestre and A. M. H. Teixeira and S. Pequito},
@@ -115,20 +88,18 @@
 }
 
 
-
-@article{Dong_TCST2025,
-	author = {Jingwei Dong and Mahdieh S. Sadabadi and Per Mattsson and  Andr\'{e} Teixeira},
-	journal = {IEEE Trans. Control System Technology (Submitted)},
-	volume = {},
-	number = {},
-	pages = {},
-	title = {Distributed Multiple Fault Detection and Estimation in DC Microgrids with Unknown Power Loads},
-  abstract = {This paper proposes a distributed diagnosis scheme to detect and estimate actuator and power line faults in DC microgrids subject to unknown power loads and stochastic noise. To address actuator faults, we design a fault estimation filter whose parameters are determined through a tractable optimization problem to achieve fault estimation, decoupling from power line faults, and robustness against noise. In contrast, the estimation of power line faults poses greater challenges due to the inherent coupling between fault currents and unknown power loads, which becomes ill-posed when the underlying system is insufficiently excited. To the best of our knowledge, this is the first study to address this critical yet underexplored issue. Our solution introduces a novel differentiate-before-estimate strategy. A set of diagnostic rules based on the temporal characteristics of a constructed residual is developed to distinguish load changes from line faults. Once a power line fault is detected, a regularized least-squares method is activated to estimate the fault currents, for which we further derive an upper bound on the estimation error. Finally, comprehensive simulation results validate the effectiveness of the proposed methods.},
-	year = {},
+@inproceedings{Kjellqvist_CDC2026,
+	author = {V. Kjellqvist$ and P. Mattsson and T. Wigren and A. M. H. Teixeira},
+	title = {Constraint-Based Anomaly Detection for Estimation of ARX System Parameters},
+	booktitle = {(Under revision)},
+	abstract={The paper discusses the detection of false data injection attacks during data collection experiments for estimation of ARX system parameters from noisy measurements. As the system model is not fully known during the data collection and model estimation, typical model-based detection methods are not applicable. To enable the detection of attacks in such a setting, a hypothesis test is formulated based on a priori known properties of the system and the prediction error method. The asymptotic statistics of the test are derived, both for the case without and with attacks. Given the statistical properties of the hypothesis test, the detectability of attacks is investigated to characterize the set of detectable attacks. Finally, finite sample simulations are shown to validate the theoretical results, and show how key system parameters like the static gain may be protected.},
 	published={0},
-	tag = {},
-	grant = {VR2021-AT}
+	year={},
+	tag={10005},
+	grant = {VR2023-AT},
+	grantb = {KAW-WAF},
 }
+
 
 @article{Zafar_TDSC2025,
       title={Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework}, 
@@ -146,6 +117,9 @@
 %%%%%%%%%%% Up: under review
 
 
+
+
+
 @article{Li_TAC2026,
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
 	journal = {IEEE Trans. Automatic Control},
@@ -154,12 +128,44 @@
   	year = {2026},
   	arxiv = {2411.19765},
 	published={1},
-  doi={10.1109/TAC.2026.3687465},
+  	doi={10.1109/TAC.2026.3687465},
 	tag = {},
 	grant = {VR2021-AT},
 	grantb = {SSF2020-AT},
 	grantc = {KAW-WAF},
 }
+
+@article{Dong_TCST2025,
+	author = {Jingwei Dong and Mahdieh S. Sadabadi and Per Mattsson and  Andr\'{e} Teixeira},
+	journal = {IEEE Trans. Control System Technology (Accepted)},
+	volume = {},
+	number = {},
+	pages = {},
+	title = {Distributed Multiple Fault Detection and Estimation in DC Microgrids with Unknown Power Loads},
+  abstract = {This paper proposes a distributed diagnosis scheme to detect and estimate actuator and power line faults in DC microgrids subject to unknown power loads and stochastic noise. To address actuator faults, we design a fault estimation filter whose parameters are determined through a tractable optimization problem to achieve fault estimation, decoupling from power line faults, and robustness against noise. In contrast, the estimation of power line faults poses greater challenges due to the inherent coupling between fault currents and unknown power loads, which becomes ill-posed when the underlying system is insufficiently excited. To the best of our knowledge, this is the first study to address this critical yet underexplored issue. Our solution introduces a novel differentiate-before-estimate strategy. A set of diagnostic rules based on the temporal characteristics of a constructed residual is developed to distinguish load changes from line faults. Once a power line fault is detected, a regularized least-squares method is activated to estimate the fault currents, for which we further derive an upper bound on the estimation error. Finally, comprehensive simulation results validate the effectiveness of the proposed methods.},
+	year = {2026},
+	published={1},
+	doi ={10.1109/TCST.2026.3713372},
+	arxiv ={2508.14675},
+	tag = {},
+	grant = {VR2021-AT}
+}
+
+@article{Gurpegui_LCSS2026,
+	author = {A. Gurpegui and S. C. Anand and A. M. H. Teixeira},
+	journal = {IEEE Control Systems Letters (accepted)},
+	title = {Scalable Design of Attack-Resilient Controllers for Positive Systems},
+	abstract={This paper proposes a framework for secure and resilient controller design for positive systems against cyber-attacks. In particular, we consider a network-controlled system where an adversary injects false data into the actuator channels to increase the control cost (performance measure) while minimizing the attack effort (energy) and subject to state-dependent constraints. Using a minimax formulation, we analyze the worst-case performance loss caused by such adversaries, which is given by the solution of a difference equation, and an algebraic equation when the time horizon is infinite. We show that the optimal attack policy, among possible nonlinear policies, is linear. Despite the lack of explicit stealthiness constraints, we also show that when the measured output has an unstable zero which is not an unstable zero of the performance measure, the attacks can induce unbounded performance degradation. The proposed framework is also extended to systems with model uncertainty. Numerical examples illustrate the results and demonstrate how tools from positive systems and linear regulator theory can be used to mitigate cyber-attacks with low computational effort.},
+	volume ={10},
+	pages ={1255--1260},
+	doi = {10.1109/LCSYS.2026.3704261},
+	published={1},
+  	arxiv={},
+	tag = {},
+	grant = {VR2021-AT},
+	granta = {SSF2020-AT},
+}
+
 
 @article{Arnstrom_SCL2026,
 	author = {D. Arnstr\"{o}m and A. M. H. Teixeira},
@@ -193,7 +199,7 @@
 @inproceedings{Seifullaev_ECC2026,
 	author = {R. Seifullaev and A. M. H. Teixeira},
 	title = {An H2-norm approach to performance analysis of networked control systems under multiplicative routing transformations},
-	booktitle = {European Control Conference (Accepted)},
+	booktitle = {European Control Conference},
 	abstract = {This paper investigates the performance of networked control systems subject to multiplicative routing transformations that alter measurement pathways without directly injecting signals. Such transformations, arising from faults or adversarial actions, modify the feedback structure and can degrade performance while remaining stealthy. An H2-norm framework is proposed to quantify the impact of these transformations by evaluating the ratio between the steady-state energies of performance and residual outputs. Equivalent linear matrix inequality (LMI) formulations are derived for computational assessment, and analytical upper bounds are established to estimate the worst-case degradation. The results provide structural insight into how routing manipulations influence closed-loop behavior and reveal conditions for stealthy multiplicative attacks.},
 	arxiv = {2512.13504},
 	published={1},
@@ -207,7 +213,7 @@
 @inproceedings{Eriksson_ECC026,
 	author = {L. Eriksson and T. Wigren and D. Zachariah and A. M. H. Teixeira},
 	title = {Detecting Feedback-path Delay Injection Attacks Using Interacting Multiple Model Filtering},
-  	booktitle = {European Control Conference (Accepted)},
+  	booktitle = {European Control Conference},
 	published={1},
 	year={2026},
 	grant = {SSF2020-AT},
