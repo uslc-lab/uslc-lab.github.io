@@ -6,6 +6,35 @@
 
 %%%%%%%%%%%%%%%%% Under Review
 
+
+\[SJ7\] | A. T. Nguyen, S. C. Anand, *A. M. H. Teixeira*. "Katz Centrality-Based Security Allocation in Positive Networks". Submitted 2026. [https://arxiv.org/abs/2608.05360 +(arXiv)+]||
+
+@article{Nguyen_TCNS2026,
+	author = {A. T. Nguyen and S. C. Anand and A. M. H. Teixeira},
+	journal = {(Submitted)},
+	title = {Katz Centrality-Based Security Allocation in Positive Networks},
+	abstract={This paper deals with security allocation challenges for networked control systems represented by positive-weighted digraphs under stealthy false data injection attacks. These systems consist of interconnected subsystems, referred to as nodes in the underlying digraph, where an adversary aims to maximize network performance loss by stealthily attacking specific nodes. Meanwhile, a defender monitors several nodes to impose stealthiness constraints on the adversary's actions, thereby minimizing the network performance loss. We analyze the worst-case network performance loss of these stealthy attacks and make the following contributions: we (i) show that the worst-case network performance loss is upper-bounded by a tractable semi-definite programming (SDP) problem; (ii) establish the relationship between the SDP problem and the Katz centrality measure of the underlying digraph under a sufficient condition, resulting in a network-size-independent optimization problem; and (iii) provide a heuristic search based on the Katz centrality measure of the underlying digraph for selecting sub-optimal monitor nodes against all admissible attack scenarios without solving optimization problems. These results offer practical insights for safeguarding large-scale networked control systems against stealthy false data injection attacks. The obtained results are validated via extensive simulations on Erdos-Renyi random graphs with different network sizes.},
+	published={0},
+  	arxiv={2608.05360},
+	tag = {10001},
+	grant = {VR2021-AT},	
+	granta = {SSF2020-AT},
+	grantb = {KAW-WAF},
+}
+
+@article{Eriksson_TPSL026,
+	author = {L. Eriksson and D. Zachariah and A. M. H. Teixeira},
+	journal = {(Submitted)},
+	title = {Adversarial Training of Linear Models under Stealthy Attacks},
+	abstract={Predictive models are widely used in many fields, but are vulnerable to false data injection attacks. To address this, detection schemes and adversarial training have been proposed, but such approaches lack guarantees against stealthy attacks. We therefore propose a detector-based switched model, in which optimal attack strategies are stealthy. For linear prediction models, we derive a convex formulation of the resulting adversarial risk. The model incorporates protected features and introduces a hyperparameter modelling attack probability, enabling an explicit performance trade-off between clean and attacked data regimes. Numerical simulations on real and synthetic data show improved performance on partially attacked data, even for misspecified attack probabilities.},
+	published={0},
+  	arxiv={2608.25681},
+	tag = {10001},
+	grant = {SSF2020-AT},
+	grantb = {KAW-WAF},
+}
+
+
 @article{Anand_Review2026,
 	author = {S. C. Anand and A. T. Nguyen  and A. M. H. Teixeira and H. Sandberg and K. H. Johansson},
 	journal = {International Journal of Control (Submitted)},
@@ -91,7 +120,7 @@
 @inproceedings{Kjellqvist_CDC2026,
 	author = {V. Kjellqvist$ and P. Mattsson and T. Wigren and A. M. H. Teixeira},
 	title = {Constraint-Based Anomaly Detection for Estimation of ARX System Parameters},
-	booktitle = {(Under revision)},
+	booktitle = {(Under preparation)},
 	abstract={The paper discusses the detection of false data injection attacks during data collection experiments for estimation of ARX system parameters from noisy measurements. As the system model is not fully known during the data collection and model estimation, typical model-based detection methods are not applicable. To enable the detection of attacks in such a setting, a hypothesis test is formulated based on a priori known properties of the system and the prediction error method. The asymptotic statistics of the test are derived, both for the case without and with attacks. Given the statistical properties of the hypothesis test, the detectability of attacks is investigated to characterize the set of detectable attacks. Finally, finite sample simulations are shown to validate the theoretical results, and show how key system parameters like the static gain may be protected.},
 	published={0},
 	year={},
@@ -102,12 +131,29 @@
 
 
 @article{Zafar_TDSC2025,
-      title={Robust Federated Learning Against Poisoning Attacks: A GAN-Based Defense Framework}, 
-      journal = {(In preparation)},
+      title={Data-Free Synthetic Validation for Byzantine-Robust Federated Learning}, 
+      journal = {(Under Review)},
       author={Usama Zafar and André M. H. Teixeira and Salman Toor},
-      abstract={Federated Learning (FL) enables collaborative model training across decentralized devices without sharing raw data, but it remains vulnerable to poisoning attacks that compromise model integrity. Existing defenses often rely on external datasets or predefined heuristics (e.g. number of malicious clients), limiting their effectiveness and scalability. To address these limitations, we propose a privacy-preserving defense framework that leverages a Conditional Generative Adversarial Network (cGAN) to generate synthetic data at the server for authenticating client updates, eliminating the need for external datasets. Our framework is scalable, adaptive, and seamlessly integrates into FL workflows. Extensive experiments on benchmark datasets demonstrate its robust performance against a variety of poisoning attacks, achieving high True Positive Rate (TPR) and True Negative Rate (TNR) of malicious and benign clients, respectively, while maintaining model accuracy. The proposed framework offers a practical and effective solution for securing federated learning systems.},
+      abstract={Federated learning (FL) enables collaborative model training across distributed clients without sharing raw data,
+but its reliance on unverifiable client updates exposes it to model poisoning attacks. Existing defenses either apply robust
+aggregation rules that degrade under heterogeneous data, high adversarial fractions, or update-aware attacks, or rely on serverheld
+validation data that is unavailable in strictly data-free federated settings. We propose a defense that requires no serverside
+data and no access to client data at any stage. Our method trains a conditional generator directly from the global model
+to produce synthetic validation samples, which the server uses to evaluate client updates and filter them using an adaptive
+mixed mean–median loss threshold. The generation objective is task-adaptive: for classification, it exploits probabilistic output
+structure to synthesize class-conditioned validation samples, while for regression, it matches continuous target behavior through
+alignment and distributional regularization. In both cases, the generator probes confident and boundary-proximal regions of the
+model’s decision space. Our main theoretical result establishes a three-term bound on the damage evasive adversaries can
+inflict: the deviation between the poisoned and clean aggregated models is controlled by the filter’s permissiveness, the
+generator’s alignment quality, and the natural dispersion of benign updates, all scaled by the fraction of malicious updates
+that evade detection. A key consequence is the evasion–harm tradeoff: in the limit of a well-trained generator and a tight filter,
+adversarial updates that successfully mimic benign behavior can perturb the aggregation by no more than the natural variation
+among honest clients. Experiments on three image classification benchmarks (CIFAR-10, CIFAR-100, Tiny-ImageNet) and one
+regression benchmark (Parkinsons Telemonitoring) under representative poisoning attacks, including evasive and update-aware
+adversaries, confirm this tradeoff empirically: our method avoids catastrophic accuracy collapse on classification tasks and remains
+numerically stable on regression, a combination not achieved by the evaluated baselines.},
       year={},
-      arxiv={2503.20884},
+      %arxiv={2503.20884},
       published={0},
       tag={10003},
       grant = {VINNOVA2023-ST},
@@ -117,12 +163,25 @@
 %%%%%%%%%%% Up: under review
 
 
-
+@article{Jiang_TII2026,
+  author={Jiang, Yuchen and Bamogo, Christian E. and Teixeira, André M. H. and Dong, Jingwei and Wang, Hao and Liu, Ming and Luo, Hao},
+  journal={IEEE Transactions on Industrial Informatics (Early Access)}, 
+  title={A Novel False Data Injection Attack Threat Model Targeting Industrial Fault Detectors and Corresponding Countermeasures}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TII.2026.3706853},
+  published={1}
+  }
 
 
 @article{Li_TAC2026,
 	author = {Z. Li and A. T. Nguyen and A. M. H. Teixeira and Y. Mo and K. H. Johansson},
 	journal = {IEEE Trans. Automatic Control},
+	volume = {71},
+	number = {10},
+	pages = {6833--6840},
 	title = {Secure Filtering against Spatio-Temporal False Data Attacks under Asynchronous Sampling},
   abstract = {This paper addresses the secure state estimation problem for continuous linear time-invariant systems with non-periodic and asynchronous sampled measurements, where the sensors need to transmit not only measurements but also sampling time-stamps to the fusion center. This measurement and communication setup is well-suited for operating large-scale control systems and, at the same time, introduces new vulnerabilities that can be exploited by adversaries through (i) manipulation of measurements, (ii) manipulation of time-stamps, (iii) elimination of measurements, (iv) generation of completely new false measurements, or a combination of these attacks. To mitigate these attacks, we propose a decentralized estimation algorithm in which each sensor maintains its local state estimate asynchronously based on its measurements. The local states are synchronized through time prediction and fused after time-stamp alignment. In the absence of attacks, state estimates are proven to recover the optimal Kalman estimates by solving a weighted least square problem. In the presence of attacks, solving this weighted least square problem with the aid of $\ell_1$ regularization provides secure state estimates with uniformly bounded error under an observability redundancy assumption. The effectiveness of the proposed algorithm is demonstrated using a benchmark example of the IEEE 14-bus system.},
   	year = {2026},
@@ -137,10 +196,10 @@
 
 @article{Dong_TCST2025,
 	author = {Jingwei Dong and Mahdieh S. Sadabadi and Per Mattsson and  Andr\'{e} Teixeira},
-	journal = {IEEE Trans. Control System Technology (Accepted)},
-	volume = {},
-	number = {},
-	pages = {},
+	journal = {IEEE Trans. Control System Technology},
+	volume = {34},
+	number = {5},
+	pages = {2692--2707},
 	title = {Distributed Multiple Fault Detection and Estimation in DC Microgrids with Unknown Power Loads},
   abstract = {This paper proposes a distributed diagnosis scheme to detect and estimate actuator and power line faults in DC microgrids subject to unknown power loads and stochastic noise. To address actuator faults, we design a fault estimation filter whose parameters are determined through a tractable optimization problem to achieve fault estimation, decoupling from power line faults, and robustness against noise. In contrast, the estimation of power line faults poses greater challenges due to the inherent coupling between fault currents and unknown power loads, which becomes ill-posed when the underlying system is insufficiently excited. To the best of our knowledge, this is the first study to address this critical yet underexplored issue. Our solution introduces a novel differentiate-before-estimate strategy. A set of diagnostic rules based on the temporal characteristics of a constructed residual is developed to distinguish load changes from line faults. Once a power line fault is detected, a regularized least-squares method is activated to estimate the fault currents, for which we further derive an upper bound on the estimation error. Finally, comprehensive simulation results validate the effectiveness of the proposed methods.},
 	year = {2026},
@@ -153,7 +212,7 @@
 
 @article{Gurpegui_LCSS2026,
 	author = {A. Gurpegui and S. C. Anand and A. M. H. Teixeira},
-	journal = {IEEE Control Systems Letters (accepted)},
+	journal = {IEEE Control Systems Letters},
 	title = {Scalable Design of Attack-Resilient Controllers for Positive Systems},
 	abstract={This paper proposes a framework for secure and resilient controller design for positive systems against cyber-attacks. In particular, we consider a network-controlled system where an adversary injects false data into the actuator channels to increase the control cost (performance measure) while minimizing the attack effort (energy) and subject to state-dependent constraints. Using a minimax formulation, we analyze the worst-case performance loss caused by such adversaries, which is given by the solution of a difference equation, and an algebraic equation when the time horizon is infinite. We show that the optimal attack policy, among possible nonlinear policies, is linear. Despite the lack of explicit stealthiness constraints, we also show that when the measured output has an unstable zero which is not an unstable zero of the performance measure, the attacks can induce unbounded performance degradation. The proposed framework is also extended to systems with model uncertainty. Numerical examples illustrate the results and demonstrate how tools from positive systems and linear regulator theory can be used to mitigate cyber-attacks with low computational effort.},
 	volume ={10},
